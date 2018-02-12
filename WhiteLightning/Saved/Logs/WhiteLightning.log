@@ -924,3 +924,23 @@ LogInit: Object subsystem initialized
 [2018.02.12-22.13.18:981][902]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
 [2018.02.12-22.13.18:981][902]SourceControl:  create mode 100644 WhiteLightning/WhiteLightning.uproject
 [2018.02.12-22.13.18:995][902]SourceControl: Commited [master dd09ed6] added character and tutorial level.
+[2018.02.12-22.18.56:323][244]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.02.12-22.18.56:342][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-22.18.56:342][244]PIE: New page: PIE session: Tutorial (Feb 12, 2018, 6:18:56 AM)
+[2018.02.12-22.18.56:342][244]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.02.12-22.18.56:348][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005713s)
+[2018.02.12-22.18.56:349][244]LogAIModule: Creating AISystem for world Tutorial
+[2018.02.12-22.18.56:349][244]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2018.02.12-22.18.56:350][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.007273s)
+[2018.02.12-22.18.56:397][244]LogInit: XAudio2 using 'Headphones (SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.12-22.18.56:424][244]LogInit: FAudioDevice initialized.
+[2018.02.12-22.18.56:500][244]LogLoad: Game class is 'Tutorial_C'
+[2018.02.12-22.18.56:502][244]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.02.12-14.18.56
+[2018.02.12-22.18.56:502][244]LogWorld: Bringing up level for play took: 0.001283
+[2018.02.12-22.18.56:508][244]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.929
+[2018.02.12-22.53.51:651][851]LogSavePackage: Save=153.47ms
+[2018.02.12-22.53.51:651][851]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial4A0142EB45D9A2B6C8C97E87A9005126.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.02.12-22.53.51:653][851]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.02.12-22.53.51:788][851]LogSavePackage: Save=17.23ms
+[2018.02.12-22.53.51:788][851]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial_BuiltDataF531D0C24A62AFB2F7D40B91CEDBC5A7.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial_BuiltData.uasset'
+[2018.02.12-22.53.51:797][851]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial_BuiltData.uasset
