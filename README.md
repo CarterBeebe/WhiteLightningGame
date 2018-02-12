@@ -1,0 +1,2 @@
+# WhiteLightningGame
+Software Engineering project
