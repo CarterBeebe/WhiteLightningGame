@@ -414,3 +414,56 @@ LogInit: Object subsystem initialized
 [2018.02.15-14.30.34:246][244]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.02.15-09.30.34
 [2018.02.15-14.30.34:248][244]LogWorld: Bringing up level for play took: 0.011362
 [2018.02.15-14.30.34:250][244]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 1.214
+[2018.02.15-14.40.57:686][101]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WhiteLightning/Levels/Tutorial' took 0.021
+[2018.02.15-14.40.57:689][101]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/WhiteLightning/Characters/MainCharacter] ([1] browsable assets)...
+[2018.02.15-14.40.57:689][101]OBJ SavePackage: Finished generating thumbnails for package [/Game/WhiteLightning/Characters/MainCharacter]
+[2018.02.15-14.40.57:821][101]LogSavePackage: Save=108.53ms
+[2018.02.15-14.40.57:821][101]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainCharacter_Auto1D3F60326478C03161BB6E7A904438C49.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Characters/MainCharacter_Auto1.uasset'
+[2018.02.15-14.40.57:825][101]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Characters/MainCharacter_Auto1.uasset
+[2018.02.15-14.40.57:825][101]LogFileHelpers: Auto-saving content packages took 0.138
+[2018.02.15-14.50.58:481][304]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WhiteLightning/Levels/Tutorial' took 0.025
+[2018.02.15-14.50.58:485][304]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/WhiteLightning/Characters/MainCharacter] ([1] browsable assets)...
+[2018.02.15-14.50.58:485][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/WhiteLightning/Characters/MainCharacter]
+[2018.02.15-14.50.58:615][304]LogSavePackage: Save=116.22ms
+[2018.02.15-14.50.58:615][304]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainCharacter_Auto267E54FBA437B45E0853843AC41A5F2D9.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Characters/MainCharacter_Auto2.uasset'
+[2018.02.15-14.50.58:618][304]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Characters/MainCharacter_Auto2.uasset
+[2018.02.15-14.50.58:619][304]LogFileHelpers: Auto-saving content packages took 0.135
+[2018.02.15-14.53.39:812][264]BlueprintLog: New page: Compile MainCharacter
+[2018.02.15-14.53.40:936][293]LogSavePackage: Save=103.30ms
+[2018.02.15-14.53.40:936][293]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainCharacter58FCCCC64EE1E4F0919DDCB96B3A4157.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset'
+[2018.02.15-14.53.40:941][293]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset
+[2018.02.15-14.53.43:867][501]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-14.53.43:887][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-14.53.43:888][501]PIE: New page: PIE session: Tutorial (Feb 15, 2018, 4:53:43 AM)
+[2018.02.15-14.53.43:888][501]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.02.15-14.53.43:939][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050969s)
+[2018.02.15-14.53.43:940][501]LogAIModule: Creating AISystem for world Tutorial
+[2018.02.15-14.53.43:940][501]LogPlayLevel: PIE: World Init took: (0.001188s)
+[2018.02.15-14.53.43:940][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.052791s)
+[2018.02.15-14.53.43:961][501]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-14.53.43:973][501]LogInit: FAudioDevice initialized.
+[2018.02.15-14.53.44:005][501]LogLoad: Game class is 'Tutorial_C'
+[2018.02.15-14.53.44:015][501]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.02.15-09.53.44
+[2018.02.15-14.53.44:016][501]LogWorld: Bringing up level for play took: 0.010062
+[2018.02.15-14.53.44:018][501]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.982
+[2018.02.15-14.55.05:389][765]BlueprintLog: New page: Compile MainCharacter
+[2018.02.15-14.55.06:355][787]LogSavePackage: Save=101.23ms
+[2018.02.15-14.55.06:355][787]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainCharacter764FC6214E94DE6D7959D1BE009B8D53.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset'
+[2018.02.15-14.55.06:359][787]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset
+[2018.02.15-14.55.09:065][985]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.15-14.55.09:085][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-14.55.09:085][985]PIE: New page: PIE session: Tutorial (Feb 15, 2018, 4:55:09 AM)
+[2018.02.15-14.55.09:086][985]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.02.15-14.55.09:121][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035455s)
+[2018.02.15-14.55.09:122][985]LogAIModule: Creating AISystem for world Tutorial
+[2018.02.15-14.55.09:122][985]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2018.02.15-14.55.09:123][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.036816s)
+[2018.02.15-14.55.09:142][985]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-14.55.09:152][985]LogInit: FAudioDevice initialized.
+[2018.02.15-14.55.09:185][985]LogLoad: Game class is 'Tutorial_C'
+[2018.02.15-14.55.09:196][985]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.02.15-09.55.09
+[2018.02.15-14.55.09:198][985]LogWorld: Bringing up level for play took: 0.011037
+[2018.02.15-14.55.09:200][985]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.164
+[2018.02.15-14.55.21:290][815]LogSavePackage: Save=875.60ms
+[2018.02.15-14.55.21:290][815]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial5FD48185477E7B0D66207A9C21ED2B5E.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.02.15-14.55.21:293][815]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
