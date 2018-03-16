@@ -33,4 +33,10 @@ void mute()
   toggleMute();
 }
 
+******* Flash white
 
+flashWhite(charater)
+	if(collision())
+	{
+		caracterSprite = whiteSprite;
+	}
