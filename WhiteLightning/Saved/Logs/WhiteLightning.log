@@ -1,4 +1,4 @@
-﻿Log file open, 02/16/18 11:17:46
+﻿Log file open, 03/19/18 17:50:48
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: WhiteLightning
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1797245565) SRandInit(-1797245565).
+LogInit: Display: RandInit(1931964583) SRandInit(1931964583).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.180845
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.157830
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -191,218 +191,392 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: -EpicPortal 
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Command line:  
+LogInit: Base directory: E:/Unreal/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.16-16.17.47:306][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.16-16.17.47:306][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.16-16.17.47:318][  0]LogInit: Computer: CELIA
-[2018.02.16-16.17.47:318][  0]LogInit: User: mhers
-[2018.02.16-16.17.47:318][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.02.16-16.17.47:318][  0]LogInit: High frequency timer resolution =2.531254 MHz
-[2018.02.16-16.17.47:318][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2018.02.16-16.17.47:318][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.16-16.17.47:318][  0]LogMemory: Process Physical Memory: 275.96 MB used, 275.96 MB peak
-[2018.02.16-16.17.47:319][  0]LogMemory: Process Virtual Memory: 272.02 MB used, 272.02 MB peak
-[2018.02.16-16.17.47:319][  0]LogMemory: Physical Memory: 7907.50 MB used,  8313.28 MB free, 16220.78 MB total
-[2018.02.16-16.17.47:319][  0]LogMemory: Virtual Memory: 684.83 MB used,  8313.28 MB free, 134217728.00 MB total
-[2018.02.16-16.17.47:495][  0]LogInit: Using OS detected language (en-US).
-[2018.02.16-16.17.47:495][  0]LogInit: Using OS detected locale (en-US).
-[2018.02.16-16.17.47:498][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.02.16-16.17.47:987][  0]LogInit: Setting process to per monitor DPI aware
-[2018.02.16-16.17.48:246][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.16-16.17.48:290][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
-[2018.02.16-16.17.48:290][  0]LogD3D11RHI:       4065/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.02.16-16.17.48:297][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2018.02.16-16.17.48:297][  0]LogD3D11RHI:       128/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.02.16-16.17.48:299][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.16-16.17.48:299][  0]LogD3D11RHI:       0/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.16-16.17.48:299][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.16-16.17.48:306][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.16-16.17.48:306][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
-[2018.02.16-16.17.48:306][  0]LogWindows: EnumDisplayDevices:
-[2018.02.16-16.17.48:306][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2018.02.16-16.17.48:306][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.02.16-16.17.48:306][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.02.16-16.17.48:306][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.02.16-16.17.48:306][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
-[2018.02.16-16.17.48:306][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.02.16-16.17.48:306][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.02.16-16.17.48:307][  0]LogRHI: Texture pool is 2846 MB (70% of 4065 MB)
-[2018.02.16-16.17.48:335][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.16-16.17.48:347][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.02.16-16.17.48:348][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Intermediate/Shaders/WorkingDirectory/17068/).
-[2018.02.16-16.17.48:348][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mhers/AppData/Local/Temp/UnrealShaderWorkingDir/4E8AABB44ECD897848F5219E08ED4ED4/'.
-[2018.02.16-16.17.48:348][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.02.16-16.17.49:244][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.16-16.17.49:295][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.02.16-16.17.49:347][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.16-16.17.49:397][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.02.16-16.17.49:448][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.02.16-16.17.49:499][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.16-16.17.49:550][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.16-16.17.49:599][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.16-16.17.49:641][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.02.16-16.17.49:689][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.16-16.17.49:738][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.16-16.17.49:786][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.16-16.17.49:835][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.16-16.17.49:883][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.16-16.17.49:981][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.16-16.17.49:981][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.16-16.17.50:031][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.02.16-16.17.50:068][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.02.16-16.17.50:157][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.02.16-16.17.50:183][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.02.16-16.17.50:231][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.16-16.17.50:282][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.16-16.17.50:334][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.16-16.17.50:383][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.02.16-16.17.50:383][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.02.16-16.17.50:814][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.02.16-16.17.50:885][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/mhers/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.16-16.17.50:885][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mhers/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.02.16-16.17.50:885][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.16-16.17.50:885][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.16-16.17.50:885][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.16-16.17.50:885][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.16-16.17.50:901][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.16-16.17.50:914][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mhers/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.16-16.17.50:924][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.16-16.17.50:924][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.16-16.17.50:925][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.16-16.17.50:925][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.16-16.17.51:285][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.16-16.17.51:610][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.16-16.17.51:647][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.16-16.17.51:648][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.16-16.17.51:648][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.02.16-16.17.51:648][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.02.16-16.17.51:648][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.02.16-16.17.51:678][  0]LogNetVersion: WhiteLightning , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2852152215)
-[2018.02.16-16.17.51:863][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
-[2018.02.16-16.17.52:410][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.083197 seconds
-[2018.02.16-16.17.52:415][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.02.16-16.17.52:415][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.02.16-16.17.52:415][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.16-16.17.52:471][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.16-16.17.55:457][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.16-16.17.55:502][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.16-16.17.56:163][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.16-16.17.56:591][  0]SourceControl: Source control is disabled
-[2018.02.16-16.17.58:159][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.16-16.17.58:435][  0]LogOcInput: OculusInput pre-init called
-[2018.02.16-16.17.58:731][  0]LogEngine: Initializing Engine...
-[2018.02.16-16.17.58:733][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.16-16.17.58:962][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.16-16.17.58:962][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.16-16.17.59:098][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.16-16.17.59:108][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.16-16.17.59:124][  0]LogInit: FAudioDevice initialized.
-[2018.02.16-16.17.59:213][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/mhers/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.02.16-16.17.59:227][  0]LogInit: Texture streaming: Enabled
-[2018.02.16-16.17.59:329][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.16-16.17.59:468][  0]LogInit: Transaction tracking system initialized
-[2018.02.16-16.17.59:779][  0]BlueprintLog: New page: Editor Load
-[2018.02.16-16.18.00:675][  0]LocalizationService: Localization service is disabled
-[2018.02.16-16.18.01:408][  0]LogConsoleResponse: Display: 
-[2018.02.16-16.18.01:613][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.16-16.18.01:614][  0]LogCook: Display: Mobile HDR setting 1
-[2018.02.16-16.18.01:614][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.02.16-16.18.01:619][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/' took 0.01s
-[2018.02.16-16.18.02:780][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.16-16.18.02:780][  0]LightingResults: New page: Lighting Build
-[2018.02.16-16.18.02:824][  0]MapCheck: New page: Map Check
-[2018.02.16-16.18.02:824][  0]LightingResults: New page: Lighting Build
-[2018.02.16-16.18.03:205][  0]LogTexture: Display: Building textures: MainCharacterIdle (BGRA8, 32X64)
-[2018.02.16-16.18.03:205][  0]LogTexture: Display: Building textures: MainJump (BGRA8, 32X32)
-[2018.02.16-16.18.03:205][  0]LogTexture: Display: Building textures: MainCharacterRunWithGun (BGRA8, 64X64)
-[2018.02.16-16.18.03:213][  0]LogAIModule: Creating AISystem for world Tutorial
-[2018.02.16-16.18.03:276][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.16-16.18.03:289][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.16-16.18.03:340][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.272ms to complete.
-[2018.02.16-16.18.03:340][  0]LogFileHelpers: Loading map 'Tutorial' took 0.560
-[2018.02.16-16.18.03:423][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.02.16-16.18.03:423][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.02.16-16.18.03:591][  0]LogCollectionManager: Loaded 0 collections in 0.002253 seconds
-[2018.02.16-16.18.03:753][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Collections/' took 0.01s
-[2018.02.16-16.18.03:753][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/Developers/mhers/Collections/' took 0.01s
-[2018.02.16-16.18.03:753][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/Collections/' took 0.01s
-[2018.02.16-16.18.03:753][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.02.16-16.18.03:764][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2363 classes and 519 folders.
-[2018.02.16-16.18.03:927][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.02.16-16.18.03:978][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.02.16-16.18.04:022][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.02.16-16.18.04:087][  0]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.16-16.18.04:091][  0]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.16-16.18.04:103][  0]LogSlate: Took 0.000673 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.16-16.18.04:215][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
-[2018.02.16-16.18.04:456][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.02.16-16.18.04:456][  0]LogLoad: (Engine Initialization) Total time: 19.44 seconds
-[2018.02.16-16.18.04:456][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.02.16-16.18.04:456][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.02.16-16.18.04:494][  0]SourceControl: On branch master
-[2018.02.16-16.18.04:494][  0]SourceControl: Your branch is up to date with 'origin/master'.
-[2018.02.16-16.18.04:494][  0]SourceControl: Changes not staged for commit:
-[2018.02.16-16.18.04:494][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2018.02.16-16.18.04:494][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2018.02.16-16.18.04:494][  0]SourceControl: 	modified:   WhiteLightning/Intermediate/CachedAssetRegistry.bin
-[2018.02.16-16.18.04:494][  0]SourceControl: 	modified:   WhiteLightning/Saved/Config/Windows/Editor.ini
-[2018.02.16-16.18.04:494][  0]SourceControl: 	modified:   WhiteLightning/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2018.02.16-16.18.04:494][  0]SourceControl: 	modified:   WhiteLightning/Saved/Config/Windows/Engine.ini
-[2018.02.16-16.18.04:494][  0]SourceControl: 	modified:   WhiteLightning/Saved/Logs/WhiteLightning.log
-[2018.02.16-16.18.04:494][  0]SourceControl: Untracked files:
-[2018.02.16-16.18.04:494][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2018.02.16-16.18.04:494][  0]SourceControl: 	WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-A32015A04DB6396DB4FE3EBF8C12FDC5/
-[2018.02.16-16.18.04:494][  0]SourceControl: 	WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.16-11.17.45.log
-[2018.02.16-16.18.04:494][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2018.02.16-16.18.04:494][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.02.16-16.18.04:535][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.16-16.18.04:550][  1]LogAssetRegistry: Asset discovery search completed in 12.7094 seconds
-[2018.02.16-16.18.04:552][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.02.16-16.18.04:552][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
-[2018.02.16-16.18.05:524][ 50]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.16-16.18.17:593][771]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2018.02.16-16.18.17:808][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.16-16.18.17:812][771]PIE: New page: PIE session: Tutorial (Feb 16, 2018, 6:18:17 AM)
-[2018.02.16-16.18.17:812][771]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
-[2018.02.16-16.18.17:849][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037183s)
-[2018.02.16-16.18.17:850][771]LogAIModule: Creating AISystem for world Tutorial
-[2018.02.16-16.18.17:851][771]LogPlayLevel: PIE: World Init took: (0.001574s)
-[2018.02.16-16.18.17:851][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.039728s)
-[2018.02.16-16.18.17:867][771]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.16-16.18.17:878][771]LogInit: FAudioDevice initialized.
-[2018.02.16-16.18.17:938][771]LogLoad: Game class is 'Tutorial_C'
-[2018.02.16-16.18.17:963][771]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.02.16-11.18.17
-[2018.02.16-16.18.17:967][771]LogWorld: Bringing up level for play took: 0.015228
-[2018.02.16-16.18.18:032][771]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2018.02.16-16.18.18:049][771]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 1.014
-[2018.02.16-16.18.18:156][771]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
-[2018.02.16-16.18.37:525][862]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.16-16.18.37:881][862]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2018.02.16-16.18.38:499][862]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.16-16.18.38:580][862]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.02.16-16.18.38:795][863]LogSlate: Took 0.004928 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.02.16-16.20.31:167][982]BlueprintLog: New page: Compile MainCharacter
-[2018.02.16-16.20.32:184][  5]LogSavePackage: Save=123.41ms
-[2018.02.16-16.20.32:184][  5]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainCharacterD20483CE4138986BE6646AA9FD7A6F9B.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset'
-[2018.02.16-16.20.32:187][  5]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset
-[2018.02.16-16.20.35:032][163]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2018.02.16-16.20.35:068][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.02.16-16.20.35:068][163]PIE: New page: PIE session: Tutorial (Feb 16, 2018, 6:20:35 AM)
-[2018.02.16-16.20.35:068][163]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
-[2018.02.16-16.20.35:105][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036833s)
-[2018.02.16-16.20.35:107][163]LogAIModule: Creating AISystem for world Tutorial
-[2018.02.16-16.20.35:107][163]LogPlayLevel: PIE: World Init took: (0.001538s)
-[2018.02.16-16.20.35:108][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.038997s)
-[2018.02.16-16.20.35:128][163]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.02.16-16.20.35:139][163]LogInit: FAudioDevice initialized.
-[2018.02.16-16.20.35:190][163]LogLoad: Game class is 'Tutorial_C'
-[2018.02.16-16.20.35:201][163]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.02.16-11.20.35
-[2018.02.16-16.20.35:202][163]LogWorld: Bringing up level for play took: 0.011420
-[2018.02.16-16.20.35:212][163]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.177
-[2018.02.16-16.20.47:996][797]LogSavePackage: Save=877.57ms
-[2018.02.16-16.20.47:996][797]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial99F141E846B7A578F52D4FAAD9BE70C3.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
-[2018.02.16-16.20.47:999][797]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.20-00.50.50:354][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.20-00.50.50:354][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.20-00.50.50:384][  0]LogInit: Computer: CARTERSPC
+[2018.03.20-00.50.50:384][  0]LogInit: User: carter
+[2018.03.20-00.50.50:384][  0]LogInit: CPU Page size=4096, Cores=3
+[2018.03.20-00.50.50:384][  0]LogInit: High frequency timer resolution =3.433659 MHz
+[2018.03.20-00.50.50:384][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.03.20-00.50.50:384][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.20-00.50.50:384][  0]LogMemory: Process Physical Memory: 270.84 MB used, 270.84 MB peak
+[2018.03.20-00.50.50:384][  0]LogMemory: Process Virtual Memory: 271.37 MB used, 271.37 MB peak
+[2018.03.20-00.50.50:384][  0]LogMemory: Physical Memory: 4022.60 MB used,  12328.06 MB free, 16350.66 MB total
+[2018.03.20-00.50.50:384][  0]LogMemory: Virtual Memory: 627.14 MB used,  12328.06 MB free, 134217728.00 MB total
+[2018.03.20-00.50.50:544][  0]LogInit: Using OS detected language (en-US).
+[2018.03.20-00.50.50:544][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.20-00.50.50:547][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.20-00.50.51:033][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.20-00.50.51:330][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.20-00.50.51:367][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.03.20-00.50.51:367][  0]LogD3D11RHI:       1937/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.03.20-00.50.51:368][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.20-00.50.51:368][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.20-00.50.51:368][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.20-00.50.51:373][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.20-00.50.51:373][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.20-00.50.51:373][  0]LogWindows: EnumDisplayDevices:
+[2018.03.20-00.50.51:373][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.03.20-00.50.51:374][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2018.03.20-00.50.51:374][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.20-00.50.51:374][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.20-00.50.51:374][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.03.20-00.50.51:374][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.03.20-00.50.51:374][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.03.20-00.50.51:374][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.03.20-00.50.51:374][  0]LogRHI: Texture pool is 1356 MB (70% of 1937 MB)
+[2018.03.20-00.50.51:393][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.20-00.50.51:413][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.20-00.50.51:467][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Intermediate/Shaders/WorkingDirectory/2168/).
+[2018.03.20-00.50.51:468][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/carter/AppData/Local/Temp/UnrealShaderWorkingDir/3D6AECE94B24D4CE1B3CE1AF044498F1/'.
+[2018.03.20-00.50.51:468][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.20-00.50.52:677][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.20-00.50.52:736][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.20-00.50.52:794][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.20-00.50.52:852][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.20-00.50.52:911][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.20-00.50.52:970][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.20-00.50.53:029][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.20-00.50.53:088][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.20-00.50.53:135][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.20-00.50.53:193][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.20-00.50.53:251][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.20-00.50.53:308][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.20-00.50.53:367][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.20-00.50.53:424][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.20-00.50.53:540][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.20-00.50.53:540][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.20-00.50.53:598][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.20-00.50.53:639][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.20-00.50.53:737][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.20-00.50.53:771][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.20-00.50.53:828][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.20-00.50.53:886][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.20-00.50.53:945][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.20-00.50.54:003][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.20-00.50.54:003][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.20-00.50.54:489][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.20-00.50.54:656][  0]LogDerivedDataCache: Loaded boot cache 0.17s 78MB C:/Users/carter/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.20-00.50.54:656][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/carter/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.20-00.50.54:656][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.20-00.50.54:656][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.20-00.50.54:656][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.20-00.50.54:656][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.20-00.50.54:681][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.20-00.50.54:694][  0]LogDerivedDataCache: Using Local data cache path C:/Users/carter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.20-00.50.54:712][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.20-00.50.54:712][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.20-00.50.54:713][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.20-00.50.54:713][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.20-00.50.55:221][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.20-00.50.55:500][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.20-00.50.55:541][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.20-00.50.55:541][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.20-00.50.55:541][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.20-00.50.55:541][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.20-00.50.55:541][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.20-00.50.55:673][  0]LogNetVersion: WhiteLightning , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2852152215)
+[2018.03.20-00.50.55:852][  0]LogAssetRegistry: FAssetRegistry took 0.0289 seconds to start up
+[2018.03.20-00.50.56:515][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.094513 seconds
+[2018.03.20-00.50.56:522][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.20-00.50.56:522][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.03.20-00.50.56:522][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.20-00.50.56:579][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.20-00.50.59:674][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.20-00.50.59:724][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.20-00.51.00:480][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.20-00.51.00:943][  0]SourceControl: Source control is disabled
+[2018.03.20-00.51.02:388][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.20-00.51.02:680][  0]LogOcInput: OculusInput pre-init called
+[2018.03.20-00.51.02:995][  0]LogEngine: Initializing Engine...
+[2018.03.20-00.51.02:998][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.20-00.51.03:318][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.20-00.51.03:318][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.20-00.51.03:479][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.20-00.51.03:489][  0]LogInit: XAudio2 using 'BenQ GL2460-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.20-00.51.03:507][  0]LogInit: FAudioDevice initialized.
+[2018.03.20-00.51.03:624][  0]LogDerivedDataCache: Saved boot cache 0.12s 78MB C:/Users/carter/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.20-00.51.03:666][  0]LogInit: Texture streaming: Enabled
+[2018.03.20-00.51.03:776][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.20-00.51.03:913][  0]LogInit: Transaction tracking system initialized
+[2018.03.20-00.51.04:241][  0]BlueprintLog: New page: Editor Load
+[2018.03.20-00.51.05:183][  0]LocalizationService: Localization service is disabled
+[2018.03.20-00.51.05:982][  0]LogConsoleResponse: Display: 
+[2018.03.20-00.51.06:205][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.20-00.51.06:205][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.20-00.51.06:205][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.20-00.51.06:913][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/' took 0.02s
+[2018.03.20-00.51.07:493][  0]Cmd: MAP LOAD FILE="C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.20-00.51.07:494][  0]LightingResults: New page: Lighting Build
+[2018.03.20-00.51.07:537][  0]MapCheck: New page: Map Check
+[2018.03.20-00.51.07:537][  0]LightingResults: New page: Lighting Build
+[2018.03.20-00.51.08:263][  0]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.20-00.51.08:358][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.20-00.51.08:399][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.20-00.51.08:457][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.971ms to complete.
+[2018.03.20-00.51.08:457][  0]LogFileHelpers: Loading map 'Tutorial' took 0.964
+[2018.03.20-00.51.09:162][  0]LogCollectionManager: Loaded 0 collections in 0.001140 seconds
+[2018.03.20-00.51.09:388][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Collections/' took 0.01s
+[2018.03.20-00.51.09:388][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/Developers/carter/Collections/' took 0.01s
+[2018.03.20-00.51.09:389][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/Collections/' took 0.01s
+[2018.03.20-00.51.09:389][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.20-00.51.09:414][  0]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2363 classes and 519 folders.
+[2018.03.20-00.51.09:541][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.20-00.51.10:719][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.03.20-00.51.10:831][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.03.20-00.51.11:366][  0]LogSlate: Took 0.000572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.20-00.51.11:383][  0]LogSlate: Took 0.000455 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.20-00.51.11:423][  0]LogSlate: Took 0.017943 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.20-00.51.11:623][  0]LogRenderer: Reallocating scene render targets to support 1136x580 Format 10 NumSamples 1 (Frame:1).
+[2018.03.20-00.51.12:029][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.20-00.51.12:029][  0]LogLoad: (Engine Initialization) Total time: 24.26 seconds
+[2018.03.20-00.51.12:029][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.20-00.51.12:029][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.20-00.51.12:091][  0]SourceControl: On branch master
+[2018.03.20-00.51.12:091][  0]SourceControl: Your branch is up to date with 'origin/master'.
+[2018.03.20-00.51.12:091][  0]SourceControl: Changes not staged for commit:
+[2018.03.20-00.51.12:091][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2018.03.20-00.51.12:091][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.03.20-00.51.12:091][  0]SourceControl: 	deleted:    WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-44EC57D64B37FAAC075D338DDEAA35BA/CrashReportClient.ini
+[2018.03.20-00.51.12:091][  0]SourceControl: 	deleted:    WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-7D7CC2B34E223C87FA7EACBDE1155D00/CrashReportClient.ini
+[2018.03.20-00.51.12:091][  0]SourceControl: 	deleted:    WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-9A4AED744E5EDB609AC2AEB60D6C4E1A/CrashReportClient.ini
+[2018.03.20-00.51.12:091][  0]SourceControl: 	deleted:    WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-C2BD2E474560A954AAC439BAFFA193CE/CrashReportClient.ini
+[2018.03.20-00.51.12:091][  0]SourceControl: 	deleted:    WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-CC58563043D9F7F7D2ADF39B179CB6E8/CrashReportClient.ini
+[2018.03.20-00.51.12:091][  0]SourceControl: 	deleted:    WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-D5C07BCC47F75DA1F8CD87B88C0F1D1A/CrashReportClient.ini
+[2018.03.20-00.51.12:091][  0]SourceControl: 	modified:   WhiteLightning/Saved/Config/Windows/Editor.ini
+[2018.03.20-00.51.12:091][  0]SourceControl: 	deleted:    WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.12-19.00.29.log
+[2018.03.20-00.51.12:091][  0]SourceControl: 	deleted:    WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.13-13.06.09.log
+[2018.03.20-00.51.12:092][  0]SourceControl: 	deleted:    WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.13-13.58.14.log
+[2018.03.20-00.51.12:092][  0]SourceControl: 	deleted:    WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.14-13.59.27.log
+[2018.03.20-00.51.12:092][  0]SourceControl: 	deleted:    WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.15-09.29.25.log
+[2018.03.20-00.51.12:092][  0]SourceControl: 	deleted:    WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.15-12.52.41.log
+[2018.03.20-00.51.12:092][  0]SourceControl: 	deleted:    WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.15-14.12.00.log
+[2018.03.20-00.51.12:092][  0]SourceControl: 	deleted:    WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.15-15.52.31.log
+[2018.03.20-00.51.12:092][  0]SourceControl: 	modified:   WhiteLightning/Saved/Logs/WhiteLightning.log
+[2018.03.20-00.51.12:092][  0]SourceControl: Untracked files:
+[2018.03.20-00.51.12:092][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.03.20-00.51.12:092][  0]SourceControl: 	WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-D4EE972E457EFB9D21F5FCB65911B284/
+[2018.03.20-00.51.12:092][  0]SourceControl: 	WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.03.19-17.50.48.log
+[2018.03.20-00.51.12:092][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.03.20-00.51.12:092][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.20-00.51.12:182][  0]LogSlate: Took 0.011205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.20-00.51.12:201][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/' took 0.15s
+[2018.03.20-00.51.12:219][  1]LogAssetRegistry: Asset discovery search completed in 16.3896 seconds
+[2018.03.20-00.51.12:220][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.20-00.51.12:221][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2018.03.20-00.51.13:099][ 44]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.20-00.52.03:307][317]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.20-00.52.03:889][317]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2018.03.20-00.52.05:363][317]LogSlate: Took 0.014401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.20-00.52.05:867][318]LogSlate: Took 0.007505 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.20-00.52.11:570][605]BlueprintLog: New page: Compile MainCharacter
+[2018.03.20-00.52.15:850][864]LogEditorViewport: Clicking Background
+[2018.03.20-00.57.55:413][352]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\carter\Documents\GitHub\WhiteLightningGame\WhiteLightning\Sprites\HealthBar.png)
+[2018.03.20-00.57.55:430][352]LogTexture: Display: Building textures: HealthBar (AutoDXT, 96X128)
+[2018.03.20-00.58.00:747][368]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\carter\Documents\GitHub\WhiteLightningGame\WhiteLightning\Sprites\MainCharacterShot.png)
+[2018.03.20-00.58.00:756][368]LogTexture: Display: Building textures: MainCharacterShot (AutoDXT, 64X64)
+[2018.03.20-00.58.04:719][380]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\carter\Documents\GitHub\WhiteLightningGame\WhiteLightning\Sprites\MainEnemy.png)
+[2018.03.20-00.58.04:729][380]LogTexture: Display: Building textures: MainEnemy (AutoDXT, 64X64)
+[2018.03.20-00.58.12:057][402]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\carter\Documents\GitHub\WhiteLightningGame\WhiteLightning\Sprites\MainEnemyShot.png)
+[2018.03.20-00.58.12:065][402]LogTexture: Display: Building textures: MainEnemyShot (AutoDXT, 64X64)
+[2018.03.20-00.59.27:556][234]LogTexture: Display: Building textures: HealthBar (BGRA8, 96X128)
+[2018.03.20-00.59.31:677][522]LogTexture: Display: Building textures: MainCharacterShot (BGRA8, 64X64)
+[2018.03.20-00.59.35:430][775]LogTexture: Display: Building textures: MainEnemy (BGRA8, 64X64)
+[2018.03.20-00.59.39:211][ 38]LogTexture: Display: Building textures: MainEnemyShot (BGRA8, 64X64)
+[2018.03.20-00.59.57:958][856]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\carter\Documents\GitHub\WhiteLightningGame\WhiteLightning\Sprites\MainEnemyIdle.png)
+[2018.03.20-00.59.57:967][856]LogTexture: Display: Building textures: MainEnemyIdle (AutoDXT, 32X64)
+[2018.03.20-01.00.04:662][204]LogTexture: Display: Building textures: MainEnemyIdle (BGRA8, 32X64)
+[2018.03.20-01.03.21:787][706]SourceControl: fatal: E:/Unreal/UE_4.18/Engine/Content/: 'E:/Unreal/UE_4.18/Engine/Content/' is outside repository
+[2018.03.20-01.03.21:891][706]EditorErrors: Warning: No assets to check in!
+[2018.03.20-01.03.37:439][141]LogSavePackage: Save=1245.59ms
+[2018.03.20-01.03.37:439][141]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/TutorialAC20FE584681D22F6BA605ACD8A7E573.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.20-01.03.37:441][141]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.20-01.03.37:487][141]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.20-01.03.41:894][444]SourceControl: On branch master
+[2018.03.20-01.03.41:894][444]SourceControl: Your branch is up to date with 'origin/master'.
+[2018.03.20-01.03.41:894][444]SourceControl: Changes not staged for commit:
+[2018.03.20-01.03.41:894][444]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2018.03.20-01.03.41:894][444]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.03.20-01.03.41:894][444]SourceControl: 	modified:   WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.20-01.03.41:894][444]SourceControl: 	modified:   WhiteLightning/Intermediate/CachedAssetRegistry.bin
+[2018.03.20-01.03.41:894][444]SourceControl: 	deleted:    WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-44EC57D64B37FAAC075D338DDEAA35BA/CrashReportClient.ini
+[2018.03.20-01.03.41:895][444]SourceControl: 	deleted:    WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-7D7CC2B34E223C87FA7EACBDE1155D00/CrashReportClient.ini
+[2018.03.20-01.03.41:895][444]SourceControl: 	deleted:    WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-9A4AED744E5EDB609AC2AEB60D6C4E1A/CrashReportClient.ini
+[2018.03.20-01.03.41:895][444]SourceControl: 	deleted:    WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-C2BD2E474560A954AAC439BAFFA193CE/CrashReportClient.ini
+[2018.03.20-01.03.41:895][444]SourceControl: 	deleted:    WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-CC58563043D9F7F7D2ADF39B179CB6E8/CrashReportClient.ini
+[2018.03.20-01.03.41:895][444]SourceControl: 	deleted:    WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-D5C07BCC47F75DA1F8CD87B88C0F1D1A/CrashReportClient.ini
+[2018.03.20-01.03.41:895][444]SourceControl: 	modified:   WhiteLightning/Saved/Config/Windows/Editor.ini
+[2018.03.20-01.03.41:895][444]SourceControl: 	modified:   WhiteLightning/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.03.20-01.03.41:895][444]SourceControl: 	deleted:    WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.12-19.00.29.log
+[2018.03.20-01.03.41:895][444]SourceControl: 	deleted:    WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.13-13.06.09.log
+[2018.03.20-01.03.41:895][444]SourceControl: 	deleted:    WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.13-13.58.14.log
+[2018.03.20-01.03.41:895][444]SourceControl: 	deleted:    WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.14-13.59.27.log
+[2018.03.20-01.03.41:895][444]SourceControl: 	deleted:    WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.15-09.29.25.log
+[2018.03.20-01.03.41:895][444]SourceControl: 	deleted:    WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.15-12.52.41.log
+[2018.03.20-01.03.41:895][444]SourceControl: 	deleted:    WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.15-14.12.00.log
+[2018.03.20-01.03.41:895][444]SourceControl: 	deleted:    WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.02.15-15.52.31.log
+[2018.03.20-01.03.41:895][444]SourceControl: 	modified:   WhiteLightning/Saved/Logs/WhiteLightning.log
+[2018.03.20-01.03.41:895][444]SourceControl: 	modified:   WhiteLightning/Sprites/Thumbs.db
+[2018.03.20-01.03.41:895][444]SourceControl: Untracked files:
+[2018.03.20-01.03.41:895][444]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.03.20-01.03.41:895][444]SourceControl: 	WhiteLightning/Saved/Backup/Tutorial_2018-03-19-18-03-36.umap
+[2018.03.20-01.03.41:895][444]SourceControl: 	WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-D4EE972E457EFB9D21F5FCB65911B284/
+[2018.03.20-01.03.41:895][444]SourceControl: 	WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.03.19-17.50.48.log
+[2018.03.20-01.03.41:895][444]SourceControl: 	WhiteLightning/Sprites/HealthBar.png
+[2018.03.20-01.03.41:895][444]SourceControl: 	WhiteLightning/Sprites/MainCharacterShot.png
+[2018.03.20-01.03.41:895][444]SourceControl: 	WhiteLightning/Sprites/MainEnemy.png
+[2018.03.20-01.03.41:895][444]SourceControl: 	WhiteLightning/Sprites/MainEnemyIdle.png
+[2018.03.20-01.03.41:895][444]SourceControl: 	WhiteLightning/Sprites/MainEnemyShot.png
+[2018.03.20-01.03.41:895][444]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.03.20-01.03.44:611][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Sprites/HealthBar" FILE="C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar.uasset" SILENT=true
+[2018.03.20-01.03.44:638][635]LogSavePackage: Save=24.68ms
+[2018.03.20-01.03.44:638][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/HealthBar19F7B0CD479AC94D4F0CBF99C9C7D763.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar.uasset'
+[2018.03.20-01.03.44:641][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar.uasset
+[2018.03.20-01.03.44:768][635]LogSavePackage: Save=7.47ms
+[2018.03.20-01.03.44:768][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainCharacterShotD3670FC440A45C9E0025DDB76DCCAE97.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot.uasset'
+[2018.03.20-01.03.44:771][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot.uasset
+[2018.03.20-01.03.44:894][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Sprites/MainEnemy" FILE="C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy.uasset" SILENT=true
+[2018.03.20-01.03.44:904][635]LogSavePackage: Save=7.59ms
+[2018.03.20-01.03.44:904][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainEnemyFD95799E4023CD822632ECBC3E7EF38B.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy.uasset'
+[2018.03.20-01.03.44:908][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy.uasset
+[2018.03.20-01.03.45:036][635]LogSavePackage: Save=7.70ms
+[2018.03.20-01.03.45:036][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainEnemyShot2797F67344B31ADD2D6DC39E6FC9A963.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot.uasset'
+[2018.03.20-01.03.45:039][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot.uasset
+[2018.03.20-01.03.45:157][635]LogSavePackage: Save=6.98ms
+[2018.03.20-01.03.45:157][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainEnemyIdleF3291A9545774A5FDF0008899EC9B518.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyIdle.uasset'
+[2018.03.20-01.03.45:160][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyIdle.uasset
+[2018.03.20-01.03.45:310][635]LogSavePackage: Save=11.43ms
+[2018.03.20-01.03.45:310][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainCharacterShot_Sprite_0872900BC4817799C9A023C9572EDE018.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot_Sprite_0.uasset'
+[2018.03.20-01.03.45:312][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot_Sprite_0.uasset
+[2018.03.20-01.03.45:458][635]LogSavePackage: Save=10.66ms
+[2018.03.20-01.03.45:458][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainCharacterShot_Sprite_180CCA1B4430822DC9E1DE9B76D3FA724.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot_Sprite_1.uasset'
+[2018.03.20-01.03.45:462][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot_Sprite_1.uasset
+[2018.03.20-01.03.45:611][635]LogSavePackage: Save=11.18ms
+[2018.03.20-01.03.45:611][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainCharacterShot_Sprite_2046237824D7E6AFE0CED75B7EB11D9A1.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot_Sprite_2.uasset'
+[2018.03.20-01.03.45:614][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot_Sprite_2.uasset
+[2018.03.20-01.03.45:760][635]LogSavePackage: Save=11.28ms
+[2018.03.20-01.03.45:760][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainCharacterShot_Sprite_33633E647480AE2417F690BB5AA851D52.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot_Sprite_3.uasset'
+[2018.03.20-01.03.45:763][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot_Sprite_3.uasset
+[2018.03.20-01.03.45:900][635]LogSavePackage: Save=9.84ms
+[2018.03.20-01.03.45:900][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainCharacterShot10BA7C84A4D1843EDC6C15AA8807AD6A7.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot1.uasset'
+[2018.03.20-01.03.45:903][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot1.uasset
+[2018.03.20-01.03.46:052][635]LogSavePackage: Save=13.08ms
+[2018.03.20-01.03.46:052][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/HealthBar_Sprite_098ADAC74439889434BE602849932E314.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_0.uasset'
+[2018.03.20-01.03.46:056][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_0.uasset
+[2018.03.20-01.03.46:200][635]LogSavePackage: Save=10.83ms
+[2018.03.20-01.03.46:200][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/HealthBar_Sprite_12068D5D44CC9F83DA7295A8EF66694D1.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_1.uasset'
+[2018.03.20-01.03.46:204][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_1.uasset
+[2018.03.20-01.03.46:352][635]LogSavePackage: Save=11.12ms
+[2018.03.20-01.03.46:353][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/HealthBar_Sprite_21B40917E49DCFF18320E498B72DDA9FE.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_2.uasset'
+[2018.03.20-01.03.46:356][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_2.uasset
+[2018.03.20-01.03.46:502][635]LogSavePackage: Save=10.89ms
+[2018.03.20-01.03.46:502][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/HealthBar_Sprite_3B5A849AD4749C613A520788CD53339C7.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_3.uasset'
+[2018.03.20-01.03.46:505][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_3.uasset
+[2018.03.20-01.03.46:650][635]LogSavePackage: Save=10.72ms
+[2018.03.20-01.03.46:650][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/HealthBar_Sprite_44222FA8D4349E034E9E822BA19B0ECD0.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_4.uasset'
+[2018.03.20-01.03.46:653][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_4.uasset
+[2018.03.20-01.03.46:804][635]LogSavePackage: Save=11.88ms
+[2018.03.20-01.03.46:804][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/HealthBar_Sprite_56544AD34448CB254A91E02A34F5419A6.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_5.uasset'
+[2018.03.20-01.03.46:807][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_5.uasset
+[2018.03.20-01.03.46:951][635]LogSavePackage: Save=10.61ms
+[2018.03.20-01.03.46:951][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/HealthBar_Sprite_6430F89E5410372A15D9AFEA41E77E5B4.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_6.uasset'
+[2018.03.20-01.03.46:955][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_6.uasset
+[2018.03.20-01.03.47:091][635]LogSavePackage: Save=11.28ms
+[2018.03.20-01.03.47:091][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/HealthBar_Sprite_7672F686C4A3A0E248B497DB4CD430429.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_7.uasset'
+[2018.03.20-01.03.47:094][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_7.uasset
+[2018.03.20-01.03.47:235][635]LogSavePackage: Save=11.03ms
+[2018.03.20-01.03.47:235][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/HealthBar_Sprite_857FC0F914F7F5A5054D69D88AB36E3B6.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_8.uasset'
+[2018.03.20-01.03.47:238][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_8.uasset
+[2018.03.20-01.03.47:384][635]LogSavePackage: Save=11.35ms
+[2018.03.20-01.03.47:384][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/HealthBar_Sprite_9AA2E734B451B8709F2758DAFECA5533C.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_9.uasset'
+[2018.03.20-01.03.47:387][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_9.uasset
+[2018.03.20-01.03.47:535][635]LogSavePackage: Save=11.15ms
+[2018.03.20-01.03.47:535][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/HealthBar_Sprite_10545E0C544C8EF962F034FE92FB10BAAC.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_10.uasset'
+[2018.03.20-01.03.47:538][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_10.uasset
+[2018.03.20-01.03.47:672][635]LogSavePackage: Save=10.14ms
+[2018.03.20-01.03.47:672][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/HealthBar1DDB614F140632C232D2ED29B8FE34CF0.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar1.uasset'
+[2018.03.20-01.03.47:675][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/HealthBar1.uasset
+[2018.03.20-01.03.47:824][635]LogSavePackage: Save=12.41ms
+[2018.03.20-01.03.47:824][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainEnemyIdle_Sprite_0D0CEE6A548742F059842B298C5BBD527.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyIdle_Sprite_0.uasset'
+[2018.03.20-01.03.47:827][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyIdle_Sprite_0.uasset
+[2018.03.20-01.03.47:968][635]LogSavePackage: Save=11.00ms
+[2018.03.20-01.03.47:968][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainEnemyIdle_Sprite_19EAA4B88450FDD34D22D9984E39188D6.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyIdle_Sprite_1.uasset'
+[2018.03.20-01.03.47:972][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyIdle_Sprite_1.uasset
+[2018.03.20-01.03.48:115][635]LogSavePackage: Save=9.55ms
+[2018.03.20-01.03.48:115][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainEnemyIdle15F87C3754CE6145D94D8458A8EF2AB3B.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyIdle1.uasset'
+[2018.03.20-01.03.48:118][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyIdle1.uasset
+[2018.03.20-01.03.48:257][635]LogSavePackage: Save=10.79ms
+[2018.03.20-01.03.48:257][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainEnemyShot_Sprite_085C9A3B9454AE419B6BACFB82E5D6521.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot_Sprite_0.uasset'
+[2018.03.20-01.03.48:260][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot_Sprite_0.uasset
+[2018.03.20-01.03.48:412][635]LogSavePackage: Save=11.14ms
+[2018.03.20-01.03.48:412][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainEnemyShot_Sprite_1BD943881460B3E0201105EB4F967D864.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot_Sprite_1.uasset'
+[2018.03.20-01.03.48:415][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot_Sprite_1.uasset
+[2018.03.20-01.03.48:552][635]LogSavePackage: Save=11.33ms
+[2018.03.20-01.03.48:552][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainEnemyShot_Sprite_2CEBFC6EF4063A3D0C17628B711F83273.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot_Sprite_2.uasset'
+[2018.03.20-01.03.48:555][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot_Sprite_2.uasset
+[2018.03.20-01.03.48:701][635]LogSavePackage: Save=10.84ms
+[2018.03.20-01.03.48:701][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainEnemyShot_Sprite_323651F6B4F9DB3E402F79BA9B3C2DE15.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot_Sprite_3.uasset'
+[2018.03.20-01.03.48:706][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot_Sprite_3.uasset
+[2018.03.20-01.03.48:849][635]LogSavePackage: Save=9.80ms
+[2018.03.20-01.03.48:849][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainEnemyShot152142BB449DF596076D1D28BB7F98F6C.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot1.uasset'
+[2018.03.20-01.03.48:852][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot1.uasset
+[2018.03.20-01.03.48:990][635]LogSavePackage: Save=11.40ms
+[2018.03.20-01.03.48:990][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainEnemy_Sprite_0E15F156841BC771794084EA31910A208.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy_Sprite_0.uasset'
+[2018.03.20-01.03.48:993][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy_Sprite_0.uasset
+[2018.03.20-01.03.49:135][635]LogSavePackage: Save=12.14ms
+[2018.03.20-01.03.49:135][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainEnemy_Sprite_14EACDF094EA6F89D37EB1E8AE51B3F6F.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy_Sprite_1.uasset'
+[2018.03.20-01.03.49:139][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy_Sprite_1.uasset
+[2018.03.20-01.03.49:272][635]LogSavePackage: Save=11.33ms
+[2018.03.20-01.03.49:272][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainEnemy_Sprite_27C3E60DC41BD898BA90123A050E4D923.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy_Sprite_2.uasset'
+[2018.03.20-01.03.49:276][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy_Sprite_2.uasset
+[2018.03.20-01.03.49:416][635]LogSavePackage: Save=11.23ms
+[2018.03.20-01.03.49:417][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainEnemy_Sprite_37C2709034F141487451321A84077FE7B.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy_Sprite_3.uasset'
+[2018.03.20-01.03.49:420][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy_Sprite_3.uasset
+[2018.03.20-01.03.49:554][635]LogSavePackage: Save=9.58ms
+[2018.03.20-01.03.49:554][635]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainEnemy1B715C5274DB4803495111D88002B90A1.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy1.uasset'
+[2018.03.20-01.03.49:557][635]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy1.uasset
+[2018.03.20-01.03.52:815][837]SourceControl: fatal: E:/Unreal/UE_4.18/Engine/Content/: 'E:/Unreal/UE_4.18/Engine/Content/' is outside repository
+[2018.03.20-01.04.10:260][837]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.03.20-01.04.10:348][837]SourceControl: [master c87c3db] enemy sprites and health bar
+[2018.03.20-01.04.10:348][837]SourceControl:  36 files changed, 0 insertions(+), 0 deletions(-)
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/HealthBar.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/HealthBar1.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_0.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_1.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_10.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_2.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_3.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_4.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_5.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_6.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_7.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_8.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/HealthBar_Sprite_9.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot1.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot_Sprite_0.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot_Sprite_1.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot_Sprite_2.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainCharacterShot_Sprite_3.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy1.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyIdle.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyIdle1.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyIdle_Sprite_0.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyIdle_Sprite_1.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot1.uasset
+[2018.03.20-01.04.10:348][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot_Sprite_0.uasset
+[2018.03.20-01.04.10:349][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot_Sprite_1.uasset
+[2018.03.20-01.04.10:349][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot_Sprite_2.uasset
+[2018.03.20-01.04.10:349][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemyShot_Sprite_3.uasset
+[2018.03.20-01.04.10:349][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy_Sprite_0.uasset
+[2018.03.20-01.04.10:349][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy_Sprite_1.uasset
+[2018.03.20-01.04.10:349][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy_Sprite_2.uasset
+[2018.03.20-01.04.10:349][837]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy_Sprite_3.uasset
+[2018.03.20-01.04.10:363][837]SourceControl: Commited [master c87c3db] enemy sprites and health bar.
