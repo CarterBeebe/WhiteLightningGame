@@ -1,18 +1,20 @@
-﻿Log file open, 03/22/18 10:25:48
+﻿Log file open, 03/22/18 17:24:25
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: WhiteLightning
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(574150264) SRandInit(574150264).
+LogInit: Display: RandInit(-2018626596) SRandInit(-2018626596).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.132325
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.181213
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -194,181 +196,1027 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.22-14.25.50:303][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.22-14.25.50:303][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.22-14.25.50:319][  0]LogInit: Computer: DESKTOP-E87OOJI
-[2018.03.22-14.25.50:320][  0]LogInit: User: chris
-[2018.03.22-14.25.50:320][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.03.22-14.25.50:320][  0]LogInit: High frequency timer resolution =2.343752 MHz
-[2018.03.22-14.25.50:320][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.03.22-14.25.50:320][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.22-14.25.50:320][  0]LogMemory: Process Physical Memory: 271.50 MB used, 271.50 MB peak
-[2018.03.22-14.25.50:320][  0]LogMemory: Process Virtual Memory: 269.39 MB used, 269.39 MB peak
-[2018.03.22-14.25.50:320][  0]LogMemory: Physical Memory: 4136.26 MB used,  3915.20 MB free, 8051.46 MB total
-[2018.03.22-14.25.50:320][  0]LogMemory: Virtual Memory: 678.40 MB used,  3915.20 MB free, 134217728.00 MB total
-[2018.03.22-14.25.50:550][  0]LogInit: Using OS detected language (en-US).
-[2018.03.22-14.25.50:550][  0]LogInit: Using OS detected locale (en-US).
-[2018.03.22-14.25.50:553][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.03.22-14.25.51:068][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.22-14.25.51:429][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.22-14.25.51:442][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
-[2018.03.22-14.25.51:442][  0]LogD3D11RHI:       128/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2018.03.22-14.25.51:445][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.22-14.25.51:445][  0]LogD3D11RHI:       0/0/4025 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.22-14.25.51:445][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.22-14.25.51:454][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.22-14.25.51:455][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.22-14.25.51:455][  0]LogWindows: EnumDisplayDevices:
-[2018.03.22-14.25.51:455][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
-[2018.03.22-14.25.51:455][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2018.03.22-14.25.51:455][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2018.03.22-14.25.51:455][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.22-14.25.51:455][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
-[2018.03.22-14.25.51:455][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.22-14.25.51:455][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.22-14.25.51:455][  0]LogRHI: Texture pool is 1498 MB (70% of 2140 MB)
-[2018.03.22-14.25.51:464][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.22-14.25.51:473][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
-[2018.03.22-14.25.51:475][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/chris/OneDrive/Documents/GitHub/WhiteLightningGame/WhiteLightning/Intermediate/Shaders/WorkingDirectory/3576/).
-[2018.03.22-14.25.51:475][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/chris/AppData/Local/Temp/UnrealShaderWorkingDir/670FD4E4419AEE0BABE1769C35904A22/'.
-[2018.03.22-14.25.51:475][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.22-14.25.52:702][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.22-14.25.52:783][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.22-14.25.52:864][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.22-14.25.52:946][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.22-14.25.53:032][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.22-14.25.53:112][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.22-14.25.53:194][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.22-14.25.53:274][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.22-14.25.53:345][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.22-14.25.53:424][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.22-14.25.53:502][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.22-14.25.53:582][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.22-14.25.53:663][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.22-14.25.53:743][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.22-14.25.53:898][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.22-14.25.53:898][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.22-14.25.53:979][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.22-14.25.54:044][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.22-14.25.54:173][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.22-14.25.54:213][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.22-14.25.54:291][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.22-14.25.54:368][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.22-14.25.54:447][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.22-14.25.54:530][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.22-14.25.54:530][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.22-14.25.55:257][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.22-14.25.55:350][  0]LogDerivedDataCache: Loaded boot cache 0.09s 78MB C:/Users/chris/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.22-14.25.55:350][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/chris/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.22-14.25.55:350][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/chris/OneDrive/Documents/GitHub/WhiteLightningGame/WhiteLightning/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.22-14.25.55:350][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.22-14.25.55:350][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/chris/OneDrive/Documents/GitHub/WhiteLightningGame/WhiteLightning/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.22-14.25.55:350][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.22-14.25.55:369][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.22-14.25.55:381][  0]LogDerivedDataCache: Using Local data cache path C:/Users/chris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.22-14.25.55:394][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.22-14.25.55:394][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.22-14.25.55:395][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.22-14.25.55:395][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.22-14.25.55:858][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.22-14.25.56:352][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.22-14.25.56:418][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.22-14.25.56:418][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.22-14.25.56:418][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.22-14.25.56:418][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.22-14.25.56:418][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.22-14.25.56:453][  0]LogNetVersion: WhiteLightning , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2852152215)
-[2018.03.22-14.25.56:700][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
-[2018.03.22-14.25.57:428][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.096303 seconds
-[2018.03.22-14.25.57:435][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.03.22-14.25.57:435][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.03.22-14.25.57:435][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.22-14.25.57:530][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.22-14.26.01:873][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.22-14.26.01:930][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.22-14.26.02:948][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.22-14.26.03:604][  0]SourceControl: Source control is disabled
-[2018.03.22-14.26.05:781][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.22-14.26.06:196][  0]LogOcInput: OculusInput pre-init called
-[2018.03.22-14.26.06:631][  0]LogEngine: Initializing Engine...
-[2018.03.22-14.26.06:634][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.22-14.26.06:902][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.22-14.26.06:902][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.22-14.26.07:120][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.22-14.26.07:146][  0]LogInit: XAudio2 using 'Headphones (Jaybird X2 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.22-14.26.07:164][  0]LogInit: FAudioDevice initialized.
-[2018.03.22-14.26.07:328][  0]LogDerivedDataCache: Saved boot cache 0.16s 78MB C:/Users/chris/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.22-14.26.07:343][  0]LogInit: Texture streaming: Enabled
-[2018.03.22-14.26.07:511][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.22-14.26.07:718][  0]LogInit: Transaction tracking system initialized
-[2018.03.22-14.26.08:226][  0]BlueprintLog: New page: Editor Load
-[2018.03.22-14.26.09:654][  0]LocalizationService: Localization service is disabled
-[2018.03.22-14.26.10:804][  0]LogConsoleResponse: Display: 
-[2018.03.22-14.26.11:044][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.22-14.26.11:044][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.22-14.26.11:044][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.22-14.26.12:035][  0]LogFileCache: Scanning file cache for directory 'C:/Users/chris/OneDrive/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/' took 0.01s
-[2018.03.22-14.26.12:891][  0]Cmd: MAP LOAD FILE="../../../../../../Users/chris/OneDrive/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.22-14.26.12:892][  0]LightingResults: New page: Lighting Build
-[2018.03.22-14.26.12:959][  0]MapCheck: New page: Map Check
-[2018.03.22-14.26.12:959][  0]LightingResults: New page: Lighting Build
-[2018.03.22-14.26.13:496][  0]LogAIModule: Creating AISystem for world Tutorial
-[2018.03.22-14.26.13:586][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.22-14.26.13:603][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.22-14.26.13:675][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72.292ms to complete.
-[2018.03.22-14.26.13:676][  0]LogFileHelpers: Loading map 'Tutorial' took 0.784
-[2018.03.22-14.26.13:748][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.22-14.26.13:748][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.22-14.26.13:907][  0]LogCollectionManager: Loaded 0 collections in 0.001951 seconds
-[2018.03.22-14.26.14:045][  0]LogFileCache: Scanning file cache for directory 'C:/Users/chris/OneDrive/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Collections/' took 0.01s
-[2018.03.22-14.26.14:045][  0]LogFileCache: Scanning file cache for directory 'C:/Users/chris/OneDrive/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/Developers/chris/Collections/' took 0.01s
-[2018.03.22-14.26.14:046][  0]LogFileCache: Scanning file cache for directory 'C:/Users/chris/OneDrive/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/Collections/' took 0.01s
-[2018.03.22-14.26.14:046][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.03.22-14.26.14:056][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2363 classes and 519 folders.
-[2018.03.22-14.26.14:163][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.03.22-14.26.14:213][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.03.22-14.26.14:278][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.22-14.26.14:281][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.22-14.26.14:289][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.22-14.26.14:417][  0]LogRenderer: Reallocating scene render targets to support 964x440 Format 10 NumSamples 1 (Frame:1).
-[2018.03.22-14.26.15:162][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.03.22-14.26.15:162][  0]LogLoad: (Engine Initialization) Total time: 27.86 seconds
-[2018.03.22-14.26.15:162][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.22-14.26.15:162][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.03.22-14.26.15:162][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.03.22-14.26.15:212][  0]SourceControl: On branch Chris
-[2018.03.22-14.26.15:212][  0]SourceControl: Your branch is up to date with 'origin/Chris'.
-[2018.03.22-14.26.15:212][  0]SourceControl: Changes not staged for commit:
-[2018.03.22-14.26.15:212][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2018.03.22-14.26.15:212][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2018.03.22-14.26.15:212][  0]SourceControl: 	modified:   WhiteLightning/Intermediate/CachedAssetRegistry.bin
-[2018.03.22-14.26.15:212][  0]SourceControl: 	modified:   WhiteLightning/Saved/Config/Windows/Editor.ini
-[2018.03.22-14.26.15:212][  0]SourceControl: 	modified:   WhiteLightning/Saved/Config/Windows/Engine.ini
-[2018.03.22-14.26.15:212][  0]SourceControl: 	modified:   WhiteLightning/Saved/Logs/WhiteLightning.log
-[2018.03.22-14.26.15:212][  0]SourceControl: Untracked files:
-[2018.03.22-14.26.15:212][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2018.03.22-14.26.15:212][  0]SourceControl: 	WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-B29D3D4747FFC999F82A15B120C0A049/
-[2018.03.22-14.26.15:212][  0]SourceControl: 	WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.03.22-10.25.48.log
-[2018.03.22-14.26.15:212][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2018.03.22-14.26.15:212][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.22-14.26.15:237][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.22-14.26.15:249][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/chris/OneDrive/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/' took 0.05s
-[2018.03.22-14.26.15:256][  1]LogAssetRegistry: Asset discovery search completed in 18.5781 seconds
-[2018.03.22-14.26.15:259][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.03.22-14.26.15:259][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000069 seconds (updated 0 objects)
-[2018.03.22-14.26.19:844][101]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2018.03.22-14.26.19:927][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.22-14.26.19:927][101]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 6:26:19 AM)
-[2018.03.22-14.26.19:928][101]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
-[2018.03.22-14.26.19:989][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061289s)
-[2018.03.22-14.26.19:989][101]LogAIModule: Creating AISystem for world Tutorial
-[2018.03.22-14.26.19:990][101]LogPlayLevel: PIE: World Init took: (0.000873s)
-[2018.03.22-14.26.19:990][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.063044s)
-[2018.03.22-14.26.20:016][101]LogInit: XAudio2 using 'Headphones (Jaybird X2 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.22-14.26.20:026][101]LogInit: FAudioDevice initialized.
-[2018.03.22-14.26.20:139][101]LogLoad: Game class is 'Tutorial_C'
-[2018.03.22-14.26.20:155][101]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-10.26.20
-[2018.03.22-14.26.20:156][101]LogWorld: Bringing up level for play took: 0.015598
-[2018.03.22-14.26.20:233][101]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2018.03.22-14.26.20:241][101]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.472
-[2018.03.22-14.26.20:458][101]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2018.03.22-21.24.26:594][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.22-21.24.26:594][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.22-21.24.26:608][  0]LogInit: Computer: CELIA
+[2018.03.22-21.24.26:608][  0]LogInit: User: mhers
+[2018.03.22-21.24.26:608][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.22-21.24.26:608][  0]LogInit: High frequency timer resolution =2.531248 MHz
+[2018.03.22-21.24.26:608][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2018.03.22-21.24.26:608][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.22-21.24.26:608][  0]LogMemory: Process Physical Memory: 271.84 MB used, 271.84 MB peak
+[2018.03.22-21.24.26:608][  0]LogMemory: Process Virtual Memory: 269.90 MB used, 269.90 MB peak
+[2018.03.22-21.24.26:608][  0]LogMemory: Physical Memory: 4903.59 MB used,  11317.20 MB free, 16220.78 MB total
+[2018.03.22-21.24.26:608][  0]LogMemory: Virtual Memory: 682.23 MB used,  11317.20 MB free, 134217728.00 MB total
+[2018.03.22-21.24.26:758][  0]LogInit: Using OS detected language (en-US).
+[2018.03.22-21.24.26:758][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.22-21.24.26:760][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.22-21.24.27:230][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.22-21.24.27:531][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.22-21.24.27:585][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2018.03.22-21.24.27:585][  0]LogD3D11RHI:       4065/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.03.22-21.24.27:593][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.03.22-21.24.27:593][  0]LogD3D11RHI:       128/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.22-21.24.27:595][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.22-21.24.27:595][  0]LogD3D11RHI:       0/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.22-21.24.27:595][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.22-21.24.27:602][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.22-21.24.27:602][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2018.03.22-21.24.27:602][  0]LogWindows: EnumDisplayDevices:
+[2018.03.22-21.24.27:602][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.03.22-21.24.27:602][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2018.03.22-21.24.27:602][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.03.22-21.24.27:603][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.22-21.24.27:603][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2018.03.22-21.24.27:603][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.22-21.24.27:603][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.22-21.24.27:603][  0]LogRHI: Texture pool is 2846 MB (70% of 4065 MB)
+[2018.03.22-21.24.27:634][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.22-21.24.27:648][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.22-21.24.27:649][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Intermediate/Shaders/WorkingDirectory/16288/).
+[2018.03.22-21.24.27:649][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mhers/AppData/Local/Temp/UnrealShaderWorkingDir/8A0514E04D1271BB684559A211E63286/'.
+[2018.03.22-21.24.27:649][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.22-21.24.28:602][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.22-21.24.28:656][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.22-21.24.28:711][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.22-21.24.28:772][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.22-21.24.28:830][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.22-21.24.28:891][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.22-21.24.28:952][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.22-21.24.29:014][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.22-21.24.29:062][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.22-21.24.29:116][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.22-21.24.29:171][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.22-21.24.29:223][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.22-21.24.29:279][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.22-21.24.29:331][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.22-21.24.29:451][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.22-21.24.29:451][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.22-21.24.29:514][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.22-21.24.29:558][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.22-21.24.29:656][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.22-21.24.29:685][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.22-21.24.29:740][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.22-21.24.29:799][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.22-21.24.29:856][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.22-21.24.29:919][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.22-21.24.29:919][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.22-21.24.30:427][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.22-21.24.30:506][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/mhers/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.22-21.24.30:507][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mhers/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.22-21.24.30:507][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.22-21.24.30:507][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.22-21.24.30:507][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.22-21.24.30:507][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.22-21.24.30:524][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.22-21.24.30:537][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mhers/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.22-21.24.30:548][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.22-21.24.30:548][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.22-21.24.30:549][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.22-21.24.30:549][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.22-21.24.30:947][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.22-21.24.31:453][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.22-21.24.31:500][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.22-21.24.31:500][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.22-21.24.31:500][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.22-21.24.31:500][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.22-21.24.31:500][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.22-21.24.31:538][  0]LogNetVersion: WhiteLightning , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2852152215)
+[2018.03.22-21.24.31:759][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
+[2018.03.22-21.24.32:409][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.091317 seconds
+[2018.03.22-21.24.32:416][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.22-21.24.32:416][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.03.22-21.24.32:416][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.22-21.24.32:486][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.22-21.24.35:774][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.22-21.24.35:816][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.22-21.24.36:525][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.22-21.24.37:020][  0]SourceControl: Source control is disabled
+[2018.03.22-21.24.37:397][  0]LogSourceControl: Warning: '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/' is not part of a Git repository
+[2018.03.22-21.24.38:556][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.22-21.24.38:828][  0]LogOcInput: OculusInput pre-init called
+[2018.03.22-21.24.39:131][  0]LogEngine: Initializing Engine...
+[2018.03.22-21.24.39:133][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.22-21.24.39:368][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.22-21.24.39:368][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.22-21.24.39:505][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.22-21.24.39:520][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-21.24.39:537][  0]LogInit: FAudioDevice initialized.
+[2018.03.22-21.24.39:631][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/mhers/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.22-21.24.39:644][  0]LogInit: Texture streaming: Enabled
+[2018.03.22-21.24.39:744][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.22-21.24.39:879][  0]LogInit: Transaction tracking system initialized
+[2018.03.22-21.24.40:197][  0]BlueprintLog: New page: Editor Load
+[2018.03.22-21.24.41:098][  0]LocalizationService: Localization service is disabled
+[2018.03.22-21.24.41:853][  0]LogConsoleResponse: Display: 
+[2018.03.22-21.24.42:056][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.22-21.24.42:057][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.22-21.24.42:057][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.22-21.24.42:063][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mhers/Documents/GitHub/WhiteLightning/Content/' took 0.01s
+[2018.03.22-21.24.43:281][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.22-21.24.43:281][  0]LightingResults: New page: Lighting Build
+[2018.03.22-21.24.43:328][  0]MapCheck: New page: Map Check
+[2018.03.22-21.24.43:328][  0]LightingResults: New page: Lighting Build
+[2018.03.22-21.24.43:917][  0]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-21.24.43:983][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.22-21.24.43:997][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.22-21.24.44:051][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.275ms to complete.
+[2018.03.22-21.24.44:051][  0]LogFileHelpers: Loading map 'Tutorial' took 0.771
+[2018.03.22-21.24.44:129][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.22-21.24.44:129][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.22-21.24.44:223][  0]LogCollectionManager: Loaded 0 collections in 0.001462 seconds
+[2018.03.22-21.24.44:309][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mhers/Documents/GitHub/WhiteLightning/Saved/Collections/' took 0.01s
+[2018.03.22-21.24.44:309][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mhers/Documents/GitHub/WhiteLightning/Content/Developers/mhers/Collections/' took 0.01s
+[2018.03.22-21.24.44:309][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mhers/Documents/GitHub/WhiteLightning/Content/Collections/' took 0.01s
+[2018.03.22-21.24.44:309][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.22-21.24.44:318][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2363 classes and 519 folders.
+[2018.03.22-21.24.44:386][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.22-21.24.44:421][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.22-21.24.44:466][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.03.22-21.24.44:537][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.22-21.24.44:540][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.22-21.24.44:550][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.22-21.24.44:644][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
+[2018.03.22-21.24.44:830][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.03.22-21.24.44:830][  0]LogLoad: (Engine Initialization) Total time: 20.50 seconds
+[2018.03.22-21.24.44:831][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.22-21.24.44:831][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.22-21.24.44:880][  0]LogAssetRegistry: Asset discovery search completed in 13.1426 seconds
+[2018.03.22-21.24.44:881][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.22-21.24.44:882][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2018.03.22-21.24.44:884][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.22-21.24.44:932][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.22-21.24.44:941][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/mhers/Documents/GitHub/WhiteLightning/Content/' took 0.08s
+[2018.03.22-21.24.45:872][ 48]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.22-21.24.48:064][179]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.22-21.24.48:408][179]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.03.22-21.24.49:054][179]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.22-21.24.49:121][179]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.22-21.24.49:198][180]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.22-21.25.02:921][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Characters/BP_enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset" SILENT=true
+[2018.03.22-21.25.02:957][999]LogSavePackage: Save=22.20ms
+[2018.03.22-21.25.02:958][999]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemy5DBE810A43D6AD1C980AC391CBC11B9F.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset'
+[2018.03.22-21.25.02:965][999]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset
+[2018.03.22-21.25.03:388][ 24]BlueprintLog: New page: Compile BP_enemy
+[2018.03.22-21.25.52:552][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Characters/BP_enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset" SILENT=true
+[2018.03.22-21.25.52:584][930]LogSavePackage: Save=25.44ms
+[2018.03.22-21.25.52:584][930]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemy12D741294584EE61A2A00E9ED63CC57D.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset'
+[2018.03.22-21.25.52:589][930]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset
+[2018.03.22-21.25.53:208][967]BlueprintLog: New page: Compile BP_enemy
+[2018.03.22-21.25.56:997][176]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-21.25.57:049][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-21.25.57:049][176]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 1:25:57 PM)
+[2018.03.22-21.25.57:049][176]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-21.25.57:088][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038064s)
+[2018.03.22-21.25.57:089][176]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-21.25.57:089][176]LogPlayLevel: PIE: World Init took: (0.001213s)
+[2018.03.22-21.25.57:090][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.040142s)
+[2018.03.22-21.25.57:116][176]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-21.25.57:128][176]LogInit: FAudioDevice initialized.
+[2018.03.22-21.25.57:209][176]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-21.25.57:221][176]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-17.25.57
+[2018.03.22-21.25.57:223][176]LogWorld: Bringing up level for play took: 0.012117
+[2018.03.22-21.25.57:269][176]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.03.22-21.25.57:277][176]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.292
+[2018.03.22-21.25.57:341][176]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.03.22-21.26.27:527][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Characters/BP_enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset" SILENT=true
+[2018.03.22-21.26.27:557][971]LogSavePackage: Save=23.17ms
+[2018.03.22-21.26.27:557][971]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemy4ED32A5D428CA754653EA3823F2F1E63.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset'
+[2018.03.22-21.26.27:560][971]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset
+[2018.03.22-21.26.27:948][994]BlueprintLog: New page: Compile BP_enemy
+[2018.03.22-21.27.06:541][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Characters/BP_enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset" SILENT=true
+[2018.03.22-21.27.06:571][152]LogSavePackage: Save=24.13ms
+[2018.03.22-21.27.06:571][152]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemy2E1B14284CA2CB07FEDD57BB4737DABB.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset'
+[2018.03.22-21.27.06:576][152]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset
+[2018.03.22-21.27.07:118][184]BlueprintLog: New page: Compile BP_enemy
+[2018.03.22-21.27.42:482][258]LogTexture: Display: Building textures: HealthBar (BGRA8, 96X128)
+[2018.03.22-21.27.44:536][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Characters/BP_enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset" SILENT=true
+[2018.03.22-21.27.44:568][380]LogSavePackage: Save=25.23ms
+[2018.03.22-21.27.44:568][380]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemyB8661A5D4B110BD2543384B334425FF9.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset'
+[2018.03.22-21.27.44:572][380]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset
+[2018.03.22-21.27.44:994][405]BlueprintLog: New page: Compile BP_enemy
+[2018.03.22-21.27.48:030][568]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-21.27.48:057][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-21.27.48:057][568]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 1:27:48 PM)
+[2018.03.22-21.27.48:057][568]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-21.27.48:094][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036926s)
+[2018.03.22-21.27.48:095][568]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-21.27.48:095][568]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2018.03.22-21.27.48:095][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.038738s)
+[2018.03.22-21.27.48:120][568]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-21.27.48:131][568]LogInit: FAudioDevice initialized.
+[2018.03.22-21.27.48:191][568]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-21.27.48:202][568]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-17.27.48
+[2018.03.22-21.27.48:204][568]LogWorld: Bringing up level for play took: 0.011508
+[2018.03.22-21.27.48:211][568]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.774
+[2018.03.22-21.28.20:544][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Characters/BP_enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset" SILENT=true
+[2018.03.22-21.28.20:577][488]LogSavePackage: Save=25.13ms
+[2018.03.22-21.28.20:577][488]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemyB646C1424192D07DED64F89AA334F6B2.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset'
+[2018.03.22-21.28.20:581][488]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset
+[2018.03.22-21.28.21:202][525]BlueprintLog: New page: Compile BP_enemy
+[2018.03.22-21.28.24:704][716]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-21.28.24:728][716]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-21.28.24:728][716]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 1:28:24 PM)
+[2018.03.22-21.28.24:728][716]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-21.28.24:765][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036082s)
+[2018.03.22-21.28.24:766][716]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-21.28.24:766][716]LogPlayLevel: PIE: World Init took: (0.001325s)
+[2018.03.22-21.28.24:767][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.038180s)
+[2018.03.22-21.28.24:794][716]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-21.28.24:807][716]LogInit: FAudioDevice initialized.
+[2018.03.22-21.28.24:876][716]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-21.28.24:887][716]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-17.28.24
+[2018.03.22-21.28.24:888][716]LogWorld: Bringing up level for play took: 0.010906
+[2018.03.22-21.28.24:895][716]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.09
+[2018.03.22-21.29.23:502][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Characters/BP_enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset" SILENT=true
+[2018.03.22-21.29.23:537][179]LogSavePackage: Save=28.42ms
+[2018.03.22-21.29.23:537][179]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemyE9EC161B469DEDAB8168BEAA928784A1.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset'
+[2018.03.22-21.29.23:541][179]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset
+[2018.03.22-21.29.24:246][221]BlueprintLog: New page: Compile BP_enemy
+[2018.03.22-21.29.29:993][547]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-21.29.30:018][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-21.29.30:018][547]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 1:29:30 PM)
+[2018.03.22-21.29.30:018][547]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-21.29.30:055][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036424s)
+[2018.03.22-21.29.30:056][547]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-21.29.30:056][547]LogPlayLevel: PIE: World Init took: (0.001075s)
+[2018.03.22-21.29.30:057][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.038219s)
+[2018.03.22-21.29.30:082][547]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-21.29.30:093][547]LogInit: FAudioDevice initialized.
+[2018.03.22-21.29.30:155][547]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-21.29.30:167][547]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-17.29.30
+[2018.03.22-21.29.30:169][547]LogWorld: Bringing up level for play took: 0.011583
+[2018.03.22-21.29.30:176][547]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.809
+[2018.03.22-21.34.23:868][966]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-21.34.23:888][966]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.22-21.34.23:896][966]LogPlayLevel: [PlayLevel] Compiling BP_enemy before play...
+[2018.03.22-21.34.24:355][966]LogPlayLevel: PlayLevel: Blueprint regeneration took 467 ms (1 blueprints)
+[2018.03.22-21.34.24:356][966]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 1:34:24 PM)
+[2018.03.22-21.34.24:356][966]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-21.34.24:394][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037287s)
+[2018.03.22-21.34.24:395][966]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-21.34.24:395][966]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2018.03.22-21.34.24:395][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.039053s)
+[2018.03.22-21.34.24:425][966]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-21.34.24:439][966]LogInit: FAudioDevice initialized.
+[2018.03.22-21.34.24:507][966]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-21.34.24:518][966]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-17.34.24
+[2018.03.22-21.34.24:520][966]LogWorld: Bringing up level for play took: 0.012090
+[2018.03.22-21.34.24:527][966]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 1.542
+[2018.03.22-21.34.39:325][792]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-21.34.39:350][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-21.34.39:350][792]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 1:34:39 PM)
+[2018.03.22-21.34.39:350][792]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-21.34.39:388][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038240s)
+[2018.03.22-21.34.39:389][792]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-21.34.39:389][792]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2018.03.22-21.34.39:390][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.039762s)
+[2018.03.22-21.34.39:416][792]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-21.34.39:428][792]LogInit: FAudioDevice initialized.
+[2018.03.22-21.34.39:492][792]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-21.34.39:503][792]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-17.34.39
+[2018.03.22-21.34.39:505][792]LogWorld: Bringing up level for play took: 0.011397
+[2018.03.22-21.34.39:512][792]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.527
+[2018.03.22-21.34.51:951][520]LogEditorViewport: Clicking on Actor (LMB): BP_enemy_C (BP_enemy)
+[2018.03.22-21.34.56:997][818]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.03.22-21.34.59:341][955]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.22-21.35.02:496][142]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.22-21.35.03:857][221]LogEditorViewport: Clicking Background
+[2018.03.22-21.35.03:988][227]Cmd: SELECT NONE
+[2018.03.22-21.35.06:470][375]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-21.35.06:488][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-21.35.06:488][375]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 1:35:06 PM)
+[2018.03.22-21.35.06:488][375]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-21.35.06:532][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043540s)
+[2018.03.22-21.35.06:533][375]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-21.35.06:533][375]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2018.03.22-21.35.06:533][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.045195s)
+[2018.03.22-21.35.06:560][375]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-21.35.06:572][375]LogInit: FAudioDevice initialized.
+[2018.03.22-21.35.06:629][375]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-21.35.06:641][375]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-17.35.06
+[2018.03.22-21.35.06:642][375]LogWorld: Bringing up level for play took: 0.011590
+[2018.03.22-21.35.06:651][375]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.334
+[2018.03.22-21.35.12:438][708]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.03.22-21.35.14:606][834]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.22-21.35.15:123][863]Cmd: SELECT NONE
+[2018.03.22-21.35.16:282][932]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-21.35.16:299][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-21.35.16:299][932]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 1:35:16 PM)
+[2018.03.22-21.35.16:299][932]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-21.35.16:345][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045092s)
+[2018.03.22-21.35.16:345][932]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-21.35.16:346][932]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2018.03.22-21.35.16:346][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.046707s)
+[2018.03.22-21.35.16:374][932]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-21.35.16:384][932]LogInit: FAudioDevice initialized.
+[2018.03.22-21.35.16:449][932]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-21.35.16:462][932]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-17.35.16
+[2018.03.22-21.35.16:463][932]LogWorld: Bringing up level for play took: 0.012985
+[2018.03.22-21.35.16:473][932]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.512
+[2018.03.22-21.36.22:140][323]LogEditorViewport: Clicking on Actor (LMB): BP_enemy_C (BP_enemy)
+[2018.03.22-21.37.59:209][286]LogSavePackage: Save=874.44ms
+[2018.03.22-21.37.59:209][286]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/Tutorial_Auto106B4CBB24BAFC6432102199BBBE7C991.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Levels/Tutorial_Auto1.umap'
+[2018.03.22-21.37.59:213][286]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Levels/Tutorial_Auto1.umap
+[2018.03.22-21.37.59:216][286]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WhiteLightning/Levels/Tutorial' took 0.917
+[2018.03.22-21.37.59:216][286]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.917
+[2018.03.22-21.37.59:219][286]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/WhiteLightning/Characters/BP_enemy] ([1] browsable assets)...
+[2018.03.22-21.37.59:219][286]OBJ SavePackage: Finished generating thumbnails for package [/Game/WhiteLightning/Characters/BP_enemy]
+[2018.03.22-21.37.59:262][286]LogSavePackage: Save=30.78ms
+[2018.03.22-21.37.59:262][286]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemy_Auto172A8B56B42FB9772347A37A80AC7EA3D.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Characters/BP_enemy_Auto1.uasset'
+[2018.03.22-21.37.59:264][286]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Characters/BP_enemy_Auto1.uasset
+[2018.03.22-21.37.59:264][286]LogFileHelpers: Auto-saving content packages took 0.046
+[2018.03.22-21.42.58:354][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Characters/BP_enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset" SILENT=true
+[2018.03.22-21.42.58:400][142]LogSavePackage: Save=38.91ms
+[2018.03.22-21.42.58:400][142]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemyF92A61BD45E3CFED606F8296B9DA8812.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset'
+[2018.03.22-21.42.58:414][142]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset
+[2018.03.22-21.42.59:022][178]BlueprintLog: New page: Compile BP_enemy
+[2018.03.22-21.43.01:920][330]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-21.43.01:945][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-21.43.01:945][330]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 1:43:01 PM)
+[2018.03.22-21.43.01:945][330]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-21.43.01:985][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039340s)
+[2018.03.22-21.43.01:986][330]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-21.43.01:986][330]LogPlayLevel: PIE: World Init took: (0.001162s)
+[2018.03.22-21.43.01:987][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.041347s)
+[2018.03.22-21.43.02:015][330]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-21.43.02:028][330]LogInit: FAudioDevice initialized.
+[2018.03.22-21.43.02:087][330]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-21.43.02:099][330]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-17.43.02
+[2018.03.22-21.43.02:100][330]LogWorld: Bringing up level for play took: 0.011844
+[2018.03.22-21.43.02:111][330]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 1.126
+[2018.03.22-21.43.33:671][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Characters/BP_enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset" SILENT=true
+[2018.03.22-21.43.33:722][197]LogSavePackage: Save=38.42ms
+[2018.03.22-21.43.33:722][197]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemy16B4672049FEF4E3CC0DA6970616A287.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset'
+[2018.03.22-21.43.33:726][197]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset
+[2018.03.22-21.43.34:118][220]BlueprintLog: New page: Compile BP_enemy
+[2018.03.22-21.43.36:686][351]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-21.43.36:714][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-21.43.36:714][351]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 1:43:36 PM)
+[2018.03.22-21.43.36:714][351]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-21.43.36:751][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036656s)
+[2018.03.22-21.43.36:752][351]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-21.43.36:752][351]LogPlayLevel: PIE: World Init took: (0.001103s)
+[2018.03.22-21.43.36:753][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.038403s)
+[2018.03.22-21.43.36:779][351]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-21.43.36:790][351]LogInit: FAudioDevice initialized.
+[2018.03.22-21.43.36:853][351]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-21.43.36:865][351]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-17.43.36
+[2018.03.22-21.43.36:867][351]LogWorld: Bringing up level for play took: 0.012813
+[2018.03.22-21.43.36:874][351]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.111
+[2018.03.22-21.45.55:966][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Characters/BP_enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset" SILENT=true
+[2018.03.22-21.45.56:010][622]LogSavePackage: Save=36.99ms
+[2018.03.22-21.45.56:010][622]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemy4D02E42D450E07861AF0029AFB450F2A.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset'
+[2018.03.22-21.45.56:014][622]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset
+[2018.03.22-21.45.56:493][650]BlueprintLog: New page: Compile BP_enemy
+[2018.03.22-21.45.59:156][788]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-21.45.59:183][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-21.45.59:183][788]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 1:45:59 PM)
+[2018.03.22-21.45.59:183][788]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-21.45.59:222][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038486s)
+[2018.03.22-21.45.59:223][788]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-21.45.59:223][788]LogPlayLevel: PIE: World Init took: (0.001287s)
+[2018.03.22-21.45.59:224][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.040435s)
+[2018.03.22-21.45.59:250][788]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-21.45.59:261][788]LogInit: FAudioDevice initialized.
+[2018.03.22-21.45.59:324][788]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-21.45.59:336][788]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-17.45.59
+[2018.03.22-21.45.59:338][788]LogWorld: Bringing up level for play took: 0.012689
+[2018.03.22-21.45.59:347][788]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.362
+[2018.03.22-21.49.23:236][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Characters/BP_enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset" SILENT=true
+[2018.03.22-21.49.23:293][609]LogSavePackage: Save=42.94ms
+[2018.03.22-21.49.23:293][609]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemy34656A2B45DB5F414FEECE8129A2EB35.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset'
+[2018.03.22-21.49.23:297][609]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset
+[2018.03.22-21.49.23:770][637]BlueprintLog: New page: Compile BP_enemy
+[2018.03.22-21.49.26:536][782]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-21.49.26:566][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-21.49.26:566][782]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 1:49:26 PM)
+[2018.03.22-21.49.26:566][782]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-21.49.26:603][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037031s)
+[2018.03.22-21.49.26:604][782]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-21.49.26:605][782]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2018.03.22-21.49.26:605][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.039026s)
+[2018.03.22-21.49.26:632][782]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-21.49.26:645][782]LogInit: FAudioDevice initialized.
+[2018.03.22-21.49.26:712][782]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-21.49.26:724][782]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-17.49.26
+[2018.03.22-21.49.26:725][782]LogWorld: Bringing up level for play took: 0.011442
+[2018.03.22-21.49.26:732][782]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.253
+[2018.03.22-21.49.29:081][916]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.29:782][958]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.30:015][972]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.30:165][981]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.30:332][991]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.30:465][999]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.30:599][  7]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.30:731][ 15]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.30:865][ 23]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.30:982][ 30]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.31:132][ 39]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.31:265][ 47]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.31:415][ 56]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.31:565][ 65]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.31:715][ 74]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.31:848][ 82]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.31:998][ 91]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.32:132][ 99]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.32:282][108]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.32:415][116]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.32:565][125]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.32:699][133]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.32:848][142]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.32:998][151]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.33:132][159]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.33:282][168]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.33:415][176]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.33:549][184]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.33:699][193]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.33:849][202]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.33:999][211]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.34:133][219]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.34:283][228]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.34:400][235]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.49.34:533][243]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.50.13:189][882]LogSavePackage: Save=890.96ms
+[2018.03.22-21.50.13:189][882]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/Tutorial_Auto224B6286746D058B10A339CACA776F7FC.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Levels/Tutorial_Auto2.umap'
+[2018.03.22-21.50.13:192][882]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Levels/Tutorial_Auto2.umap
+[2018.03.22-21.50.13:196][882]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WhiteLightning/Levels/Tutorial' took 0.931
+[2018.03.22-21.50.13:196][882]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.931
+[2018.03.22-21.50.49:132][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Characters/BP_enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset" SILENT=true
+[2018.03.22-21.50.49:179][893]LogSavePackage: Save=40.34ms
+[2018.03.22-21.50.49:179][893]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemy4D5E22C64365A3EB3553CABA47FD672D.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset'
+[2018.03.22-21.50.49:184][893]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset
+[2018.03.22-21.50.54:702][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Characters/BP_enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset" SILENT=true
+[2018.03.22-21.50.54:747][222]LogSavePackage: Save=38.40ms
+[2018.03.22-21.50.54:747][222]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemyC56581484E218276BCACF793BF797C20.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset'
+[2018.03.22-21.50.54:749][222]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset
+[2018.03.22-21.50.55:570][271]BlueprintLog: New page: Compile BP_enemy
+[2018.03.22-21.50.59:222][470]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-21.50.59:249][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-21.50.59:249][470]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 1:50:59 PM)
+[2018.03.22-21.50.59:249][470]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-21.50.59:285][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035952s)
+[2018.03.22-21.50.59:286][470]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-21.50.59:286][470]LogPlayLevel: PIE: World Init took: (0.001070s)
+[2018.03.22-21.50.59:287][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.037670s)
+[2018.03.22-21.50.59:314][470]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-21.50.59:325][470]LogInit: FAudioDevice initialized.
+[2018.03.22-21.50.59:390][470]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-21.50.59:401][470]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-17.50.59
+[2018.03.22-21.50.59:402][470]LogWorld: Bringing up level for play took: 0.011524
+[2018.03.22-21.50.59:410][470]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.425
+[2018.03.22-21.51.01:339][579]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.03:339][699]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.05:339][819]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.07:323][938]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.09:323][ 58]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.11:273][175]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.11:890][212]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.12:323][238]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.12:806][267]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.13:156][288]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.13:323][298]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.13:490][308]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.13:756][324]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.14:056][342]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.14:306][357]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.14:473][367]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.14:606][375]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.15:335][418]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.28:924][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Characters/BP_enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset" SILENT=true
+[2018.03.22-21.51.28:972][220]LogSavePackage: Save=41.62ms
+[2018.03.22-21.51.28:972][220]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemyDC39FBF34C89C7C824872C9F360F5B2F.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset'
+[2018.03.22-21.51.28:975][220]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset
+[2018.03.22-21.51.29:350][242]BlueprintLog: New page: Compile BP_enemy
+[2018.03.22-21.51.32:084][386]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-21.51.32:113][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-21.51.32:113][386]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 1:51:32 PM)
+[2018.03.22-21.51.32:113][386]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-21.51.32:152][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039042s)
+[2018.03.22-21.51.32:153][386]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-21.51.32:153][386]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2018.03.22-21.51.32:153][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.040499s)
+[2018.03.22-21.51.32:181][386]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-21.51.32:193][386]LogInit: FAudioDevice initialized.
+[2018.03.22-21.51.32:254][386]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-21.51.32:265][386]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-17.51.32
+[2018.03.22-21.51.32:266][386]LogWorld: Bringing up level for play took: 0.011351
+[2018.03.22-21.51.32:274][386]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.711
+[2018.03.22-21.51.34:188][494]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.36:188][614]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.38:188][734]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.51.40:188][854]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-21.57.54:984][290]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.22-22.01.19:697][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Levels/Bullet_Enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Levels/Bullet_Enemy.uasset" SILENT=true
+[2018.03.22-22.01.19:727][ 39]LogSavePackage: Save=27.90ms
+[2018.03.22-22.01.19:727][ 39]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/Bullet_EnemyE12186E5429D72879E56D4A057882B6B.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Levels/Bullet_Enemy.uasset'
+[2018.03.22-22.01.19:731][ 39]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Levels/Bullet_Enemy.uasset
+[2018.03.22-22.01.20:204][ 67]BlueprintLog: New page: Compile Bullet_Enemy
+[2018.03.22-22.01.20:215][ 67]LogBlueprint: Warning: [Compiler Bullet_Enemy] Could not find the function 'Character_Hit' called from  Character Hit
+[2018.03.22-22.01.20:440][ 67]LogBlueprint: Warning: [Compiler Bullet_Enemy] [2216.11] Compile of Bullet_Enemy successful, but with 1 Warning(s) [in 235 ms] (/Game/WhiteLightning/Levels/Bullet_Enemy.Bullet_Enemy)
+[2018.03.22-22.01.32:905][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Levels/Bullet_Enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Levels/Bullet_Enemy.uasset" SILENT=true
+[2018.03.22-22.01.32:947][811]LogSavePackage: Save=24.35ms
+[2018.03.22-22.01.32:947][811]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/Bullet_Enemy48BDDDB346837AD2F440908A8A08EAB0.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Levels/Bullet_Enemy.uasset'
+[2018.03.22-22.01.32:952][811]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Levels/Bullet_Enemy.uasset
+[2018.03.22-22.01.33:357][835]BlueprintLog: New page: Compile Bullet_Enemy
+[2018.03.22-22.01.33:365][835]LogBlueprint: Warning: [Compiler Bullet_Enemy] Could not find the function 'Character_Hit' called from  Character Hit
+[2018.03.22-22.01.33:572][835]LogBlueprint: Warning: [Compiler Bullet_Enemy] [2229.24] Compile of Bullet_Enemy successful, but with 1 Warning(s) [in 214 ms] (/Game/WhiteLightning/Levels/Bullet_Enemy.Bullet_Enemy)
+[2018.03.22-22.01.44:007][448]LogSavePackage: Save=152.83ms
+[2018.03.22-22.01.44:007][448]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/MainCharacter6A98273E4B1494C7D744E680D2477902.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset'
+[2018.03.22-22.01.44:011][448]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset
+[2018.03.22-22.01.44:389][470]BlueprintLog: New page: Compile MainCharacter
+[2018.03.22-22.01.46:134][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Characters/BP_enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset" SILENT=true
+[2018.03.22-22.01.46:189][554]LogSavePackage: Save=42.24ms
+[2018.03.22-22.01.46:189][554]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemy1DCC57B54E1572922E1FA8B2779F8A8C.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset'
+[2018.03.22-22.01.46:193][554]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset
+[2018.03.22-22.01.46:485][571]BlueprintLog: New page: Compile BP_enemy
+[2018.03.22-22.02.06:503][741]BlueprintLog: New page: Compile Bullet_Enemy
+[2018.03.22-22.02.40:015][736]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.22-22.02.47:009][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Characters/BP_enemy" FILE="../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset" SILENT=true
+[2018.03.22-22.02.47:056][151]LogSavePackage: Save=38.71ms
+[2018.03.22-22.02.47:056][151]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/BP_enemyD5AE5F5042A79BB5EF6D4691F823CCF0.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset'
+[2018.03.22-22.02.47:060][151]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/BP_enemy.uasset
+[2018.03.22-22.02.47:419][172]BlueprintLog: New page: Compile BP_enemy
+[2018.03.22-22.02.50:677][347]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-22.02.50:710][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-22.02.50:710][347]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 2:02:50 PM)
+[2018.03.22-22.02.50:710][347]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-22.02.50:747][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036175s)
+[2018.03.22-22.02.50:748][347]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-22.02.50:749][347]LogPlayLevel: PIE: World Init took: (0.001524s)
+[2018.03.22-22.02.50:749][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.038218s)
+[2018.03.22-22.02.50:780][347]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-22.02.50:792][347]LogInit: FAudioDevice initialized.
+[2018.03.22-22.02.50:859][347]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-22.02.50:870][347]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-18.02.50
+[2018.03.22-22.02.50:871][347]LogWorld: Bringing up level for play took: 0.010673
+[2018.03.22-22.02.50:879][347]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.107
+[2018.03.22-22.03.16:141][856]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.03.16:757][893]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.03.17:074][912]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.03.17:357][929]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.03.17:641][946]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.03.17:924][963]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.03.18:191][979]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.03.19:658][ 67]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.03.20:008][ 88]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.03.20:357][109]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.03.21:324][167]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.03.21:891][201]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.03.22:357][229]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.03.22:790][255]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.03.23:291][285]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.04.05:660][ 52]LogSavePackage: Save=152.85ms
+[2018.03.22-22.04.05:661][ 52]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/MainCharacterAB0B2E094D3F6195A90D61AAD41EE3AC.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset'
+[2018.03.22-22.04.05:664][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset
+[2018.03.22-22.04.06:858][123]BlueprintLog: New page: Compile MainCharacter
+[2018.03.22-22.04.10:823][340]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-22.04.10:848][340]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-22.04.10:848][340]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 2:04:10 PM)
+[2018.03.22-22.04.10:849][340]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-22.04.10:889][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040721s)
+[2018.03.22-22.04.10:890][340]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-22.04.10:890][340]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2018.03.22-22.04.10:891][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.042243s)
+[2018.03.22-22.04.10:919][340]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-22.04.10:930][340]LogInit: FAudioDevice initialized.
+[2018.03.22-22.04.10:996][340]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-22.04.11:007][340]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-18.04.11
+[2018.03.22-22.04.11:009][340]LogWorld: Bringing up level for play took: 0.011596
+[2018.03.22-22.04.11:019][340]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.034
+[2018.03.22-22.04.26:891][276]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (New_Piskel_Sprite_90)
+[2018.03.22-22.04.32:928][633]LogEditorViewport: Clicking Background
+[2018.03.22-22.04.50:449][190]LogSavePackage: Save=155.62ms
+[2018.03.22-22.04.50:449][190]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/MainCharacter845421DB4237EE30D0CADBBAD595099C.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset'
+[2018.03.22-22.04.50:453][190]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset
+[2018.03.22-22.04.50:811][211]BlueprintLog: New page: Compile MainCharacter
+[2018.03.22-22.04.52:980][321]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-22.04.53:005][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-22.04.53:005][321]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 2:04:53 PM)
+[2018.03.22-22.04.53:006][321]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-22.04.53:044][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038475s)
+[2018.03.22-22.04.53:045][321]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-22.04.53:045][321]LogPlayLevel: PIE: World Init took: (0.001003s)
+[2018.03.22-22.04.53:046][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.040356s)
+[2018.03.22-22.04.53:078][321]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-22.04.53:090][321]LogInit: FAudioDevice initialized.
+[2018.03.22-22.04.53:158][321]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-22.04.53:169][321]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-18.04.53
+[2018.03.22-22.04.53:170][321]LogWorld: Bringing up level for play took: 0.011230
+[2018.03.22-22.04.53:182][321]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.197
+[2018.03.22-22.07.27:002][659]LogSavePackage: Save=896.38ms
+[2018.03.22-22.07.27:002][659]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/Tutorial_Auto3FD433CEA4A8DDAEC1F6C0487CD249727.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Levels/Tutorial_Auto3.umap'
+[2018.03.22-22.07.27:005][659]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Levels/Tutorial_Auto3.umap
+[2018.03.22-22.07.27:008][659]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WhiteLightning/Levels/Tutorial' took 0.949
+[2018.03.22-22.07.27:008][659]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.949
+[2018.03.22-22.07.27:012][659]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/WhiteLightning/Characters/MainCharacter] ([1] browsable assets)...
+[2018.03.22-22.07.27:012][659]OBJ SavePackage: Finished generating thumbnails for package [/Game/WhiteLightning/Characters/MainCharacter]
+[2018.03.22-22.07.27:179][659]LogSavePackage: Save=155.49ms
+[2018.03.22-22.07.27:179][659]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/MainCharacter_Auto314EABBF94AAAC9E48CD973BC13237867.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Characters/MainCharacter_Auto3.uasset'
+[2018.03.22-22.07.27:181][659]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Characters/MainCharacter_Auto3.uasset
+[2018.03.22-22.07.27:181][659]LogFileHelpers: Auto-saving content packages took 0.171
+[2018.03.22-22.07.29:862][803]LogSavePackage: Save=153.02ms
+[2018.03.22-22.07.29:862][803]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/MainCharacterB2F93C764BF4E63958E4F5A5A40F56F5.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset'
+[2018.03.22-22.07.29:869][803]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset
+[2018.03.22-22.07.30:592][845]BlueprintLog: New page: Compile MainCharacter
+[2018.03.22-22.07.35:750][133]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-22.07.35:774][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-22.07.35:774][133]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 2:07:35 PM)
+[2018.03.22-22.07.35:775][133]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-22.07.35:812][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037087s)
+[2018.03.22-22.07.35:813][133]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-22.07.35:813][133]LogPlayLevel: PIE: World Init took: (0.001566s)
+[2018.03.22-22.07.35:814][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.039234s)
+[2018.03.22-22.07.35:842][133]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-22.07.35:854][133]LogInit: FAudioDevice initialized.
+[2018.03.22-22.07.35:925][133]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-22.07.35:937][133]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-18.07.35
+[2018.03.22-22.07.35:939][133]LogWorld: Bringing up level for play took: 0.012366
+[2018.03.22-22.07.35:950][133]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.965
+[2018.03.22-22.07.43:069][553]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.07.44:485][638]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.07.46:536][761]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.07.48:419][874]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.07.50:552][  2]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.07.52:453][116]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.35:690][290]LogSavePackage: Save=155.53ms
+[2018.03.22-22.08.35:690][290]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/MainCharacter8254210D4899CB0717A9D692ABBAA087.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset'
+[2018.03.22-22.08.35:694][290]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset
+[2018.03.22-22.08.36:120][315]BlueprintLog: New page: Compile MainCharacter
+[2018.03.22-22.08.38:840][455]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-22.08.38:865][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-22.08.38:866][455]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 2:08:38 PM)
+[2018.03.22-22.08.38:866][455]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-22.08.38:902][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035970s)
+[2018.03.22-22.08.38:902][455]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-22.08.38:902][455]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2018.03.22-22.08.38:903][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.037427s)
+[2018.03.22-22.08.38:932][455]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-22.08.38:943][455]LogInit: FAudioDevice initialized.
+[2018.03.22-22.08.39:012][455]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-22.08.39:024][455]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-18.08.39
+[2018.03.22-22.08.39:025][455]LogWorld: Bringing up level for play took: 0.011273
+[2018.03.22-22.08.39:033][455]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.048
+[2018.03.22-22.08.44:458][774]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.44:925][802]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.45:325][826]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.45:593][842]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.45:825][856]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.46:025][868]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.46:225][880]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.46:642][905]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.46:876][919]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.55:943][463]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.56:259][482]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.56:676][507]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.56:860][518]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.57:026][528]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.57:193][538]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.57:343][547]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.57:509][557]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.57:660][566]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.08.57:843][577]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.03:693][928]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.03:960][944]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.04:194][958]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.04:360][968]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.04:527][978]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.04:710][989]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.04:960][  4]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.05:194][ 18]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.14:075][550]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.15:841][656]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.17:609][762]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.18:858][837]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.19:092][851]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.19:858][897]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.24:192][157]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.30:176][516]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.30:659][545]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.30:976][564]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.31:109][572]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.31:259][581]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.31:943][622]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.32:093][631]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.32:243][640]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.32:376][648]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.32:526][657]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.32:676][666]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.32:826][675]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.32:943][682]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.33:043][688]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.35:393][829]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.35:526][837]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.35:643][844]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.35:760][851]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.35:860][857]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.35:976][864]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.36:093][871]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.36:193][877]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.36:327][885]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.36:476][894]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.09.43:534][246]LogSavePackage: Save=889.04ms
+[2018.03.22-22.09.43:534][246]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Saved/Tutorial623FF99E4C837D6DB3E9298BBC533B38.tmp' to '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.22-22.09.43:539][246]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.22-22.09.43:583][246]LogFileHelpers: Saving map 'Tutorial' took 1.026
+[2018.03.22-22.10.16:167][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.22-22.10.16:262][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.22-22.10.16:334][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.22-22.10.16:528][462]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.22-22.10.16:529][462]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.22-22.10.16:760][463]Cmd: QUIT_EDITOR
+[2018.03.22-22.10.17:169][463]LogExit: Preparing to exit.
+[2018.03.22-22.10.17:739][463]LogDirectoryWatcher: A directory notification for 'C:/Users/mhers/Documents/GitHub/WhiteLightning/Content/' was aborted.
+[2018.03.22-22.10.17:771][463]LogExit: Editor shut down
+[2018.03.22-22.10.17:776][463]LogExit: Transaction tracking system shut down
+[2018.03.22-22.10.17:984][463]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.22-22.10.17:984][463]LogDirectoryWatcher: A directory notification for '../../../../../../Users/mhers/Documents/GitHub/WhiteLightning/Content/' was aborted.
+[2018.03.22-22.10.17:985][463]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.22-22.10.17:985][463]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.03.22-22.10.17:985][463]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.03.22-22.10.17:985][463]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.22-22.10.17:985][463]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.22-22.10.18:059][463]LogExit: Object subsystem successfully closed.
+[2018.03.22-22.10.18:075][463]LogD3D11RHI: Shutdown
+[2018.03.22-22.10.18:075][463]LogD3D11RHI: CleanupD3DDevice
+[2018.03.22-22.10.18:081][463]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.22-22.10.18:094][463]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.03.22-22.10.18:094][463]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
+[2018.03.22-22.10.18:094][463]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2018.03.22-22.10.18:095][463]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.03.22-22.10.18:095][463]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.03.22-22.10.18:095][463]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.03.22-22.10.18:095][463]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.03.22-22.10.18:095][463]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.03.22-22.10.18:095][463]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.03.22-22.10.18:095][463]LogDirectoryWatcher: A directory notification for 'C:/Users/mhers/Documents/GitHub/WhiteLightning/Content/Collections/' was aborted.
+[2018.03.22-22.10.18:096][463]LogDirectoryWatcher: A directory notification for 'C:/Users/mhers/Documents/GitHub/WhiteLightning/Content/Developers/mhers/Collections/' was aborted.
+[2018.03.22-22.10.18:096][463]LogDirectoryWatcher: A directory notification for 'C:/Users/mhers/Documents/GitHub/WhiteLightning/Saved/Collections/' was aborted.
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.03.22-22.10.18:096][463]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.03.22-22.10.18:097][463]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.03.22-22.10.18:097][463]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.03.22-22.10.18:097][463]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.03.22-22.10.18:097][463]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.03.22-22.10.18:097][463]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.03.22-22.10.18:097][463]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.03.22-22.10.18:097][463]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.03.22-22.10.18:097][463]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.03.22-22.10.18:097][463]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.03.22-22.10.18:097][463]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.03.22-22.10.18:097][463]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.03.22-22.10.18:097][463]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.03.22-22.10.18:097][463]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.03.22-22.10.18:097][463]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.03.22-22.10.18:097][463]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.03.22-22.10.18:494][463]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.03.22-22.10.18:494][463]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.03.22-22.10.18:494][463]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.03.22-22.10.18:494][463]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.03.22-22.10.18:494][463]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.03.22-22.10.18:495][463]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.03.22-22.10.18:495][463]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.03.22-22.10.18:495][463]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.03.22-22.10.18:495][463]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.03.22-22.10.18:495][463]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.03.22-22.10.18:495][463]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.03.22-22.10.18:495][463]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.03.22-22.10.18:495][463]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.03.22-22.10.18:495][463]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.03.22-22.10.18:495][463]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.03.22-22.10.18:495][463]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.03.22-22.10.18:495][463]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.03.22-22.10.18:495][463]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.03.22-22.10.18:495][463]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.03.22-22.10.18:495][463]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.03.22-22.10.18:496][463]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.03.22-22.10.18:496][463]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.03.22-22.10.18:496][463]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.03.22-22.10.18:496][463]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.03.22-22.10.18:557][463]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.03.22-22.10.18:557][463]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.03.22-22.10.18:557][463]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.03.22-22.10.18:557][463]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.03.22-22.10.18:557][463]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.03.22-22.10.18:557][463]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.03.22-22.10.18:557][463]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.03.22-22.10.18:557][463]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.03.22-22.10.18:557][463]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.03.22-22.10.18:557][463]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.03.22-22.10.18:565][463]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.03.22-22.10.18:567][463]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.03.22-22.10.18:741][463]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.03.22-22.10.18:742][463]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.03.22-22.10.18:742][463]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.03.22-22.10.18:742][463]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.03.22-22.10.18:742][463]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.03.22-22.10.18:742][463]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.03.22-22.10.18:742][463]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.03.22-22.10.18:742][463]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.03.22-22.10.18:742][463]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.03.22-22.10.18:742][463]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.03.22-22.10.18:742][463]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.03.22-22.10.18:742][463]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.03.22-22.10.18:742][463]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.03.22-22.10.18:743][463]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.03.22-22.10.18:743][463]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.03.22-22.10.18:743][463]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.03.22-22.10.18:744][463]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.03.22-22.10.18:744][463]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.03.22-22.10.18:744][463]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.03.22-22.10.18:744][463]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.03.22-22.10.18:744][463]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.03.22-22.10.18:744][463]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.03.22-22.10.18:744][463]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.03.22-22.10.18:744][463]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.03.22-22.10.18:844][463]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.03.22-22.10.18:945][463]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.03.22-22.10.18:945][463]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.03.22-22.10.18:945][463]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.03.22-22.10.18:945][463]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.03.22-22.10.18:945][463]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.03.22-22.10.18:945][463]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.03.22-22.10.18:946][463]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.03.22-22.10.18:946][463]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.03.22-22.10.18:946][463]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.03.22-22.10.18:946][463]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.03.22-22.10.18:949][463]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.03.22-22.10.18:949][463]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.03.22-22.10.18:949][463]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.03.22-22.10.18:949][463]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.03.22-22.10.18:949][463]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.03.22-22.10.18:949][463]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.03.22-22.10.18:955][463]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.03.22-22.10.18:955][463]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.03.22-22.10.18:955][463]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.03.22-22.10.18:955][463]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.03.22-22.10.18:955][463]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.03.22-22.10.18:955][463]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.03.22-22.10.18:955][463]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.03.22-22.10.18:955][463]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.03.22-22.10.18:955][463]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.03.22-22.10.18:955][463]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.03.22-22.10.18:955][463]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.03.22-22.10.18:955][463]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.03.22-22.10.18:955][463]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.03.22-22.10.18:955][463]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.03.22-22.10.18:955][463]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.03.22-22.10.18:955][463]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.03.22-22.10.18:958][463]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.03.22-22.10.18:958][463]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.03.22-22.10.18:958][463]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.03.22-22.10.18:958][463]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.03.22-22.10.18:958][463]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.03.22-22.10.18:958][463]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.03.22-22.10.18:958][463]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.03.22-22.10.18:958][463]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.03.22-22.10.18:958][463]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.22-22.10.18:958][463]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.03.22-22.10.18:959][463]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.03.22-22.10.18:959][463]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.03.22-22.10.18:959][463]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.03.22-22.10.18:959][463]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.03.22-22.10.18:959][463]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.03.22-22.10.18:959][463]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.03.22-22.10.18:959][463]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.03.22-22.10.18:998][463]LogDerivedDataCache: Shutdown
+[2018.03.22-22.10.18:998][463]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.03.22-22.10.18:998][463]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.03.22-22.10.18:998][463]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.03.22-22.10.18:998][463]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.03.22-22.10.18:998][463]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.03.22-22.10.18:998][463]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.03.22-22.10.18:998][463]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.03.22-22.10.18:998][463]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.03.22-22.10.18:998][463]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.03.22-22.10.18:998][463]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.03.22-22.10.18:998][463]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.03.22-22.10.18:998][463]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.03.22-22.10.18:998][463]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.03.22-22.10.18:998][463]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.03.22-22.10.18:998][463]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.03.22-22.10.18:998][463]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.22-22.10.18:999][463]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.22-22.10.18:999][463]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.22-22.10.18:999][463]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF57B1B08-4E82-4AB9-AC56-4484ABDC4F70%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=d928483745761e24fe5a4787842ce345%7C7c97d2c6c8fc45dba44a74a07105cd1a%7Cb4842ea0-c677-4135-acf4-7a78d5557c1a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.22-22.10.19:031][463]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.22-22.10.19:032][463]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.22-22.10.19:032][463]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.22-22.10.19:032][463]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.22-22.10.19:032][463]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.22-22.10.19:032][463]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.22-22.10.19:033][463]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.22-22.10.19:033][463]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.22-22.10.19:034][463]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.22-22.10.19:034][463]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.22-22.10.19:034][463]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.22-22.10.19:034][463]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.22-22.10.19:034][463]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.22-22.10.19:034][463]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.22-22.10.19:034][463]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.22-22.10.19:034][463]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.22-22.10.19:034][463]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.22-22.10.19:034][463]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.22-22.10.19:035][463]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.22-22.10.19:038][463]LogExit: Exiting.
+[2018.03.22-22.10.19:054][463]Log file closed, 03/22/18 18:10:19
