@@ -1,4 +1,4 @@
-﻿Log file open, 03/22/18 18:55:25
+﻿Log file open, 03/22/18 15:57:11
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: WhiteLightning
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1081595938) SRandInit(-1081595938).
+LogInit: Display: RandInit(949040287) SRandInit(949040287).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.176273
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.163209
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -192,191 +192,1202 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
 LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Base directory: E:/Unreal/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.22-22.55.27:056][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.22-22.55.27:056][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.22-22.55.27:069][  0]LogInit: Computer: CELIA
-[2018.03.22-22.55.27:069][  0]LogInit: User: mhers
-[2018.03.22-22.55.27:069][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.22-22.55.27:069][  0]LogInit: High frequency timer resolution =2.531248 MHz
-[2018.03.22-22.55.27:069][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2018.03.22-22.55.27:069][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.22-22.55.27:069][  0]LogMemory: Process Physical Memory: 272.18 MB used, 272.18 MB peak
-[2018.03.22-22.55.27:069][  0]LogMemory: Process Virtual Memory: 269.79 MB used, 269.79 MB peak
-[2018.03.22-22.55.27:069][  0]LogMemory: Physical Memory: 5826.04 MB used,  10394.75 MB free, 16220.78 MB total
-[2018.03.22-22.55.27:069][  0]LogMemory: Virtual Memory: 682.23 MB used,  10394.75 MB free, 134217728.00 MB total
-[2018.03.22-22.55.27:232][  0]LogInit: Using OS detected language (en-US).
-[2018.03.22-22.55.27:232][  0]LogInit: Using OS detected locale (en-US).
-[2018.03.22-22.55.27:235][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.03.22-22.55.27:653][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.22-22.55.27:934][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.22-22.55.27:985][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
-[2018.03.22-22.55.27:985][  0]LogD3D11RHI:       4065/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.03.22-22.55.27:991][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2018.03.22-22.55.27:991][  0]LogD3D11RHI:       128/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.03.22-22.55.27:993][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.22-22.55.27:993][  0]LogD3D11RHI:       0/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.22-22.55.27:993][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.22-22.55.28:000][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.22-22.55.28:000][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
-[2018.03.22-22.55.28:000][  0]LogWindows: EnumDisplayDevices:
-[2018.03.22-22.55.28:000][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2018.03.22-22.55.28:000][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:1)
-[2018.03.22-22.55.28:001][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.03.22-22.55.28:001][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.22-22.55.28:001][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
-[2018.03.22-22.55.28:001][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.22-22.55.28:001][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.22-22.55.28:001][  0]LogRHI: Texture pool is 2846 MB (70% of 4065 MB)
-[2018.03.22-22.55.28:033][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.22-22.55.28:047][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.03.22-22.55.28:048][  0]LogShaderCompilers: Guid format shader working directory is -46 characters bigger than the processId version (../../../../../../Users/mhers/Documents/GitHub/whitelightning/WhiteLightning4/WhiteLightning/Intermediate/Shaders/WorkingDirectory/9300/).
-[2018.03.22-22.55.28:048][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mhers/AppData/Local/Temp/UnrealShaderWorkingDir/D2E3B0844553D325885CBAB6896CCB26/'.
-[2018.03.22-22.55.28:048][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.22-22.55.28:987][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.22-22.55.29:043][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.22-22.55.29:097][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.22-22.55.29:149][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.22-22.55.29:201][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.22-22.55.29:251][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.22-22.55.29:304][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.22-22.55.29:356][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.22-22.55.29:405][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.22-22.55.29:459][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.22-22.55.29:510][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.22-22.55.29:563][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.22-22.55.29:614][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.22-22.55.29:665][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.22-22.55.29:769][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.22-22.55.29:769][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.22-22.55.29:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.22-22.55.29:860][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.22-22.55.29:953][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.22-22.55.29:981][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.22-22.55.30:032][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.22-22.55.30:083][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.22-22.55.30:133][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.22-22.55.30:186][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.22-22.55.30:186][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.22-22.55.30:656][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.22-22.55.30:740][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/mhers/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.22-22.55.30:740][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mhers/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.22-22.55.30:740][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mhers/Documents/GitHub/whitelightning/WhiteLightning4/WhiteLightning/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.22-22.55.30:740][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.22-22.55.30:740][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mhers/Documents/GitHub/whitelightning/WhiteLightning4/WhiteLightning/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.22-22.55.30:740][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.22-22.55.30:757][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.22-22.55.30:769][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mhers/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.22-22.55.30:780][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.22-22.55.30:780][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.22-22.55.30:780][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.22-22.55.30:781][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.22-22.55.31:138][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.22-22.55.31:470][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.22-22.55.31:509][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.22-22.55.31:509][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.22-22.55.31:509][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.22-22.55.31:509][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.22-22.55.31:509][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.22-22.55.31:545][  0]LogNetVersion: WhiteLightning , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2852152215)
-[2018.03.22-22.55.31:734][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
-[2018.03.22-22.55.32:296][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.081103 seconds
-[2018.03.22-22.55.32:302][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.03.22-22.55.32:302][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.03.22-22.55.32:302][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.22-22.55.32:364][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.22-22.55.35:362][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.22-22.55.35:404][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.22-22.55.36:068][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.22-22.55.36:494][  0]SourceControl: Source control is disabled
-[2018.03.22-22.55.38:019][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.22-22.55.38:283][  0]LogOcInput: OculusInput pre-init called
-[2018.03.22-22.55.38:570][  0]LogEngine: Initializing Engine...
-[2018.03.22-22.55.38:573][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.22-22.55.38:805][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.22-22.55.38:805][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.22-22.55.38:934][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.22-22.55.38:948][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.22-22.55.38:966][  0]LogInit: FAudioDevice initialized.
-[2018.03.22-22.55.39:062][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/mhers/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.22-22.55.39:079][  0]LogInit: Texture streaming: Enabled
-[2018.03.22-22.55.39:175][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.22-22.55.39:305][  0]LogInit: Transaction tracking system initialized
-[2018.03.22-22.55.39:615][  0]BlueprintLog: New page: Editor Load
-[2018.03.22-22.55.40:498][  0]LocalizationService: Localization service is disabled
-[2018.03.22-22.55.41:233][  0]LogConsoleResponse: Display: 
-[2018.03.22-22.55.41:415][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.22-22.55.41:415][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.22-22.55.41:416][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.22-22.55.41:441][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mhers/Documents/GitHub/whitelightning/WhiteLightning4/WhiteLightning/Content/' took 0.01s
-[2018.03.22-22.55.42:583][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mhers/Documents/GitHub/whitelightning/WhiteLightning4/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.22-22.55.42:583][  0]LightingResults: New page: Lighting Build
-[2018.03.22-22.55.42:624][  0]MapCheck: New page: Map Check
-[2018.03.22-22.55.42:624][  0]LightingResults: New page: Lighting Build
-[2018.03.22-22.55.43:087][  0]LogAIModule: Creating AISystem for world Tutorial
-[2018.03.22-22.55.43:150][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.22-22.55.43:163][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.22-22.55.43:214][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.513ms to complete.
-[2018.03.22-22.55.43:214][  0]LogFileHelpers: Loading map 'Tutorial' took 0.631
-[2018.03.22-22.55.43:289][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.22-22.55.43:289][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.22-22.55.43:396][  0]LogCollectionManager: Loaded 0 collections in 0.001564 seconds
-[2018.03.22-22.55.43:487][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mhers/Documents/GitHub/whitelightning/WhiteLightning4/WhiteLightning/Saved/Collections/' took 0.01s
-[2018.03.22-22.55.43:487][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mhers/Documents/GitHub/whitelightning/WhiteLightning4/WhiteLightning/Content/Developers/mhers/Collections/' took 0.01s
-[2018.03.22-22.55.43:487][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mhers/Documents/GitHub/whitelightning/WhiteLightning4/WhiteLightning/Content/Collections/' took 0.01s
-[2018.03.22-22.55.43:487][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.03.22-22.55.43:499][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2363 classes and 519 folders.
-[2018.03.22-22.55.43:561][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.03.22-22.55.43:595][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.03.22-22.55.43:638][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.03.22-22.55.43:708][  0]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.22-22.55.43:710][  0]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.22-22.55.43:718][  0]LogSlate: Took 0.000369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.22-22.55.43:813][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
-[2018.03.22-22.55.44:025][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.03.22-22.55.44:025][  0]LogLoad: (Engine Initialization) Total time: 19.17 seconds
-[2018.03.22-22.55.44:025][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.22-22.55.44:026][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.22-22.55.44:076][  0]SourceControl: On branch master
-[2018.03.22-22.55.44:076][  0]SourceControl: Your branch is up to date with 'origin/master'.
-[2018.03.22-22.55.44:076][  0]SourceControl: Changes not staged for commit:
-[2018.03.22-22.55.44:076][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2018.03.22-22.55.44:076][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2018.03.22-22.55.44:076][  0]SourceControl: 	modified:   WhiteLightning/Intermediate/CachedAssetRegistry.bin
-[2018.03.22-22.55.44:076][  0]SourceControl: 	modified:   WhiteLightning/Saved/Config/Windows/Editor.ini
-[2018.03.22-22.55.44:076][  0]SourceControl: 	modified:   WhiteLightning/Saved/Config/Windows/Engine.ini
-[2018.03.22-22.55.44:076][  0]SourceControl: 	modified:   WhiteLightning/Saved/Logs/WhiteLightning.log
-[2018.03.22-22.55.44:076][  0]SourceControl: Untracked files:
-[2018.03.22-22.55.44:076][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2018.03.22-22.55.44:076][  0]SourceControl: 	WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-5CCCD8054D20CA2F5D5BAAA327675EB1/
-[2018.03.22-22.55.44:076][  0]SourceControl: 	WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.03.22-18.55.25.log
-[2018.03.22-22.55.44:076][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2018.03.22-22.55.44:077][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.22-22.55.44:121][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.22-22.55.44:130][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/mhers/Documents/GitHub/whitelightning/WhiteLightning4/WhiteLightning/Content/' took 0.07s
-[2018.03.22-22.55.44:138][  1]LogAssetRegistry: Asset discovery search completed in 12.4259 seconds
-[2018.03.22-22.55.44:139][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.03.22-22.55.44:139][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
-[2018.03.22-22.55.46:691][134]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2018.03.22-22.55.46:725][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.22-22.55.46:725][134]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 2:55:46 PM)
-[2018.03.22-22.55.46:725][134]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
-[2018.03.22-22.55.46:764][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038472s)
-[2018.03.22-22.55.46:765][134]LogAIModule: Creating AISystem for world Tutorial
-[2018.03.22-22.55.46:765][134]LogPlayLevel: PIE: World Init took: (0.001401s)
-[2018.03.22-22.55.46:766][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.040459s)
-[2018.03.22-22.55.46:783][134]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.22-22.55.46:794][134]LogInit: FAudioDevice initialized.
-[2018.03.22-22.55.46:874][134]LogLoad: Game class is 'Tutorial_C'
-[2018.03.22-22.55.46:887][134]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.03.22-18.55.46
-[2018.03.22-22.55.46:888][134]LogWorld: Bringing up level for play took: 0.012069
-[2018.03.22-22.55.46:933][134]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2018.03.22-22.55.46:940][134]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.044
-[2018.03.22-22.55.47:082][134]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
-[2018.03.22-22.55.53:632][523]LogBlueprintUserMessages: [BP_enemy_546] Shot
-[2018.03.22-22.55.55:449][632]LogBlueprintUserMessages: [BP_enemy_546] Shot
-[2018.03.22-22.55.56:766][711]LogBlueprintUserMessages: [BP_enemy_546] Shot
-[2018.03.22-22.55.59:016][846]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.12:704][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.22-22.57.12:704][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.22-22.57.12:723][  0]LogInit: Computer: CARTERSPC
+[2018.03.22-22.57.12:723][  0]LogInit: User: carter
+[2018.03.22-22.57.12:723][  0]LogInit: CPU Page size=4096, Cores=3
+[2018.03.22-22.57.12:723][  0]LogInit: High frequency timer resolution =3.433659 MHz
+[2018.03.22-22.57.12:723][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.03.22-22.57.12:723][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.22-22.57.12:723][  0]LogMemory: Process Physical Memory: 269.04 MB used, 269.04 MB peak
+[2018.03.22-22.57.12:723][  0]LogMemory: Process Virtual Memory: 269.32 MB used, 269.32 MB peak
+[2018.03.22-22.57.12:723][  0]LogMemory: Physical Memory: 3635.30 MB used,  12715.36 MB free, 16350.66 MB total
+[2018.03.22-22.57.12:723][  0]LogMemory: Virtual Memory: 625.08 MB used,  12715.36 MB free, 134217728.00 MB total
+[2018.03.22-22.57.12:892][  0]LogInit: Using OS detected language (en-US).
+[2018.03.22-22.57.12:892][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.22-22.57.12:896][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.22-22.57.13:416][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.22-22.57.13:739][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.22-22.57.13:778][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.03.22-22.57.13:778][  0]LogD3D11RHI:       1937/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.03.22-22.57.13:779][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.22-22.57.13:779][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.22-22.57.13:780][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.22-22.57.13:785][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.22-22.57.13:785][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.22-22.57.13:785][  0]LogWindows: EnumDisplayDevices:
+[2018.03.22-22.57.13:785][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.03.22-22.57.13:785][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2018.03.22-22.57.13:785][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.22-22.57.13:786][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.22-22.57.13:786][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.03.22-22.57.13:786][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.03.22-22.57.13:786][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.03.22-22.57.13:786][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.03.22-22.57.13:786][  0]LogRHI: Texture pool is 1356 MB (70% of 1937 MB)
+[2018.03.22-22.57.13:807][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.22-22.57.13:827][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.22-22.57.13:879][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Intermediate/Shaders/WorkingDirectory/6884/).
+[2018.03.22-22.57.13:879][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/carter/AppData/Local/Temp/UnrealShaderWorkingDir/AEEE6FBF462D800A423076B61C1EDBB0/'.
+[2018.03.22-22.57.13:879][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.22-22.57.15:132][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.22-22.57.15:196][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.22-22.57.15:259][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.22-22.57.15:325][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.22-22.57.15:389][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.22-22.57.15:453][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.22-22.57.15:516][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.22-22.57.15:580][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.22-22.57.15:631][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.22-22.57.15:695][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.22-22.57.15:758][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.22-22.57.15:821][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.22-22.57.15:884][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.22-22.57.15:946][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.22-22.57.16:071][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.22-22.57.16:071][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.22-22.57.16:133][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.22-22.57.16:177][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.22-22.57.16:280][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.22-22.57.16:317][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.22-22.57.16:379][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.22-22.57.16:442][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.22-22.57.16:504][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.22-22.57.16:565][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.22-22.57.16:565][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.22-22.57.17:112][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.22-22.57.17:289][  0]LogDerivedDataCache: Loaded boot cache 0.18s 78MB C:/Users/carter/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.22-22.57.17:289][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/carter/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.22-22.57.17:289][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.22-22.57.17:289][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.22-22.57.17:289][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.22-22.57.17:289][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.22-22.57.17:315][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.22-22.57.17:328][  0]LogDerivedDataCache: Using Local data cache path C:/Users/carter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.22-22.57.17:345][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.22-22.57.17:346][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.22-22.57.17:346][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.22-22.57.17:346][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.22-22.57.17:889][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.22-22.57.18:274][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.22-22.57.18:319][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.22-22.57.18:320][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.22-22.57.18:320][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.22-22.57.18:320][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.22-22.57.18:320][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.22-22.57.18:363][  0]LogNetVersion: WhiteLightning , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2852152215)
+[2018.03.22-22.57.18:556][  0]LogAssetRegistry: FAssetRegistry took 0.0295 seconds to start up
+[2018.03.22-22.57.19:231][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.077151 seconds
+[2018.03.22-22.57.19:238][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.22-22.57.19:238][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.03.22-22.57.19:238][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.22-22.57.19:301][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.22-22.57.22:604][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.22-22.57.22:652][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.22-22.57.23:436][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.22-22.57.23:928][  0]SourceControl: Source control is disabled
+[2018.03.22-22.57.25:240][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.22-22.57.25:555][  0]LogOcInput: OculusInput pre-init called
+[2018.03.22-22.57.25:889][  0]LogEngine: Initializing Engine...
+[2018.03.22-22.57.25:892][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.22-22.57.26:234][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.22-22.57.26:234][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.22-22.57.26:401][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.22-22.57.26:419][  0]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-22.57.26:442][  0]LogInit: FAudioDevice initialized.
+[2018.03.22-22.57.26:594][  0]LogDerivedDataCache: Saved boot cache 0.15s 78MB C:/Users/carter/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.22-22.57.26:627][  0]LogInit: Texture streaming: Enabled
+[2018.03.22-22.57.26:742][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.22-22.57.26:887][  0]LogInit: Transaction tracking system initialized
+[2018.03.22-22.57.27:247][  0]BlueprintLog: New page: Editor Load
+[2018.03.22-22.57.28:274][  0]LocalizationService: Localization service is disabled
+[2018.03.22-22.57.29:144][  0]LogConsoleResponse: Display: 
+[2018.03.22-22.57.29:360][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.22-22.57.29:360][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.22-22.57.29:360][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.22-22.57.30:027][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/' took 0.01s
+[2018.03.22-22.57.30:777][  0]Cmd: MAP LOAD FILE="C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.22-22.57.30:782][  0]LightingResults: New page: Lighting Build
+[2018.03.22-22.57.30:830][  0]MapCheck: New page: Map Check
+[2018.03.22-22.57.30:830][  0]LightingResults: New page: Lighting Build
+[2018.03.22-22.57.31:542][  0]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-22.57.31:633][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.22-22.57.31:663][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.22-22.57.31:726][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.858ms to complete.
+[2018.03.22-22.57.31:726][  0]LogFileHelpers: Loading map 'Tutorial' took 0.949
+[2018.03.22-22.57.31:953][  0]LogCollectionManager: Loaded 0 collections in 0.001285 seconds
+[2018.03.22-22.57.32:050][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Collections/' took 0.01s
+[2018.03.22-22.57.32:050][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/Developers/carter/Collections/' took 0.01s
+[2018.03.22-22.57.32:050][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/Collections/' took 0.01s
+[2018.03.22-22.57.32:050][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.22-22.57.32:064][  0]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 2363 classes and 519 folders.
+[2018.03.22-22.57.32:139][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.22-22.57.32:188][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.22-22.57.32:237][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.22-22.57.32:357][  0]LogContentBrowser: Native class hierarchy updated for 'ScreenShotComparisonTools' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.03.22-22.57.32:403][  0]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Automation/Comparisons. Error: The system cannot find the path specified. (0x00000003)
+[2018.03.22-22.57.32:467][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.22-22.57.32:470][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.22-22.57.32:478][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.22-22.57.32:597][  0]LogRenderer: Reallocating scene render targets to support 1136x580 Format 10 NumSamples 1 (Frame:1).
+[2018.03.22-22.57.32:952][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.22-22.57.32:952][  0]LogLoad: (Engine Initialization) Total time: 22.78 seconds
+[2018.03.22-22.57.32:952][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.22-22.57.32:952][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.22-22.57.32:994][  0]LogProfilerClient: Subscribe Session: 49BE65B941E7554F505294BF832E5003
+[2018.03.22-22.57.33:006][  0]LogProfilerService: Subscribe Session: 49BE65B941E7554F505294BF832E5003, Instance: 00307A374FA81F7F28C8ABA3FD43EF59
+[2018.03.22-22.57.33:007][  0]SourceControl: On branch master
+[2018.03.22-22.57.33:007][  0]SourceControl: Your branch is up to date with 'origin/master'.
+[2018.03.22-22.57.33:007][  0]SourceControl: Changes not staged for commit:
+[2018.03.22-22.57.33:007][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.03.22-22.57.33:007][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.03.22-22.57.33:007][  0]SourceControl: 	modified:   WhiteLightning/Saved/Logs/WhiteLightning.log
+[2018.03.22-22.57.33:007][  0]SourceControl: Untracked files:
+[2018.03.22-22.57.33:007][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.03.22-22.57.33:007][  0]SourceControl: 	WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-A4A563074D281D3646A229AF4B5C812A/
+[2018.03.22-22.57.33:007][  0]SourceControl: 	WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.03.22-15.57.10.log
+[2018.03.22-22.57.33:007][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.03.22-22.57.33:007][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.22-22.57.33:097][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.22-22.57.33:111][  0]...Forcing Asset Registry Load For Automation
+[2018.03.22-22.57.33:112][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/' took 0.14s
+[2018.03.22-22.57.33:303][  2]LogAssetRegistry: Asset discovery search completed in 14.7691 seconds
+[2018.03.22-22.57.33:307][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.22-22.57.33:307][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000282 seconds (updated 0 objects)
+[2018.03.22-22.57.33:453][  2]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2018.03.22-22.57.44:343][725]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-22.57.44:406][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-22.57.44:407][725]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 8:57:44 AM)
+[2018.03.22-22.57.44:407][725]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-22.57.44:470][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063091s)
+[2018.03.22-22.57.44:471][725]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-22.57.44:471][725]LogPlayLevel: PIE: World Init took: (0.001036s)
+[2018.03.22-22.57.44:472][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.065103s)
+[2018.03.22-22.57.44:507][725]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-22.57.44:527][725]LogInit: FAudioDevice initialized.
+[2018.03.22-22.57.44:626][725]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-22.57.44:645][725]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-15.57.44
+[2018.03.22-22.57.44:647][725]LogWorld: Bringing up level for play took: 0.019833
+[2018.03.22-22.57.44:694][725]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.03.22-22.57.44:704][725]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.45
+[2018.03.22-22.57.44:777][725]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.03.22-22.57.46:764][876]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.46:936][890]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.47:414][929]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.47:575][942]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.47:708][953]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.48:559][ 23]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.48:670][ 32]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.48:770][ 40]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.48:882][ 49]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.49:029][ 61]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.49:800][124]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.49:922][134]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.50:157][153]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.50:281][163]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.54:216][487]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.54:370][500]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.55:047][556]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.57.55:194][568]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.05:902][461]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.06:035][472]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.06:241][489]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.06:351][498]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.06:502][510]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.06:643][521]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.07:703][608]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.07:826][618]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.07:961][629]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.08:097][640]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.08:232][651]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.08:354][661]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.09:735][773]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.09:967][792]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.11:981][957]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.12:186][974]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-22.58.19:187][519]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-22.58.19:209][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-22.58.19:209][519]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 8:58:19 AM)
+[2018.03.22-22.58.19:209][519]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-22.58.19:267][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057534s)
+[2018.03.22-22.58.19:268][519]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-22.58.19:268][519]LogPlayLevel: PIE: World Init took: (0.001179s)
+[2018.03.22-22.58.19:269][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.059586s)
+[2018.03.22-22.58.19:305][519]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-22.58.19:323][519]LogInit: FAudioDevice initialized.
+[2018.03.22-22.58.19:395][519]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-22.58.19:414][519]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-15.58.19
+[2018.03.22-22.58.19:416][519]LogWorld: Bringing up level for play took: 0.019458
+[2018.03.22-22.58.19:424][519]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.27
+[2018.03.22-22.58.51:388][711]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.22-22.58.51:414][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Tests/Tutorial" FILE="C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/Tutorial.uasset" SILENT=true
+[2018.03.22-22.58.51:433][711]LogSavePackage: Save=16.29ms
+[2018.03.22-22.58.51:433][711]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial100794B848C5243D6CBFEE9EBE11683D.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/Tutorial.uasset'
+[2018.03.22-22.58.51:437][711]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/Tutorial.uasset
+[2018.03.22-22.59.02:368][457]SourceControl: On branch master
+[2018.03.22-22.59.02:368][457]SourceControl: Your branch is up to date with 'origin/master'.
+[2018.03.22-22.59.02:368][457]SourceControl: Changes to be committed:
+[2018.03.22-22.59.02:368][457]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2018.03.22-22.59.02:368][457]SourceControl: 	new file:   WhiteLightning/Content/WhiteLightning/Tests/Tutorial.uasset
+[2018.03.22-22.59.02:368][457]SourceControl: Changes not staged for commit:
+[2018.03.22-22.59.02:368][457]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.03.22-22.59.02:368][457]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.03.22-22.59.02:368][457]SourceControl: 	modified:   WhiteLightning/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.03.22-22.59.02:368][457]SourceControl: 	modified:   WhiteLightning/Intermediate/CachedAssetRegistry.bin
+[2018.03.22-22.59.02:368][457]SourceControl: 	modified:   WhiteLightning/Saved/Autosaves/PackageRestoreData.json
+[2018.03.22-22.59.02:368][457]SourceControl: 	modified:   WhiteLightning/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.03.22-22.59.02:368][457]SourceControl: 	modified:   WhiteLightning/Saved/Logs/WhiteLightning.log
+[2018.03.22-22.59.02:368][457]SourceControl: Untracked files:
+[2018.03.22-22.59.02:368][457]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.03.22-22.59.02:368][457]SourceControl: 	WhiteLightning/Intermediate/Config/CoalescedSourceConfigs/ProfilerSettings.ini
+[2018.03.22-22.59.02:368][457]SourceControl: 	WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-A4A563074D281D3646A229AF4B5C812A/
+[2018.03.22-22.59.02:368][457]SourceControl: 	WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.03.22-15.57.10.log
+[2018.03.22-22.59.02:607][457]LogMetaData: Removing '/Game/WhiteLightning/Tests/Test_Tutorial.SKEL_Test_Tutorial_C' ref from Metadata '/Game/WhiteLightning/Tests/Tutorial.PackageMetaData'
+[2018.03.22-22.59.02:607][457]LogMetaData: Removing '/Game/WhiteLightning/Tests/Test_Tutorial.Test_Tutorial_C' ref from Metadata '/Game/WhiteLightning/Tests/Tutorial.PackageMetaData'
+[2018.03.22-22.59.02:648][457]LogSavePackage: Save=14.42ms
+[2018.03.22-22.59.02:649][457]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Test_Tutorial56EBED0241640291FC8394A39866FEC2.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/Test_Tutorial.uasset'
+[2018.03.22-22.59.02:652][457]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/Test_Tutorial.uasset
+[2018.03.22-23.00.09:257][639]SourceControl: On branch master
+[2018.03.22-23.00.09:257][639]SourceControl: Your branch is up to date with 'origin/master'.
+[2018.03.22-23.00.09:257][639]SourceControl: Changes to be committed:
+[2018.03.22-23.00.09:257][639]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2018.03.22-23.00.09:257][639]SourceControl: 	new file:   WhiteLightning/Content/WhiteLightning/Tests/Test_Tutorial.uasset
+[2018.03.22-23.00.09:257][639]SourceControl: 	new file:   WhiteLightning/Content/WhiteLightning/Tests/Tutorial.uasset
+[2018.03.22-23.00.09:257][639]SourceControl: Changes not staged for commit:
+[2018.03.22-23.00.09:257][639]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.03.22-23.00.09:257][639]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.03.22-23.00.09:257][639]SourceControl: 	modified:   WhiteLightning/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.03.22-23.00.09:257][639]SourceControl: 	modified:   WhiteLightning/Intermediate/CachedAssetRegistry.bin
+[2018.03.22-23.00.09:257][639]SourceControl: 	modified:   WhiteLightning/Saved/Autosaves/PackageRestoreData.json
+[2018.03.22-23.00.09:257][639]SourceControl: 	modified:   WhiteLightning/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.03.22-23.00.09:257][639]SourceControl: 	modified:   WhiteLightning/Saved/Logs/WhiteLightning.log
+[2018.03.22-23.00.09:257][639]SourceControl: Untracked files:
+[2018.03.22-23.00.09:257][639]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.03.22-23.00.09:257][639]SourceControl: 	WhiteLightning/Intermediate/Config/CoalescedSourceConfigs/ProfilerSettings.ini
+[2018.03.22-23.00.09:257][639]SourceControl: 	WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-A4A563074D281D3646A229AF4B5C812A/
+[2018.03.22-23.00.09:257][639]SourceControl: 	WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.03.22-15.57.10.log
+[2018.03.22-23.00.09:508][639]LogMetaData: Removing '/Game/WhiteLightning/Tests/FTEST_Tutorial.FTEST_Tutorial_C' ref from Metadata '/Game/WhiteLightning/Tests/Test_Tutorial.PackageMetaData'
+[2018.03.22-23.00.09:508][639]LogMetaData: Removing '/Game/WhiteLightning/Tests/FTEST_Tutorial.SKEL_FTEST_Tutorial_C' ref from Metadata '/Game/WhiteLightning/Tests/Test_Tutorial.PackageMetaData'
+[2018.03.22-23.00.09:551][639]LogSavePackage: Save=15.85ms
+[2018.03.22-23.00.09:551][639]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FTEST_Tutorial38051BD0453086EF0A30A5A55CDDB9D9.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FTEST_Tutorial.uasset'
+[2018.03.22-23.00.09:555][639]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FTEST_Tutorial.uasset
+[2018.03.22-23.00.17:005][972]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2018.03.22-23.00.17:941][972]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.22-23.02.20:869][397]SourceControl: On branch master
+[2018.03.22-23.02.20:869][397]SourceControl: Your branch is up to date with 'origin/master'.
+[2018.03.22-23.02.20:869][397]SourceControl: Changes to be committed:
+[2018.03.22-23.02.20:869][397]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2018.03.22-23.02.20:869][397]SourceControl: 	new file:   WhiteLightning/Content/WhiteLightning/Tests/FTEST_Tutorial.uasset
+[2018.03.22-23.02.20:869][397]SourceControl: 	new file:   WhiteLightning/Content/WhiteLightning/Tests/Test_Tutorial.uasset
+[2018.03.22-23.02.20:869][397]SourceControl: 	new file:   WhiteLightning/Content/WhiteLightning/Tests/Tutorial.uasset
+[2018.03.22-23.02.20:869][397]SourceControl: Changes not staged for commit:
+[2018.03.22-23.02.20:869][397]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.03.22-23.02.20:869][397]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.03.22-23.02.20:869][397]SourceControl: 	modified:   WhiteLightning/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.03.22-23.02.20:869][397]SourceControl: 	modified:   WhiteLightning/Intermediate/CachedAssetRegistry.bin
+[2018.03.22-23.02.20:869][397]SourceControl: 	modified:   WhiteLightning/Saved/Autosaves/PackageRestoreData.json
+[2018.03.22-23.02.20:869][397]SourceControl: 	modified:   WhiteLightning/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.03.22-23.02.20:869][397]SourceControl: 	modified:   WhiteLightning/Saved/Logs/WhiteLightning.log
+[2018.03.22-23.02.20:869][397]SourceControl: Untracked files:
+[2018.03.22-23.02.20:869][397]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.03.22-23.02.20:869][397]SourceControl: 	WhiteLightning/Intermediate/Config/CoalescedSourceConfigs/ProfilerSettings.ini
+[2018.03.22-23.02.20:869][397]SourceControl: 	WhiteLightning/Saved/Config/CrashReportClient/UE4CC-Windows-A4A563074D281D3646A229AF4B5C812A/
+[2018.03.22-23.02.20:869][397]SourceControl: 	WhiteLightning/Saved/Logs/WhiteLightning-backup-2018.03.22-15.57.10.log
+[2018.03.22-23.02.21:149][397]LogMetaData: Removing '/Game/WhiteLightning/Tests/FTEST_UserStories.FTEST_UserStories_C' ref from Metadata '/Game/WhiteLightning/Tests/FTEST_Tutorial.PackageMetaData'
+[2018.03.22-23.02.21:149][397]LogMetaData: Removing '/Game/WhiteLightning/Tests/FTEST_UserStories.SKEL_FTEST_UserStories_C' ref from Metadata '/Game/WhiteLightning/Tests/FTEST_Tutorial.PackageMetaData'
+[2018.03.22-23.02.21:204][397]LogSavePackage: Save=15.77ms
+[2018.03.22-23.02.21:204][397]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FTEST_UserStoriesAC5D789F4F1A05AAE3FE4C84820A34CC.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FTEST_UserStories.uasset'
+[2018.03.22-23.02.21:208][397]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FTEST_UserStories.uasset
+[2018.03.22-23.02.26:942][543]LogSlate: Took 0.012158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.22-23.02.52:958][855]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Automation/Comparisons. Error: The system cannot find the path specified. (0x00000003)
+[2018.03.22-23.02.52:958][855]LogProfilerClient: Subscribe Session: 00000000000000000000000000000000
+[2018.03.22-23.02.52:960][855]LogProfilerClient: Subscribe Session: 00000000000000000000000000000000
+[2018.03.22-23.02.52:967][855]LogProfilerService: Unsubscribe Session: 49BE65B941E7554F505294BF832E5003, Instance: 00307A374FA81F7F28C8ABA3FD43EF59
+[2018.03.22-23.03.21:902][590]LogEditorViewport: Clicking on Actor (LMB): FunctionalTest_UserStory1_C (FunctionalTest_UserStory1)
+[2018.03.22-23.03.22:430][606]LogEditorViewport: Clicking on Actor (LMB): FunctionalTest_UserStory1_C (FunctionalTest_UserStory1)
+[2018.03.22-23.03.30:216][127]LogProfilerClient: Subscribe Session: 49BE65B941E7554F505294BF832E5003
+[2018.03.22-23.03.30:227][127]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Automation/Comparisons. Error: The system cannot find the path specified. (0x00000003)
+[2018.03.22-23.03.30:227][127]LogProfilerClient: Subscribe Session: 00000000000000000000000000000000
+[2018.03.22-23.03.30:227][127]LogProfilerClient: Subscribe Session: 00000000000000000000000000000000
+[2018.03.22-23.03.30:232][127]LogProfilerService: Subscribe Session: 49BE65B941E7554F505294BF832E5003, Instance: 00307A374FA81F7F28C8ABA3FD43EF59
+[2018.03.22-23.03.32:941][224]LogProfilerClient: Subscribe Session: 49BE65B941E7554F505294BF832E5003
+[2018.03.22-23.03.32:952][224]LogProfilerService: Subscribe Session: 49BE65B941E7554F505294BF832E5003, Instance: 00307A374FA81F7F28C8ABA3FD43EF59
+[2018.03.22-23.03.40:138][486]LogSlate: Took 0.014503 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.03.22-23.03.53:651][177]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-23.03.53:685][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-23.03.53:685][177]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 9:03:53 AM)
+[2018.03.22-23.03.53:685][177]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-23.03.53:743][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057836s)
+[2018.03.22-23.03.53:744][177]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-23.03.53:745][177]LogPlayLevel: PIE: World Init took: (0.001131s)
+[2018.03.22-23.03.53:745][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.059763s)
+[2018.03.22-23.03.53:786][177]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-23.03.53:806][177]LogInit: FAudioDevice initialized.
+[2018.03.22-23.03.53:872][177]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-23.03.53:890][177]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-16.03.53
+[2018.03.22-23.03.53:892][177]LogWorld: Bringing up level for play took: 0.018685
+[2018.03.22-23.03.53:900][177]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.746
+[2018.03.22-23.04.01:280][715]LogEditorViewport: Clicking on Actor (LMB): FunctionalTest_UserStory1_C (FunctionalTest_UserStory1)
+[2018.03.22-23.04.17:934][325]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.22-23.04.43:446][147]LogSavePackage: Save=1269.08ms
+[2018.03.22-23.04.43:446][147]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/TutorialF804FAED424D8EFAE338E684474BA013.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.22-23.04.43:450][147]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.22-23.04.55:587][448]Cmd: Automate.OpenMapAndFocusActor /Game/WhiteLightning/Levels/Tutorial.Tutorial FunctionalTest_UserStory1_2
+[2018.03.22-23.05.00:300][612]Cmd: Automate.OpenMapAndFocusActor /Game/WhiteLightning/Levels/Tutorial.Tutorial FunctionalTest_UserStory1_2
+[2018.03.22-23.05.03:350][650]LogSavePackage: Save=22.85ms
+[2018.03.22-23.05.03:350][650]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory17D32D37D48428CEA606CA2AD244D6203.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.22-23.05.03:356][650]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.22-23.05.03:479][650]AutomationTestingLog: New page: -----Test Run 22----
+[2018.03.22-23.05.03:479][650]AutomationTestingLog: -----Test Run 22----
+[2018.03.22-23.05.16:811][ 67]AutomationTestingLog: New page: -----Test Run 23----
+[2018.03.22-23.05.16:811][ 67]AutomationTestingLog: -----Test Run 23----
+[2018.03.22-23.05.20:882][204]AutomationTestingLog: New page: -----Test Run 24----
+[2018.03.22-23.05.20:882][204]AutomationTestingLog: -----Test Run 24----
+[2018.03.22-23.05.20:898][204]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.22-23.05.20:901][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-23.05.20:901][204]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 9:05:20 AM)
+[2018.03.22-23.05.20:901][204]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-23.05.20:958][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056834s)
+[2018.03.22-23.05.20:959][204]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-23.05.20:960][204]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2018.03.22-23.05.20:960][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.058709s)
+[2018.03.22-23.05.21:004][204]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-23.05.21:024][204]LogInit: FAudioDevice initialized.
+[2018.03.22-23.05.21:094][204]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-23.05.21:113][204]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-16.05.21
+[2018.03.22-23.05.21:115][204]LogWorld: Bringing up level for play took: 0.019906
+[2018.03.22-23.05.21:124][204]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.03
+[2018.03.22-23.05.21:279][205]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.22-23.05.24:084][384]...Automation Test Succeeded (FunctionalTest_UserStory1)
+[2018.03.22-23.05.24:084][384]AutomationTestingLog: ...Automation Test Succeeded (FunctionalTest_UserStory1)
+[2018.03.22-23.06.12:647][941]LogSlate: Took 0.015959 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.22-23.06.46:831][868]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.22-23.06.56:435][ 12]LogSavePackage: Save=1285.34ms
+[2018.03.22-23.06.56:435][ 12]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial5EDCB8B44A0FD8F7F99F31806AC8C2BB.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.22-23.06.56:441][ 12]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.22-23.06.56:486][ 12]LogFileHelpers: Saving map 'Tutorial' took 1.444
+[2018.03.22-23.06.56:550][ 12]LogSavePackage: Save=24.24ms
+[2018.03.22-23.06.56:550][ 12]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory12849190D4216B5F429517EB3E954253B.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.22-23.06.56:554][ 12]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.22-23.06.56:572][ 12]AutomationTestingLog: New page: -----Test Run 26----
+[2018.03.22-23.06.56:573][ 12]AutomationTestingLog: -----Test Run 26----
+[2018.03.22-23.06.56:598][ 12]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.22-23.06.56:608][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-23.06.56:609][ 12]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 9:06:56 AM)
+[2018.03.22-23.06.56:609][ 12]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-23.06.56:675][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065388s)
+[2018.03.22-23.06.56:676][ 12]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-23.06.56:676][ 12]LogPlayLevel: PIE: World Init took: (0.001213s)
+[2018.03.22-23.06.56:677][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.067556s)
+[2018.03.22-23.06.56:724][ 12]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-23.06.56:743][ 12]LogInit: FAudioDevice initialized.
+[2018.03.22-23.06.56:819][ 12]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-23.06.56:836][ 12]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-16.06.56
+[2018.03.22-23.06.56:838][ 12]LogWorld: Bringing up level for play took: 0.018367
+[2018.03.22-23.06.56:848][ 12]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.305
+[2018.03.22-23.06.56:967][ 13]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.22-23.06.57:119][ 18]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.06.57:479][ 20]Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.06.57:479][ 20]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.06.57:479][ 20]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.06.57:479][ 20]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.09.09:643][834]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.22-23.19.53:317][545]LogSlate: Took 0.000372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.22-23.20.04:032][573]LogSavePackage: Save=1260.85ms
+[2018.03.22-23.20.04:032][573]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial_Auto1229B846B4D1C8C0BEB3853B64C7160A5.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Levels/Tutorial_Auto1.umap'
+[2018.03.22-23.20.04:035][573]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Levels/Tutorial_Auto1.umap
+[2018.03.22-23.20.04:039][573]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WhiteLightning/Levels/Tutorial' took 1.339
+[2018.03.22-23.20.04:039][573]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.339
+[2018.03.22-23.20.04:047][573]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/WhiteLightning/Characters/MainCharacter] ([1] browsable assets)...
+[2018.03.22-23.20.04:047][573]OBJ SavePackage: Finished generating thumbnails for package [/Game/WhiteLightning/Characters/MainCharacter]
+[2018.03.22-23.20.04:274][573]LogSavePackage: Save=212.33ms
+[2018.03.22-23.20.04:274][573]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainCharacter_Auto1D8C4C9E2420A225CE2DDB8980854C277.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Characters/MainCharacter_Auto1.uasset'
+[2018.03.22-23.20.04:276][573]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Characters/MainCharacter_Auto1.uasset
+[2018.03.22-23.20.04:277][573]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/WhiteLightning/Tests/FunctionalTest_UserStory1] ([1] browsable assets)...
+[2018.03.22-23.20.04:277][573]OBJ SavePackage: Finished generating thumbnails for package [/Game/WhiteLightning/Tests/FunctionalTest_UserStory1]
+[2018.03.22-23.20.04:337][573]LogSavePackage: Save=43.03ms
+[2018.03.22-23.20.04:337][573]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory1_Auto131ACE73E456B38D749DAF29DDB22EF45.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Tests/FunctionalTest_UserStory1_Auto1.uasset'
+[2018.03.22-23.20.04:339][573]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Tests/FunctionalTest_UserStory1_Auto1.uasset
+[2018.03.22-23.20.04:339][573]LogFileHelpers: Auto-saving content packages took 0.293
+[2018.03.22-23.28.32:084][996]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.22-23.28.41:035][319]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.22-23.28.48:178][458]LogSavePackage: Save=216.93ms
+[2018.03.22-23.28.48:178][458]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/MainCharacter481C75D149963A3D5031C482DAADA4BD.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset'
+[2018.03.22-23.28.48:189][458]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset
+[2018.03.22-23.28.49:557][458]LogSavePackage: Save=1246.18ms
+[2018.03.22-23.28.49:557][458]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial3E123B4949B8D50C01C5E790B88E507A.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.22-23.28.49:565][458]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.22-23.28.49:610][458]LogFileHelpers: Saving map 'Tutorial' took 1.417
+[2018.03.22-23.28.49:704][458]LogSavePackage: Save=46.56ms
+[2018.03.22-23.28.49:704][458]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory17B724DB84D4CB915F8B28492C6EC1D52.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.22-23.28.49:708][458]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.22-23.28.49:727][458]AutomationTestingLog: New page: -----Test Run 28----
+[2018.03.22-23.28.49:727][458]AutomationTestingLog: -----Test Run 28----
+[2018.03.22-23.28.49:756][458]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.22-23.28.49:778][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-23.28.49:778][458]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 9:28:49 AM)
+[2018.03.22-23.28.49:778][458]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-23.28.49:847][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068990s)
+[2018.03.22-23.28.49:849][458]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-23.28.49:849][458]LogPlayLevel: PIE: World Init took: (0.001491s)
+[2018.03.22-23.28.49:850][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.071384s)
+[2018.03.22-23.28.49:897][458]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-23.28.49:918][458]LogInit: FAudioDevice initialized.
+[2018.03.22-23.28.49:990][458]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-23.28.50:007][458]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-16.28.50
+[2018.03.22-23.28.50:009][458]LogWorld: Bringing up level for play took: 0.018327
+[2018.03.22-23.28.50:019][458]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.865
+[2018.03.22-23.28.50:146][459]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.22-23.28.50:294][464]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.28.50:370][466]Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.28.50:370][466]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.28.50:371][466]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.28.50:371][466]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.30.34:892][368]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.22-23.30.47:996][662]LogSavePackage: Save=1259.26ms
+[2018.03.22-23.30.47:996][662]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial7242EAAD4B1CDB0054C621B5DF0C40C5.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.22-23.30.48:001][662]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.22-23.30.48:052][662]LogFileHelpers: Saving map 'Tutorial' took 1.424
+[2018.03.22-23.30.48:135][662]LogSavePackage: Save=47.41ms
+[2018.03.22-23.30.48:135][662]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory1CD760DC84B8D644B7E580680CD5BE4DD.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.22-23.30.48:139][662]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.22-23.30.48:158][662]AutomationTestingLog: New page: -----Test Run 30----
+[2018.03.22-23.30.48:158][662]AutomationTestingLog: -----Test Run 30----
+[2018.03.22-23.30.48:184][662]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.22-23.30.48:203][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-23.30.48:203][662]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 9:30:48 AM)
+[2018.03.22-23.30.48:203][662]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-23.30.48:268][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065137s)
+[2018.03.22-23.30.48:270][662]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-23.30.48:270][662]LogPlayLevel: PIE: World Init took: (0.001219s)
+[2018.03.22-23.30.48:270][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.067124s)
+[2018.03.22-23.30.48:314][662]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-23.30.48:334][662]LogInit: FAudioDevice initialized.
+[2018.03.22-23.30.48:404][662]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-23.30.48:421][662]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-16.30.48
+[2018.03.22-23.30.48:422][662]LogWorld: Bringing up level for play took: 0.017941
+[2018.03.22-23.30.48:432][662]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.722
+[2018.03.22-23.30.48:560][663]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.22-23.30.48:706][668]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.30.48:781][670]Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.30.48:781][670]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.30.48:781][670]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.30.48:781][670]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.34.44:553][397]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.22-23.34.44:579][397]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.22-23.34.44:586][397]LogPlayLevel: [PlayLevel] Compiling FunctionalTest_UserStory1 before play...
+[2018.03.22-23.34.45:005][397]LogPlayLevel: PlayLevel: Blueprint regeneration took 426 ms (1 blueprints)
+[2018.03.22-23.34.45:005][397]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 9:34:45 AM)
+[2018.03.22-23.34.45:005][397]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-23.34.45:062][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056800s)
+[2018.03.22-23.34.45:063][397]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-23.34.45:064][397]LogPlayLevel: PIE: World Init took: (0.001374s)
+[2018.03.22-23.34.45:064][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.059009s)
+[2018.03.22-23.34.45:111][397]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-23.34.45:130][397]LogInit: FAudioDevice initialized.
+[2018.03.22-23.34.45:203][397]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-23.34.45:220][397]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-16.34.45
+[2018.03.22-23.34.45:222][397]LogWorld: Bringing up level for play took: 0.017543
+[2018.03.22-23.34.45:232][397]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.079
+[2018.03.22-23.34.47:246][520]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-23.34.47:891][562]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-23.34.48:194][582]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-23.34.48:393][595]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-23.34.48:578][607]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-23.34.48:752][618]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-23.34.48:892][627]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-23.34.49:060][638]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-23.34.49:230][649]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-23.34.49:416][661]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-23.34.49:586][672]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-23.34.49:775][684]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-23.34.49:960][696]LogBlueprintUserMessages: [BP_enemy_546] Shot
+[2018.03.22-23.35.02:801][134]LogSavePackage: Save=1246.60ms
+[2018.03.22-23.35.02:801][134]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/TutorialBFDD89AF498BFA275A49CBACEB568EB3.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.22-23.35.02:806][134]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.22-23.35.02:847][134]LogFileHelpers: Saving map 'Tutorial' took 1.413
+[2018.03.22-23.35.02:941][134]LogSavePackage: Save=41.16ms
+[2018.03.22-23.35.02:941][134]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory1AACE120C4E4E2BF4B8E340B43035EBA0.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.22-23.35.02:945][134]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.22-23.35.02:969][134]AutomationTestingLog: New page: -----Test Run 32----
+[2018.03.22-23.35.02:969][134]AutomationTestingLog: -----Test Run 32----
+[2018.03.22-23.35.02:988][134]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.22-23.35.03:007][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-23.35.03:007][134]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 9:35:03 AM)
+[2018.03.22-23.35.03:008][134]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-23.35.03:082][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074298s)
+[2018.03.22-23.35.03:083][134]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-23.35.03:083][134]LogPlayLevel: PIE: World Init took: (0.001204s)
+[2018.03.22-23.35.03:084][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.076243s)
+[2018.03.22-23.35.03:129][134]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-23.35.03:154][134]LogInit: FAudioDevice initialized.
+[2018.03.22-23.35.03:225][134]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-23.35.03:242][134]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-16.35.03
+[2018.03.22-23.35.03:243][134]LogWorld: Bringing up level for play took: 0.017938
+[2018.03.22-23.35.03:254][134]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.1
+[2018.03.22-23.35.03:361][135]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.22-23.35.03:521][142]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.35.03:587][144]Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.35.03:588][144]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.35.03:588][144]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.35.03:588][144]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.36.54:526][879]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.22-23.37.04:750][ 94]LogSavePackage: Save=1283.68ms
+[2018.03.22-23.37.04:750][ 94]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial362C61CF4E2C5270904425AA623BFA23.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.22-23.37.04:755][ 94]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.22-23.37.04:803][ 94]LogFileHelpers: Saving map 'Tutorial' took 1.448
+[2018.03.22-23.37.04:893][ 94]LogSavePackage: Save=46.00ms
+[2018.03.22-23.37.04:893][ 94]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory108FF46C349D9B9748F21F4BD3C063164.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.22-23.37.04:897][ 94]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.22-23.37.04:917][ 94]AutomationTestingLog: New page: -----Test Run 34----
+[2018.03.22-23.37.04:917][ 94]AutomationTestingLog: -----Test Run 34----
+[2018.03.22-23.37.04:935][ 94]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.22-23.37.04:955][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-23.37.04:955][ 94]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 9:37:04 AM)
+[2018.03.22-23.37.04:955][ 94]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-23.37.05:020][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064598s)
+[2018.03.22-23.37.05:021][ 94]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-23.37.05:021][ 94]LogPlayLevel: PIE: World Init took: (0.001279s)
+[2018.03.22-23.37.05:022][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.066675s)
+[2018.03.22-23.37.05:069][ 94]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-23.37.05:089][ 94]LogInit: FAudioDevice initialized.
+[2018.03.22-23.37.05:160][ 94]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-23.37.05:176][ 94]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-16.37.05
+[2018.03.22-23.37.05:179][ 94]LogWorld: Bringing up level for play took: 0.017823
+[2018.03.22-23.37.05:188][ 94]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.034
+[2018.03.22-23.37.05:302][ 95]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.22-23.37.05:456][101]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.37.05:519][103]Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.37.05:519][103]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.37.05:519][103]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.37.05:519][103]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.37.50:794][896]Cmd: TRANSACTION UNDO
+[2018.03.22-23.37.50:794][896]LogEditorTransaction: Undo Delete current selection
+[2018.03.22-23.38.11:113][668]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.22-23.38.21:528][859]LogSavePackage: Save=1265.58ms
+[2018.03.22-23.38.21:528][859]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/TutorialD6F8B1824493FAB1734F9CA5A7702721.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.22-23.38.21:533][859]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.22-23.38.21:574][859]LogFileHelpers: Saving map 'Tutorial' took 1.418
+[2018.03.22-23.38.21:659][859]LogSavePackage: Save=43.47ms
+[2018.03.22-23.38.21:659][859]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory1B841D5954D5B688AA021BFA093C7E4F5.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.22-23.38.21:662][859]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.22-23.38.21:682][859]AutomationTestingLog: New page: -----Test Run 37----
+[2018.03.22-23.38.21:683][859]AutomationTestingLog: -----Test Run 37----
+[2018.03.22-23.38.21:712][859]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.22-23.38.21:731][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-23.38.21:731][859]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 9:38:21 AM)
+[2018.03.22-23.38.21:731][859]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-23.38.21:799][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067991s)
+[2018.03.22-23.38.21:801][859]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-23.38.21:801][859]LogPlayLevel: PIE: World Init took: (0.001397s)
+[2018.03.22-23.38.21:802][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.070259s)
+[2018.03.22-23.38.21:845][859]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-23.38.21:865][859]LogInit: FAudioDevice initialized.
+[2018.03.22-23.38.21:938][859]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-23.38.21:955][859]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-16.38.21
+[2018.03.22-23.38.21:957][859]LogWorld: Bringing up level for play took: 0.018117
+[2018.03.22-23.38.21:967][859]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.813
+[2018.03.22-23.38.22:094][860]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.22-23.38.22:228][864]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.38.22:308][866]Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.38.22:308][866]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.38.22:308][866]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "Test Failed"
+[2018.03.22-23.38.22:308][866]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.40.41:216][488]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.22-23.40.51:603][659]LogSavePackage: Save=1287.43ms
+[2018.03.22-23.40.51:603][659]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/TutorialFFC11D344ED2D00651314C8C4ED5C0B3.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.22-23.40.51:607][659]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.22-23.40.51:653][659]LogFileHelpers: Saving map 'Tutorial' took 1.460
+[2018.03.22-23.40.51:737][659]LogSavePackage: Save=42.46ms
+[2018.03.22-23.40.51:737][659]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory149D83B7B41177D3CAF3179A2FD04C827.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.22-23.40.51:740][659]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.22-23.40.51:762][659]AutomationTestingLog: New page: -----Test Run 39----
+[2018.03.22-23.40.51:762][659]AutomationTestingLog: -----Test Run 39----
+[2018.03.22-23.40.51:791][659]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.22-23.40.51:807][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-23.40.51:807][659]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 9:40:51 AM)
+[2018.03.22-23.40.51:807][659]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-23.40.51:876][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068252s)
+[2018.03.22-23.40.51:877][659]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-23.40.51:877][659]LogPlayLevel: PIE: World Init took: (0.001251s)
+[2018.03.22-23.40.51:878][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.070465s)
+[2018.03.22-23.40.51:921][659]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-23.40.51:947][659]LogInit: FAudioDevice initialized.
+[2018.03.22-23.40.52:026][659]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-23.40.52:043][659]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-16.40.52
+[2018.03.22-23.40.52:045][659]LogWorld: Bringing up level for play took: 0.018075
+[2018.03.22-23.40.52:056][659]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.902
+[2018.03.22-23.40.52:172][660]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.22-23.40.52:350][665]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.22-23.40.52:433][667]Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.22-23.40.52:433][667]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.40.52:433][667]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.22-23.40.52:433][667]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.45.44:519][  6]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.22-23.45.51:790][108]LogSavePackage: Save=1270.84ms
+[2018.03.22-23.45.51:791][108]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/TutorialE8D9CF484315A9BAD01F209AD93DBF51.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.22-23.45.51:795][108]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.22-23.45.51:843][108]LogFileHelpers: Saving map 'Tutorial' took 1.443
+[2018.03.22-23.45.51:929][108]LogSavePackage: Save=45.34ms
+[2018.03.22-23.45.51:930][108]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory14FDF2DAC43A2CFFC1C12BFB8A71343D8.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.22-23.45.51:934][108]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.22-23.45.51:941][108]AutomationTestingLog: New page: -----Test Run 41----
+[2018.03.22-23.45.51:941][108]AutomationTestingLog: -----Test Run 41----
+[2018.03.22-23.45.51:965][108]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.22-23.45.52:004][109]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-23.45.52:004][109]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 9:45:52 AM)
+[2018.03.22-23.45.52:004][109]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-23.45.52:072][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068385s)
+[2018.03.22-23.45.52:074][109]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-23.45.52:074][109]LogPlayLevel: PIE: World Init took: (0.001290s)
+[2018.03.22-23.45.52:075][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.070634s)
+[2018.03.22-23.45.52:120][109]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-23.45.52:139][109]LogInit: FAudioDevice initialized.
+[2018.03.22-23.45.52:212][109]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-23.45.52:229][109]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-16.45.52
+[2018.03.22-23.45.52:231][109]LogWorld: Bringing up level for play took: 0.018072
+[2018.03.22-23.45.52:240][109]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 1.086
+[2018.03.22-23.45.52:360][110]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.22-23.45.52:509][115]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.22-23.45.52:585][117]Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.22-23.45.52:585][117]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.45.52:585][117]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.22-23.45.52:585][117]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.47.20:660][309]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.22-23.47.31:779][454]LogSavePackage: Save=1252.62ms
+[2018.03.22-23.47.31:779][454]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial4DD321DF4F183883908795BE90FC462A.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.22-23.47.31:784][454]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.22-23.47.31:829][454]LogFileHelpers: Saving map 'Tutorial' took 1.409
+[2018.03.22-23.47.31:904][454]LogSavePackage: Save=40.75ms
+[2018.03.22-23.47.31:904][454]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory152BAA35D409FE71B621DB090BC251498.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.22-23.47.31:908][454]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.22-23.47.31:917][454]AutomationTestingLog: New page: -----Test Run 43----
+[2018.03.22-23.47.31:917][454]AutomationTestingLog: -----Test Run 43----
+[2018.03.22-23.47.31:937][454]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.22-23.47.31:955][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-23.47.31:955][454]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 9:47:31 AM)
+[2018.03.22-23.47.31:955][454]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-23.47.32:022][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067222s)
+[2018.03.22-23.47.32:023][454]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-23.47.32:024][454]LogPlayLevel: PIE: World Init took: (0.001267s)
+[2018.03.22-23.47.32:024][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.069373s)
+[2018.03.22-23.47.32:067][454]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-23.47.32:087][454]LogInit: FAudioDevice initialized.
+[2018.03.22-23.47.32:159][454]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-23.47.32:176][454]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-16.47.32
+[2018.03.22-23.47.32:178][454]LogWorld: Bringing up level for play took: 0.017862
+[2018.03.22-23.47.32:188][454]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 1.034
+[2018.03.22-23.47.32:311][455]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.22-23.47.32:453][460]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.22-23.47.32:534][462]Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.22-23.47.32:534][462]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.47.32:534][462]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.22-23.47.32:534][462]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.48.14:705][123]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.22-23.48.22:316][273]LogSavePackage: Save=1268.17ms
+[2018.03.22-23.48.22:316][273]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial8B490BDB4FA28F396688878885A4AF70.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.22-23.48.22:320][273]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.22-23.48.22:364][273]LogFileHelpers: Saving map 'Tutorial' took 1.427
+[2018.03.22-23.48.22:439][273]LogSavePackage: Save=41.95ms
+[2018.03.22-23.48.22:439][273]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory1704AC50443203182F4280D927B500A3F.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.22-23.48.22:442][273]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.22-23.48.22:462][273]AutomationTestingLog: New page: -----Test Run 45----
+[2018.03.22-23.48.22:462][273]AutomationTestingLog: -----Test Run 45----
+[2018.03.22-23.48.22:480][273]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.22-23.48.22:498][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-23.48.22:498][273]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 9:48:22 AM)
+[2018.03.22-23.48.22:498][273]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-23.48.22:570][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071498s)
+[2018.03.22-23.48.22:571][273]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-23.48.22:571][273]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2018.03.22-23.48.22:572][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.073504s)
+[2018.03.22-23.48.22:614][273]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-23.48.22:634][273]LogInit: FAudioDevice initialized.
+[2018.03.22-23.48.22:719][273]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-23.48.22:739][273]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-16.48.22
+[2018.03.22-23.48.22:741][273]LogWorld: Bringing up level for play took: 0.020521
+[2018.03.22-23.48.22:751][273]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.403
+[2018.03.22-23.48.22:865][274]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.22-23.48.23:022][280]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.22-23.48.23:101][282]Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.22-23.48.23:101][282]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.48.23:101][282]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.22-23.48.23:101][282]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.48.55:564][575]LogEditorTransaction: Undo Move Node
+[2018.03.22-23.48.56:058][595]LogEditorTransaction: Undo Move Node
+[2018.03.22-23.48.56:617][624]LogEditorTransaction: Undo Delete current selection
+[2018.03.22-23.53.34:876][221]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.22-23.53.42:444][333]LogSavePackage: Save=1245.99ms
+[2018.03.22-23.53.42:444][333]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial118E2471481B000C8E1460B28863C089.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.22-23.53.42:448][333]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.22-23.53.42:492][333]LogFileHelpers: Saving map 'Tutorial' took 1.413
+[2018.03.22-23.53.42:590][333]LogSavePackage: Save=43.98ms
+[2018.03.22-23.53.42:590][333]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory141DFDF1E406AA30B90648F8EF0EBE16B.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.22-23.53.42:594][333]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.22-23.53.42:615][333]AutomationTestingLog: New page: -----Test Run 47----
+[2018.03.22-23.53.42:615][333]AutomationTestingLog: -----Test Run 47----
+[2018.03.22-23.53.42:643][333]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.22-23.53.42:664][333]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-23.53.42:665][333]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 9:53:42 AM)
+[2018.03.22-23.53.42:665][333]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-23.53.42:733][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068275s)
+[2018.03.22-23.53.42:734][333]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-23.53.42:735][333]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2018.03.22-23.53.42:735][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.070443s)
+[2018.03.22-23.53.42:778][333]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-23.53.42:798][333]LogInit: FAudioDevice initialized.
+[2018.03.22-23.53.42:872][333]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-23.53.42:889][333]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-16.53.42
+[2018.03.22-23.53.42:891][333]LogWorld: Bringing up level for play took: 0.018283
+[2018.03.22-23.53.42:901][333]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.253
+[2018.03.22-23.53.43:021][334]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.22-23.53.43:170][339]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.22-23.53.43:250][341]Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.22-23.53.43:250][341]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.53.43:250][341]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.22-23.53.43:250][341]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.22-23.53.54:913][731]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.22-23.54.01:870][808]LogSavePackage: Save=1264.04ms
+[2018.03.22-23.54.01:870][808]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/TutorialF73A42874B5B48B715D149AED3C672CF.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.22-23.54.01:876][808]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.22-23.54.01:916][808]LogFileHelpers: Saving map 'Tutorial' took 1.421
+[2018.03.22-23.54.01:997][808]LogSavePackage: Save=41.12ms
+[2018.03.22-23.54.01:997][808]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory1B46C409C4CE768E1ED28BAA2FD334AAF.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.22-23.54.02:000][808]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.22-23.54.02:006][808]AutomationTestingLog: New page: -----Test Run 49----
+[2018.03.22-23.54.02:006][808]AutomationTestingLog: -----Test Run 49----
+[2018.03.22-23.54.02:028][808]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.22-23.54.02:046][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-23.54.02:047][808]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 9:54:02 AM)
+[2018.03.22-23.54.02:047][808]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.22-23.54.02:120][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073503s)
+[2018.03.22-23.54.02:121][808]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.22-23.54.02:122][808]LogPlayLevel: PIE: World Init took: (0.001146s)
+[2018.03.22-23.54.02:122][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.075589s)
+[2018.03.22-23.54.02:170][808]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.22-23.54.02:188][808]LogInit: FAudioDevice initialized.
+[2018.03.22-23.54.02:263][808]LogLoad: Game class is 'Tutorial_C'
+[2018.03.22-23.54.02:280][808]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-16.54.02
+[2018.03.22-23.54.02:282][808]LogWorld: Bringing up level for play took: 0.018837
+[2018.03.22-23.54.02:292][808]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 1.139
+[2018.03.22-23.54.02:413][809]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.22-23.54.02:572][814]LogFunctionalTest: FunctionalTest_UserStory1_2 Succeeded: "User Story 1 passed"
+[2018.03.22-23.54.02:652][816]...Automation Test Succeeded (FunctionalTest_UserStory1)
+[2018.03.22-23.54.02:652][816]AutomationTestingLog: ...Automation Test Succeeded (FunctionalTest_UserStory1)
+[2018.03.22-23.57.49:015][252]LogEditorTransaction: Undo Create Pin Link
+[2018.03.22-23.57.49:202][258]LogEditorTransaction: Undo Move Node
+[2018.03.22-23.57.49:334][261]LogEditorTransaction: Undo Move Node
+[2018.03.22-23.57.49:469][264]LogEditorTransaction: Undo Create Pin Link
+[2018.03.22-23.57.49:849][281]LogEditorTransaction: Undo Create Pin Link
+[2018.03.22-23.57.50:219][293]LogEditorTransaction: Undo Move Node
+[2018.03.22-23.57.50:681][303]LogEditorTransaction: Undo Delete current selection
+[2018.03.22-23.57.51:019][310]LogEditorTransaction: Undo Move Node
+[2018.03.23-00.00.26:449][650]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.23-00.00.33:577][764]LogSavePackage: Save=1251.32ms
+[2018.03.23-00.00.33:577][764]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/TutorialD2B5E5FD4E87C8C0456488A44C7D3811.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.23-00.00.33:582][764]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.23-00.00.33:623][764]LogFileHelpers: Saving map 'Tutorial' took 1.418
+[2018.03.23-00.00.33:719][764]LogSavePackage: Save=44.73ms
+[2018.03.23-00.00.33:719][764]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory1344FBBCD4DEFC3822256379D24D2650D.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.23-00.00.33:722][764]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.23-00.00.33:730][764]AutomationTestingLog: New page: -----Test Run 51----
+[2018.03.23-00.00.33:730][764]AutomationTestingLog: -----Test Run 51----
+[2018.03.23-00.00.33:756][764]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.23-00.00.33:773][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-00.00.33:773][764]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 10:00:33 AM)
+[2018.03.23-00.00.33:773][764]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.23-00.00.33:838][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064404s)
+[2018.03.23-00.00.33:839][764]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.23-00.00.33:839][764]LogPlayLevel: PIE: World Init took: (0.001307s)
+[2018.03.23-00.00.33:840][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.066514s)
+[2018.03.23-00.00.33:888][764]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-00.00.33:908][764]LogInit: FAudioDevice initialized.
+[2018.03.23-00.00.33:984][764]LogLoad: Game class is 'Tutorial_C'
+[2018.03.23-00.00.34:002][764]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-17.00.34
+[2018.03.23-00.00.34:005][764]LogWorld: Bringing up level for play took: 0.019531
+[2018.03.23-00.00.34:016][764]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.863
+[2018.03.23-00.00.34:133][765]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.23-00.00.34:285][770]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.00.34:361][772]Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.00.34:361][772]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.00.34:361][772]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.00.34:361][772]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.01.10:682][871]LogProperty: Warning: Illegal TEXT reference to a private object in external package (BP_enemy_C /Game/WhiteLightning/Levels/Tutorial.Tutorial:PersistentLevel.BP_enemy_546) from referencer (FunctionalTest_UserStory1_C /Game/WhiteLightning/Tests/FunctionalTest_UserStory1.Default__FunctionalTest_UserStory1_C).  Import failed...
+[2018.03.23-00.01.10:682][871]LogProperty: Warning: Illegal TEXT reference to a private object in external package (BP_enemy_C /Game/WhiteLightning/Levels/Tutorial.Tutorial:PersistentLevel.BP_enemy_546) from referencer (FunctionalTest_UserStory1_C /Engine/Transient.World_5:PersistentLevel.FunctionalTest_UserStory1_C_0).  Import failed...
+[2018.03.23-00.01.14:230][  9]LogProperty: Warning: Illegal TEXT reference to a private object in external package (BP_enemy_C /Game/WhiteLightning/Levels/Tutorial.Tutorial:PersistentLevel.BP_enemy_546) from referencer (FunctionalTest_UserStory1_C /Game/WhiteLightning/Tests/FunctionalTest_UserStory1.Default__FunctionalTest_UserStory1_C).  Import failed...
+[2018.03.23-00.01.14:230][  9]LogProperty: Warning: Illegal TEXT reference to a private object in external package (BP_enemy_C /Game/WhiteLightning/Levels/Tutorial.Tutorial:PersistentLevel.BP_enemy_546) from referencer (FunctionalTest_UserStory1_C /Engine/Transient.World_5:PersistentLevel.FunctionalTest_UserStory1_C_0).  Import failed...
+[2018.03.23-00.01.20:684][210]LogProperty: Warning: Illegal TEXT reference to a private object in external package (BP_enemy_C /Game/WhiteLightning/Levels/Tutorial.Tutorial:PersistentLevel.BP_enemy_546) from referencer (FunctionalTest_UserStory1_C /Game/WhiteLightning/Tests/FunctionalTest_UserStory1.Default__FunctionalTest_UserStory1_C).  Import failed...
+[2018.03.23-00.01.20:684][210]LogProperty: Warning: Illegal TEXT reference to a private object in external package (BP_enemy_C /Game/WhiteLightning/Levels/Tutorial.Tutorial:PersistentLevel.BP_enemy_546) from referencer (FunctionalTest_UserStory1_C /Engine/Transient.World_5:PersistentLevel.FunctionalTest_UserStory1_C_0).  Import failed...
+[2018.03.23-00.01.23:217][302]LogProperty: Warning: Illegal TEXT reference to a private object in external package (BP_enemy_C /Game/WhiteLightning/Levels/Tutorial.Tutorial:PersistentLevel.BP_enemy_546) from referencer (FunctionalTest_UserStory1_C /Game/WhiteLightning/Tests/FunctionalTest_UserStory1.Default__FunctionalTest_UserStory1_C).  Import failed...
+[2018.03.23-00.01.23:217][302]LogProperty: Warning: Illegal TEXT reference to a private object in external package (BP_enemy_C /Game/WhiteLightning/Levels/Tutorial.Tutorial:PersistentLevel.BP_enemy_546) from referencer (FunctionalTest_UserStory1_C /Engine/Transient.World_5:PersistentLevel.FunctionalTest_UserStory1_C_0).  Import failed...
+[2018.03.23-00.01.34:540][514]LogProperty: Warning: Illegal TEXT reference to a private object in external package (DirectionalLight /Game/WhiteLightning/Levels/Tutorial.Tutorial:PersistentLevel.LightSource) from referencer (FunctionalTest_UserStory1_C /Game/WhiteLightning/Tests/FunctionalTest_UserStory1.Default__FunctionalTest_UserStory1_C).  Import failed...
+[2018.03.23-00.01.34:540][514]LogProperty: Warning: Illegal TEXT reference to a private object in external package (DirectionalLight /Game/WhiteLightning/Levels/Tutorial.Tutorial:PersistentLevel.LightSource) from referencer (FunctionalTest_UserStory1_C /Engine/Transient.World_5:PersistentLevel.FunctionalTest_UserStory1_C_0).  Import failed...
+[2018.03.23-00.01.36:217][583]LogProperty: Warning: Illegal TEXT reference to a private object in external package (PaperSpriteActor /Game/WhiteLightning/Levels/Tutorial.Tutorial:PersistentLevel.New_Piskel_Sprite_11) from referencer (FunctionalTest_UserStory1_C /Game/WhiteLightning/Tests/FunctionalTest_UserStory1.Default__FunctionalTest_UserStory1_C).  Import failed...
+[2018.03.23-00.01.36:217][583]LogProperty: Warning: Illegal TEXT reference to a private object in external package (PaperSpriteActor /Game/WhiteLightning/Levels/Tutorial.Tutorial:PersistentLevel.New_Piskel_Sprite_11) from referencer (FunctionalTest_UserStory1_C /Engine/Transient.World_5:PersistentLevel.FunctionalTest_UserStory1_C_0).  Import failed...
+[2018.03.23-00.02.20:725][512]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.23-00.02.30:952][651]LogSavePackage: Save=1284.13ms
+[2018.03.23-00.02.30:952][651]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/TutorialEB11E4D74EDE236FA8E3E2A8F9A8B9EC.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.23-00.02.30:957][651]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.23-00.02.31:004][651]LogFileHelpers: Saving map 'Tutorial' took 1.445
+[2018.03.23-00.02.31:077][651]LogSavePackage: Save=41.90ms
+[2018.03.23-00.02.31:077][651]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory16648873D4E06E23E2E28EA94CD86B59B.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.23-00.02.31:081][651]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.23-00.02.31:100][651]AutomationTestingLog: New page: -----Test Run 53----
+[2018.03.23-00.02.31:100][651]AutomationTestingLog: -----Test Run 53----
+[2018.03.23-00.02.31:124][651]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.23-00.02.31:142][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-00.02.31:142][651]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 10:02:31 AM)
+[2018.03.23-00.02.31:142][651]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.23-00.02.31:206][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063938s)
+[2018.03.23-00.02.31:207][651]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.23-00.02.31:208][651]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2018.03.23-00.02.31:208][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.065904s)
+[2018.03.23-00.02.31:255][651]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-00.02.31:280][651]LogInit: FAudioDevice initialized.
+[2018.03.23-00.02.31:348][651]LogLoad: Game class is 'Tutorial_C'
+[2018.03.23-00.02.31:365][651]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-17.02.31
+[2018.03.23-00.02.31:367][651]LogWorld: Bringing up level for play took: 0.017806
+[2018.03.23-00.02.31:377][651]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.223
+[2018.03.23-00.02.31:499][652]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.23-00.02.31:681][657]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.02.31:765][659]Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.02.31:765][659]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.02.31:765][659]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.02.31:765][659]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.02.39:982][932]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.23-00.02.45:248][999]LogSavePackage: Save=1250.03ms
+[2018.03.23-00.02.45:248][999]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial074B7D4A49ED3D3FCF7326BB8D296378.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.23-00.02.45:252][999]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.23-00.02.45:293][999]LogFileHelpers: Saving map 'Tutorial' took 1.401
+[2018.03.23-00.02.45:376][999]LogSavePackage: Save=41.26ms
+[2018.03.23-00.02.45:376][999]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory1B56DE3B944911AC4CB69EB930C6F1332.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.23-00.02.45:380][999]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.23-00.02.45:398][999]AutomationTestingLog: New page: -----Test Run 55----
+[2018.03.23-00.02.45:399][999]AutomationTestingLog: -----Test Run 55----
+[2018.03.23-00.02.45:425][999]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.23-00.02.45:442][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-00.02.45:442][999]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 10:02:45 AM)
+[2018.03.23-00.02.45:442][999]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.23-00.02.45:507][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064923s)
+[2018.03.23-00.02.45:508][999]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.23-00.02.45:508][999]LogPlayLevel: PIE: World Init took: (0.001058s)
+[2018.03.23-00.02.45:509][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.066865s)
+[2018.03.23-00.02.45:555][999]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-00.02.45:573][999]LogInit: FAudioDevice initialized.
+[2018.03.23-00.02.45:647][999]LogLoad: Game class is 'Tutorial_C'
+[2018.03.23-00.02.45:663][999]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-17.02.45
+[2018.03.23-00.02.45:665][999]LogWorld: Bringing up level for play took: 0.017689
+[2018.03.23-00.02.45:675][999]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.521
+[2018.03.23-00.02.45:791][  0]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.23-00.02.45:938][  5]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.02.46:017][  7]Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.02.46:017][  7]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.02.46:017][  7]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.02.46:017][  7]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.02.59:247][495]LogEditorTransaction: Undo Move Node
+[2018.03.23-00.03.10:608][819]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.23-00.03.12:778][875]LogEditorTransaction: Undo Move Node
+[2018.03.23-00.03.22:812][212]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.23-00.03.29:127][306]LogSavePackage: Save=1242.15ms
+[2018.03.23-00.03.29:127][306]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial75D3E9C34FE9ECD7F9221492B0CE2605.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.23-00.03.29:132][306]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.23-00.03.29:178][306]LogFileHelpers: Saving map 'Tutorial' took 1.402
+[2018.03.23-00.03.29:266][306]LogSavePackage: Save=44.25ms
+[2018.03.23-00.03.29:266][306]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory13D6AD454407651365D5BF99BE3B42B54.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.23-00.03.29:270][306]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.23-00.03.29:278][306]AutomationTestingLog: New page: -----Test Run 57----
+[2018.03.23-00.03.29:278][306]AutomationTestingLog: -----Test Run 57----
+[2018.03.23-00.03.29:302][306]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.23-00.03.29:318][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-00.03.29:318][306]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 10:03:29 AM)
+[2018.03.23-00.03.29:318][306]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.23-00.03.29:387][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069042s)
+[2018.03.23-00.03.29:388][306]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.23-00.03.29:389][306]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2018.03.23-00.03.29:390][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.071358s)
+[2018.03.23-00.03.29:433][306]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-00.03.29:456][306]LogInit: FAudioDevice initialized.
+[2018.03.23-00.03.29:530][306]LogLoad: Game class is 'Tutorial_C'
+[2018.03.23-00.03.29:549][306]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-17.03.29
+[2018.03.23-00.03.29:552][306]LogWorld: Bringing up level for play took: 0.020661
+[2018.03.23-00.03.29:563][306]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.41
+[2018.03.23-00.03.29:681][307]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.23-00.03.29:840][313]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.03.29:912][315]Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.03.29:912][315]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.03.29:912][315]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.03.29:912][315]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.04.15:265][484]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.23-00.04.21:422][574]LogSavePackage: Save=1253.53ms
+[2018.03.23-00.04.21:422][574]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial135DC73F44C8F1611C7A55A19E0441FC.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.23-00.04.21:428][574]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.23-00.04.21:469][574]LogFileHelpers: Saving map 'Tutorial' took 1.407
+[2018.03.23-00.04.21:546][574]LogSavePackage: Save=41.19ms
+[2018.03.23-00.04.21:546][574]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory17C8C4E9149E80777EF2177B2C9DBDD58.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.23-00.04.21:550][574]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.23-00.04.21:569][574]AutomationTestingLog: New page: -----Test Run 59----
+[2018.03.23-00.04.21:569][574]AutomationTestingLog: -----Test Run 59----
+[2018.03.23-00.04.21:596][574]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.23-00.04.21:617][574]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-00.04.21:617][574]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 10:04:21 AM)
+[2018.03.23-00.04.21:617][574]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.23-00.04.21:680][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062972s)
+[2018.03.23-00.04.21:681][574]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.23-00.04.21:681][574]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2018.03.23-00.04.21:682][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.064773s)
+[2018.03.23-00.04.21:726][574]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-00.04.21:744][574]LogInit: FAudioDevice initialized.
+[2018.03.23-00.04.21:812][574]LogLoad: Game class is 'Tutorial_C'
+[2018.03.23-00.04.21:829][574]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-17.04.21
+[2018.03.23-00.04.21:831][574]LogWorld: Bringing up level for play took: 0.017899
+[2018.03.23-00.04.21:840][574]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.686
+[2018.03.23-00.04.21:955][575]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.23-00.04.22:104][580]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.04.22:185][582]Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.04.22:185][582]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.04.22:185][582]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.04.22:185][582]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.04.33:770][965]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.23-00.04.33:878][965]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.23-00.04.34:893][999]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.23-00.04.34:921][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-00.04.34:921][999]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 10:04:34 AM)
+[2018.03.23-00.04.34:921][999]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.23-00.04.34:975][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053836s)
+[2018.03.23-00.04.34:976][999]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.23-00.04.34:976][999]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2018.03.23-00.04.34:977][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.055692s)
+[2018.03.23-00.04.35:023][999]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-00.04.35:042][999]LogInit: FAudioDevice initialized.
+[2018.03.23-00.04.35:112][999]LogLoad: Game class is 'Tutorial_C'
+[2018.03.23-00.04.35:129][999]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-17.04.35
+[2018.03.23-00.04.35:131][999]LogWorld: Bringing up level for play took: 0.018471
+[2018.03.23-00.04.35:140][999]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.014
+[2018.03.23-00.05.04:456][149]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.23-00.05.11:850][259]LogSavePackage: Save=1245.72ms
+[2018.03.23-00.05.11:850][259]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/TutorialFEB06D0A45B5D74D699F2FAAA9009005.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.23-00.05.11:855][259]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.23-00.05.11:895][259]LogFileHelpers: Saving map 'Tutorial' took 1.399
+[2018.03.23-00.05.11:977][259]LogSavePackage: Save=38.89ms
+[2018.03.23-00.05.11:977][259]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory17F64D1DD4447F6E5E624D3BC97BB36A8.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.23-00.05.11:981][259]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.23-00.05.12:000][259]AutomationTestingLog: New page: -----Test Run 61----
+[2018.03.23-00.05.12:000][259]AutomationTestingLog: -----Test Run 61----
+[2018.03.23-00.05.12:028][259]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.23-00.05.12:044][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-00.05.12:044][259]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 10:05:12 AM)
+[2018.03.23-00.05.12:045][259]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.23-00.05.12:115][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069879s)
+[2018.03.23-00.05.12:116][259]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.23-00.05.12:116][259]LogPlayLevel: PIE: World Init took: (0.001193s)
+[2018.03.23-00.05.12:116][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.071892s)
+[2018.03.23-00.05.12:157][259]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-00.05.12:177][259]LogInit: FAudioDevice initialized.
+[2018.03.23-00.05.12:249][259]LogLoad: Game class is 'Tutorial_C'
+[2018.03.23-00.05.12:265][259]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-17.05.12
+[2018.03.23-00.05.12:267][259]LogWorld: Bringing up level for play took: 0.017863
+[2018.03.23-00.05.12:277][259]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 1.123
+[2018.03.23-00.05.12:391][260]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.23-00.05.12:555][266]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.05.12:628][268]Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.05.12:628][268]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.05.12:628][268]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.05.12:628][268]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.05.40:292][241]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.23-00.05.42:558][306]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.23-00.05.42:589][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-00.05.42:589][306]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 10:05:42 AM)
+[2018.03.23-00.05.42:589][306]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.23-00.05.42:644][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054220s)
+[2018.03.23-00.05.42:644][306]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.23-00.05.42:645][306]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2018.03.23-00.05.42:645][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.056105s)
+[2018.03.23-00.05.42:692][306]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-00.05.42:710][306]LogInit: FAudioDevice initialized.
+[2018.03.23-00.05.42:782][306]LogLoad: Game class is 'Tutorial_C'
+[2018.03.23-00.05.42:798][306]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-17.05.42
+[2018.03.23-00.05.42:801][306]LogWorld: Bringing up level for play took: 0.018326
+[2018.03.23-00.05.42:810][306]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.343
+[2018.03.23-00.05.47:334][497]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.23-00.05.55:019][593]LogSavePackage: Save=1250.93ms
+[2018.03.23-00.05.55:019][593]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/TutorialAEB176944F15618764B278940955A996.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.23-00.05.55:024][593]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.23-00.05.55:064][593]LogFileHelpers: Saving map 'Tutorial' took 1.417
+[2018.03.23-00.05.55:151][593]LogSavePackage: Save=35.85ms
+[2018.03.23-00.05.55:152][593]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory1B82C01354FD5A1FE78B821BC437FFA96.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.23-00.05.55:155][593]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.23-00.05.55:173][593]AutomationTestingLog: New page: -----Test Run 63----
+[2018.03.23-00.05.55:173][593]AutomationTestingLog: -----Test Run 63----
+[2018.03.23-00.05.55:198][593]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.23-00.05.55:212][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-00.05.55:212][593]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 10:05:55 AM)
+[2018.03.23-00.05.55:212][593]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.23-00.05.55:277][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065124s)
+[2018.03.23-00.05.55:278][593]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.23-00.05.55:279][593]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2018.03.23-00.05.55:279][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.067028s)
+[2018.03.23-00.05.55:325][593]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-00.05.55:344][593]LogInit: FAudioDevice initialized.
+[2018.03.23-00.05.55:417][593]LogLoad: Game class is 'Tutorial_C'
+[2018.03.23-00.05.55:434][593]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-17.05.55
+[2018.03.23-00.05.55:436][593]LogWorld: Bringing up level for play took: 0.018096
+[2018.03.23-00.05.55:445][593]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.291
+[2018.03.23-00.05.55:563][594]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.23-00.05.55:705][599]LogFunctionalTest: FunctionalTest_UserStory1_2 Succeeded: "User Story 1 passed"
+[2018.03.23-00.05.55:777][601]...Automation Test Succeeded (FunctionalTest_UserStory1)
+[2018.03.23-00.05.55:777][601]AutomationTestingLog: ...Automation Test Succeeded (FunctionalTest_UserStory1)
+[2018.03.23-00.06.07:632][ 28]LogSavePackage: Save=1254.83ms
+[2018.03.23-00.06.07:632][ 28]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/TutorialD990FD3F446EA453F546A088169D171E.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.23-00.06.07:635][ 28]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.23-00.06.16:561][294]AutomationTestingLog: New page: -----Test Run 65----
+[2018.03.23-00.06.16:561][294]AutomationTestingLog: -----Test Run 65----
+[2018.03.23-00.06.16:574][294]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.23-00.06.16:576][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-00.06.16:577][294]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 10:06:16 AM)
+[2018.03.23-00.06.16:577][294]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.23-00.06.16:632][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055467s)
+[2018.03.23-00.06.16:633][294]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.23-00.06.16:633][294]LogPlayLevel: PIE: World Init took: (0.001166s)
+[2018.03.23-00.06.16:634][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.057509s)
+[2018.03.23-00.06.16:678][294]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-00.06.16:698][294]LogInit: FAudioDevice initialized.
+[2018.03.23-00.06.16:771][294]LogLoad: Game class is 'Tutorial_C'
+[2018.03.23-00.06.16:788][294]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-17.06.16
+[2018.03.23-00.06.16:790][294]LogWorld: Bringing up level for play took: 0.018487
+[2018.03.23-00.06.16:800][294]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.354
+[2018.03.23-00.06.16:961][295]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.23-00.06.17:063][300]LogFunctionalTest: FunctionalTest_UserStory1_2 Succeeded: "User Story 1 passed"
+[2018.03.23-00.06.17:130][302]...Automation Test Succeeded (FunctionalTest_UserStory1)
+[2018.03.23-00.06.17:130][302]AutomationTestingLog: ...Automation Test Succeeded (FunctionalTest_UserStory1)
+[2018.03.23-00.08.24:567][642]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.23-00.08.32:216][751]LogSavePackage: Save=1253.15ms
+[2018.03.23-00.08.32:217][751]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/TutorialA90A1E8340EE137B4830359A56FEE518.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.23-00.08.32:221][751]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.23-00.08.32:268][751]LogFileHelpers: Saving map 'Tutorial' took 1.416
+[2018.03.23-00.08.32:349][751]LogSavePackage: Save=37.42ms
+[2018.03.23-00.08.32:349][751]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory179708EEC4B06964A709D3E8A0E52C9B2.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.23-00.08.32:353][751]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.23-00.08.32:371][751]AutomationTestingLog: New page: -----Test Run 67----
+[2018.03.23-00.08.32:371][751]AutomationTestingLog: -----Test Run 67----
+[2018.03.23-00.08.32:396][751]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.23-00.08.32:412][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-00.08.32:412][751]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 10:08:32 AM)
+[2018.03.23-00.08.32:412][751]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.23-00.08.32:480][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068527s)
+[2018.03.23-00.08.32:482][751]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.23-00.08.32:482][751]LogPlayLevel: PIE: World Init took: (0.001510s)
+[2018.03.23-00.08.32:483][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.070915s)
+[2018.03.23-00.08.32:528][751]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-00.08.32:547][751]LogInit: FAudioDevice initialized.
+[2018.03.23-00.08.32:621][751]LogLoad: Game class is 'Tutorial_C'
+[2018.03.23-00.08.32:638][751]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-17.08.32
+[2018.03.23-00.08.32:640][751]LogWorld: Bringing up level for play took: 0.018372
+[2018.03.23-00.08.32:649][751]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.505
+[2018.03.23-00.08.32:766][752]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.23-00.08.32:915][757]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.08.32:992][759]Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.08.32:992][759]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.08.32:992][759]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.08.32:992][759]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.08.53:120][520]Cmd: TRANSACTION UNDO
+[2018.03.23-00.08.53:120][520]LogEditorTransaction: Undo Delete current selection
+[2018.03.23-00.08.53:431][532]LogEditorTransaction: Undo Delete current selection
+[2018.03.23-00.08.56:461][623]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.23-00.09.19:689][301]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.23-00.09.19:721][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-00.09.19:721][301]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 10:09:19 AM)
+[2018.03.23-00.09.19:722][301]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.23-00.09.19:779][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056956s)
+[2018.03.23-00.09.19:779][301]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.23-00.09.19:780][301]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2018.03.23-00.09.19:781][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.059045s)
+[2018.03.23-00.09.19:820][301]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-00.09.19:838][301]LogInit: FAudioDevice initialized.
+[2018.03.23-00.09.19:903][301]LogLoad: Game class is 'Tutorial_C'
+[2018.03.23-00.09.19:919][301]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-17.09.19
+[2018.03.23-00.09.19:921][301]LogWorld: Bringing up level for play took: 0.017886
+[2018.03.23-00.09.19:931][301]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.778
+[2018.03.23-00.09.24:492][478]BlueprintLog: New page: Compile FunctionalTest_UserStory1
+[2018.03.23-00.09.25:635][492]LogSavePackage: Save=38.36ms
+[2018.03.23-00.09.25:635][492]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory1D18E359641CA6D01173672B1D4E34AF6.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.23-00.09.25:638][492]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.23-00.09.33:790][693]LogSavePackage: Save=1245.79ms
+[2018.03.23-00.09.33:790][693]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial78DC2FB84BCE21B32742538AA2F20E6B.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.03.23-00.09.33:794][693]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.03.23-00.09.33:836][693]LogFileHelpers: Saving map 'Tutorial' took 1.400
+[2018.03.23-00.09.33:855][693]AutomationTestingLog: New page: -----Test Run 68----
+[2018.03.23-00.09.33:856][693]AutomationTestingLog: -----Test Run 68----
+[2018.03.23-00.09.33:872][693]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.23-00.09.33:887][693]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-00.09.33:887][693]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 10:09:33 AM)
+[2018.03.23-00.09.33:888][693]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.23-00.09.33:948][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060110s)
+[2018.03.23-00.09.33:949][693]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.23-00.09.33:949][693]LogPlayLevel: PIE: World Init took: (0.001284s)
+[2018.03.23-00.09.33:950][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.062337s)
+[2018.03.23-00.09.33:994][693]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-00.09.34:012][693]LogInit: FAudioDevice initialized.
+[2018.03.23-00.09.34:081][693]LogLoad: Game class is 'Tutorial_C'
+[2018.03.23-00.09.34:099][693]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-17.09.34
+[2018.03.23-00.09.34:101][693]LogWorld: Bringing up level for play took: 0.018767
+[2018.03.23-00.09.34:110][693]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.956
+[2018.03.23-00.09.34:212][694]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.23-00.09.34:372][701]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.09.34:435][703]Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.09.34:435][703]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.09.34:435][703]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.09.34:435][703]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.09.44:441][148]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.23-00.09.44:464][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-00.09.44:464][148]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 10:09:44 AM)
+[2018.03.23-00.09.44:464][148]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.23-00.09.44:522][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057973s)
+[2018.03.23-00.09.44:523][148]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.23-00.09.44:523][148]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2018.03.23-00.09.44:524][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.059691s)
+[2018.03.23-00.09.44:568][148]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-00.09.44:586][148]LogInit: FAudioDevice initialized.
+[2018.03.23-00.09.44:688][148]LogLoad: Game class is 'Tutorial_C'
+[2018.03.23-00.09.44:715][148]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-17.09.44
+[2018.03.23-00.09.44:717][148]LogWorld: Bringing up level for play took: 0.028166
+[2018.03.23-00.09.44:726][148]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.427
+[2018.03.23-00.11.04:733][757]LogSavePackage: Save=39.79ms
+[2018.03.23-00.11.04:733][757]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/FunctionalTest_UserStory1C9E4E244481F4B923723E5806505EBCE.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset'
+[2018.03.23-00.11.04:737][757]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.23-00.11.04:756][757]AutomationTestingLog: New page: -----Test Run 70----
+[2018.03.23-00.11.04:756][757]AutomationTestingLog: -----Test Run 70----
+[2018.03.23-00.11.04:771][757]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.FunctionalTest_UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;FunctionalTest_UserStory1_2')
+[2018.03.23-00.11.04:777][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-00.11.04:777][757]PIE: New page: PIE session: Tutorial (Mar 22, 2018, 10:11:04 AM)
+[2018.03.23-00.11.04:777][757]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.03.23-00.11.04:841][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063909s)
+[2018.03.23-00.11.04:842][757]LogAIModule: Creating AISystem for world Tutorial
+[2018.03.23-00.11.04:843][757]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2018.03.23-00.11.04:843][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.066045s)
+[2018.03.23-00.11.04:886][757]LogInit: XAudio2 using 'Headphones (2- SteelSeries Arctis 7 Game)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-00.11.04:905][757]LogInit: FAudioDevice initialized.
+[2018.03.23-00.11.04:972][757]LogLoad: Game class is 'Tutorial_C'
+[2018.03.23-00.11.04:992][757]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.03.22-17.11.04
+[2018.03.23-00.11.04:994][757]LogWorld: Bringing up level for play took: 0.020849
+[2018.03.23-00.11.05:000][757]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.154
+[2018.03.23-00.11.05:110][758]LogFunctionalTest: Running tests indicated by Repro String: FunctionalTest_UserStory1_2
+[2018.03.23-00.11.05:266][766]LogFunctionalTest: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.11.05:295][768]Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.11.05:295][768]...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.11.05:295][768]AutomationTestingLog: Error: FunctionalTest_UserStory1_2 Failed: "User Story 1 failed"
+[2018.03.23-00.11.05:295][768]AutomationTestingLog: Error: ...Automation Test Failed (FunctionalTest_UserStory1)
+[2018.03.23-00.11.29:827][194]SourceControl: fatal: E:/Unreal/UE_4.18/Engine/Content/: 'E:/Unreal/UE_4.18/Engine/Content/' is outside repository
+[2018.03.23-00.11.38:943][194]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.03.23-00.11.39:060][194]SourceControl: [master 6c29da6] starting tests
+[2018.03.23-00.11.39:060][194]SourceControl:  7 files changed, 0 insertions(+), 0 deletions(-)
+[2018.03.23-00.11.39:060][194]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Tests/FTEST_Tutorial.uasset
+[2018.03.23-00.11.39:060][194]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Tests/FTEST_UserStories.uasset
+[2018.03.23-00.11.39:060][194]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Tests/FunctionalTest_UserStory1.uasset
+[2018.03.23-00.11.39:060][194]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Tests/Test_Tutorial.uasset
+[2018.03.23-00.11.39:060][194]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Tests/Tutorial.uasset
+[2018.03.23-00.11.39:074][194]SourceControl: Commited [master 6c29da6] starting tests.
