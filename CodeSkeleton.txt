@@ -1,0 +1,42 @@
+******* Gameplay class
+
+Class Healthbar(mainCharacter_health)
+{
+	int barTotal = mainCharacter_health;
+	
+	for(i=0; i <=10; i++)
+	{
+		if(barTotal = i)
+		{
+			//Change sprite to corresponding health sprite.
+		}
+	}
+
+	void hit(character, projectile) {
+		// Character takes damage and flahses white
+		character.health = character.health - projectile.damage;
+		character.flashWhite();
+	}
+	
+	bool checkDeath(character) {
+		if (character.health =< 0) {
+			// Character is now dead, so take appropriate actions
+		}
+	}
+}
+
+******* Menu function
+
+// Accessed from menu
+void mute()
+{
+  toggleMute();
+}
+
+******* Flash white
+
+flashWhite(charater)
+	if(collision())
+	{
+		caracterSprite = whiteSprite;
+	}
