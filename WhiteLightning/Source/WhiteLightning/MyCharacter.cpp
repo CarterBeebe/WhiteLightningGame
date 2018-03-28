@@ -32,7 +32,7 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 }
 
-// Character_Hit function that occurs on enemy projectile collision with character.
+// Character_Hit function that occurs on enemy projectile collision with character. **Marcus**
 void AMyCharacter::Character_Hit(float damage) {
     AMyCharacter.setHealth(AMyCharacter.getHealth()-damage);
     AMyCharacter.SetSpriteColor(this.Sprite,1,1,1);
