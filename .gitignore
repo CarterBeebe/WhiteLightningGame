@@ -71,3 +71,6 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Pak files from Unreal Editor
+*.pak
