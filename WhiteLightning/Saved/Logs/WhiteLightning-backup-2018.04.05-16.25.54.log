@@ -1,0 +1,1833 @@
+﻿Log file open, 04/05/18 10:32:43
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: WhiteLightning
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1426076454) SRandInit(-1426076454).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.183262
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.05-14.32.44:910][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.05-14.32.44:910][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.05-14.32.44:928][  0]LogInit: Computer: CELIA
+[2018.04.05-14.32.44:928][  0]LogInit: User: mhers
+[2018.04.05-14.32.44:928][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.05-14.32.44:928][  0]LogInit: High frequency timer resolution =2.531253 MHz
+[2018.04.05-14.32.44:929][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2018.04.05-14.32.44:929][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.05-14.32.44:929][  0]LogMemory: Process Physical Memory: 273.97 MB used, 273.97 MB peak
+[2018.04.05-14.32.44:929][  0]LogMemory: Process Virtual Memory: 269.91 MB used, 269.91 MB peak
+[2018.04.05-14.32.44:929][  0]LogMemory: Physical Memory: 5925.80 MB used,  10294.98 MB free, 16220.78 MB total
+[2018.04.05-14.32.44:929][  0]LogMemory: Virtual Memory: 682.77 MB used,  10294.98 MB free, 134217728.00 MB total
+[2018.04.05-14.32.45:095][  0]LogInit: Using OS detected language (en-US).
+[2018.04.05-14.32.45:095][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.05-14.32.45:099][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.05-14.32.45:591][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.05-14.32.45:861][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.05-14.32.45:912][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2018.04.05-14.32.45:912][  0]LogD3D11RHI:       4065/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.05-14.32.45:919][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.04.05-14.32.45:919][  0]LogD3D11RHI:       128/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.04.05-14.32.45:921][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.05-14.32.45:921][  0]LogD3D11RHI:       0/0/8110 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.05-14.32.45:921][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.05-14.32.45:927][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.05-14.32.45:927][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2018.04.05-14.32.45:927][  0]LogWindows: EnumDisplayDevices:
+[2018.04.05-14.32.45:928][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.04.05-14.32.45:928][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.04.05-14.32.45:928][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.04.05-14.32.45:928][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.05-14.32.45:928][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2018.04.05-14.32.45:928][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.05-14.32.45:928][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.05-14.32.45:928][  0]LogRHI: Texture pool is 2846 MB (70% of 4065 MB)
+[2018.04.05-14.32.45:959][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.05-14.32.45:974][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.05-14.32.45:975][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Users/mhers/Documents/WhiteLightning/Intermediate/Shaders/WorkingDirectory/5372/).
+[2018.04.05-14.32.45:975][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mhers/AppData/Local/Temp/UnrealShaderWorkingDir/9248EC304A125485BCD6AD808EE429E7/'.
+[2018.04.05-14.32.45:975][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.05-14.32.46:942][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.05-14.32.46:996][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.05-14.32.47:049][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.05-14.32.47:101][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.05-14.32.47:153][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.05-14.32.47:203][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.05-14.32.47:259][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.05-14.32.47:310][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.05-14.32.47:356][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.05-14.32.47:406][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.05-14.32.47:474][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.05-14.32.47:528][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.05-14.32.47:580][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.05-14.32.47:632][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.05-14.32.47:737][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.05-14.32.47:737][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.05-14.32.47:787][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.05-14.32.47:827][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.05-14.32.47:923][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.05-14.32.47:950][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.05-14.32.48:003][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.05-14.32.48:057][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.05-14.32.48:110][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.05-14.32.48:164][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.05-14.32.48:164][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.05-14.32.48:630][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.05-14.32.48:703][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/mhers/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.05-14.32.48:703][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mhers/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.05-14.32.48:703][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mhers/Documents/WhiteLightning/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.05-14.32.48:703][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.05-14.32.48:703][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mhers/Documents/WhiteLightning/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.05-14.32.48:703][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.05-14.32.48:720][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.05-14.32.48:732][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mhers/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.05-14.32.48:742][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.05-14.32.48:742][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.05-14.32.48:743][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.05-14.32.48:743][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.05-14.32.49:115][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.05-14.32.49:478][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.05-14.32.49:520][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.05-14.32.49:520][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.05-14.32.49:520][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.05-14.32.49:520][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.05-14.32.49:520][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.05-14.32.49:553][  0]LogNetVersion: WhiteLightning , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2852152215)
+[2018.04.05-14.32.49:745][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2018.04.05-14.32.50:349][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.109067 seconds
+[2018.04.05-14.32.50:355][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.05-14.32.50:355][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.04.05-14.32.50:355][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.05-14.32.50:421][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.05-14.32.53:638][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.05-14.32.53:679][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.05-14.32.54:418][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.05-14.32.54:884][  0]SourceControl: Source control is disabled
+[2018.04.05-14.32.55:397][  0]LogSourceControl: Warning: '../../../../../../Users/mhers/Documents/WhiteLightning/' is not part of a Git repository
+[2018.04.05-14.32.56:611][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.05-14.32.56:901][  0]LogOcInput: OculusInput pre-init called
+[2018.04.05-14.32.57:215][  0]LogEngine: Initializing Engine...
+[2018.04.05-14.32.57:219][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.05-14.32.57:458][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.05-14.32.57:458][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.05-14.32.57:594][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.05-14.32.57:606][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.05-14.32.57:846][  0]LogInit: FAudioDevice initialized.
+[2018.04.05-14.32.57:935][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/mhers/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.05-14.32.57:946][  0]LogInit: Texture streaming: Enabled
+[2018.04.05-14.32.58:051][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.05-14.32.58:186][  0]LogInit: Transaction tracking system initialized
+[2018.04.05-14.32.58:516][  0]BlueprintLog: New page: Editor Load
+[2018.04.05-14.32.59:438][  0]LocalizationService: Localization service is disabled
+[2018.04.05-14.33.00:208][  0]LogConsoleResponse: Display: 
+[2018.04.05-14.33.00:417][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.05-14.33.00:417][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.05-14.33.00:417][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.05-14.33.00:424][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mhers/Documents/WhiteLightning/Content/' took 0.02s
+[2018.04.05-14.33.01:637][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/main_menu_lvl.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.05-14.33.01:638][  0]LightingResults: New page: Lighting Build
+[2018.04.05-14.33.01:681][  0]MapCheck: New page: Map Check
+[2018.04.05-14.33.01:681][  0]LightingResults: New page: Lighting Build
+[2018.04.05-14.33.02:381][  0]LogAIModule: Creating AISystem for world main_menu_lvl
+[2018.04.05-14.33.02:384][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.05-14.33.02:396][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.05-14.33.02:445][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.182ms to complete.
+[2018.04.05-14.33.02:445][  0]LogFileHelpers: Loading map 'main_menu_lvl' took 0.808
+[2018.04.05-14.33.02:504][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.05-14.33.02:504][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.05-14.33.02:644][  0]LogCollectionManager: Loaded 0 collections in 0.001472 seconds
+[2018.04.05-14.33.02:754][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mhers/Documents/WhiteLightning/Saved/Collections/' took 0.01s
+[2018.04.05-14.33.02:754][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mhers/Documents/WhiteLightning/Content/Developers/mhers/Collections/' took 0.01s
+[2018.04.05-14.33.02:754][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mhers/Documents/WhiteLightning/Content/Collections/' took 0.01s
+[2018.04.05-14.33.02:754][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.05-14.33.02:767][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2363 classes and 519 folders.
+[2018.04.05-14.33.02:840][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.04.05-14.33.03:240][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.04.05-14.33.03:295][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.04.05-14.33.03:486][  0]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.05-14.33.03:489][  0]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.05-14.33.03:507][  0]LogSlate: Took 0.007870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.05-14.33.03:705][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
+[2018.04.05-14.33.03:908][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.04.05-14.33.03:908][  0]LogLoad: (Engine Initialization) Total time: 21.40 seconds
+[2018.04.05-14.33.03:908][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.05-14.33.03:908][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.05-14.33.03:978][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.05-14.33.04:045][  0]LogSlate: Took 0.015613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.05-14.33.04:253][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/mhers/Documents/WhiteLightning/Content/' took 0.30s
+[2018.04.05-14.33.04:260][  1]LogAssetRegistry: Asset discovery search completed in 14.5380 seconds
+[2018.04.05-14.33.04:262][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.05-14.33.04:262][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2018.04.05-14.33.13:039][257]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.05-14.33.13:574][257]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.04.05-14.33.14:348][257]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.05-14.33.14:488][257]LogSlate: Took 0.005391 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.05-14.33.14:628][258]LogSlate: Took 0.006161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.05-14.42.51:745][831]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.05-14.42.51:837][831]Cmd: MAP LOAD FILE="../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.05-14.42.51:837][831]LightingResults: New page: Lighting Build
+[2018.04.05-14.42.51:838][831]LoadErrors: New page: Loading map: Tutorial.umap
+[2018.04.05-14.42.51:838][831]MapCheck: New page: Map Check
+[2018.04.05-14.42.51:838][831]LightingResults: New page: Lighting Build
+[2018.04.05-14.42.51:998][831]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.05-14.42.52:056][831]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.05-14.42.52:120][831]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.813ms to complete.
+[2018.04.05-14.42.52:120][831]LogFileHelpers: Loading map 'Tutorial' took 0.284
+[2018.04.05-14.42.53:581][855]LogEditorViewport: Clicking on Actor (LMB): UserStory1_C (UserStory1)
+[2018.04.05-14.42.55:111][876]LogEditorViewport: Clicking on Actor (LMB): UserStory1_C (UserStory1)
+[2018.04.05-14.42.55:203][876]LogEditorViewport: Clicking on Component (LMB): BillboardComponent (Sprite)
+[2018.04.05-14.43.02:127][987]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.05-14.43.02:192][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.05-14.43.02:193][987]PIE: New page: PIE session: Tutorial (Apr 5, 2018, 6:43:02 AM)
+[2018.04.05-14.43.02:193][987]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.05-14.43.02:241][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047828s)
+[2018.04.05-14.43.02:242][987]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.05-14.43.02:242][987]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2018.04.05-14.43.02:243][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.049715s)
+[2018.04.05-14.43.02:271][987]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.05-14.43.02:285][987]LogInit: FAudioDevice initialized.
+[2018.04.05-14.43.02:345][987]LogLoad: Game class is 'Tutorial_C'
+[2018.04.05-14.43.02:361][987]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.05-10.43.02
+[2018.04.05-14.43.02:363][987]LogWorld: Bringing up level for play took: 0.015009
+[2018.04.05-14.43.02:366][987]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.05-14.43.02:425][987]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.04.05-14.43.02:443][987]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.593
+[2018.04.05-14.43.02:525][987]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.04.05-14.43.02:608][988]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.053412 > MaxSimulationTimeStep (0.050) for 'MainCharacter_C_0', movement 'Walking'
+[2018.04.05-14.43.11:582][355]LogSavePackage: Save=865.60ms
+[2018.04.05-14.43.11:582][355]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/Tutorial06DBC80D4B171352E5E0579744C4091D.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.04.05-14.43.11:585][355]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.04.05-14.43.17:520][652]LogContentBrowser: Native class hierarchy updated for 'ScreenShotComparisonTools' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.04.05-14.43.17:586][652]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for C:/Users/mhers/Documents/WhiteLightning/Saved/Automation/Comparisons. Error: The system cannot find the path specified. (0x00000003)
+[2018.04.05-14.43.17:674][652]LogProfilerClient: Subscribe Session: 0CE6C861447821E91575AF9F786AE545
+[2018.04.05-14.43.17:686][652]LogProfilerService: Subscribe Session: 0CE6C861447821E91575AF9F786AE545, Instance: 2666264F428126F8F1EB23A182896829
+[2018.04.05-14.43.17:873][653]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2018.04.05-14.43.26:844][799]AutomationTestingLog: New page: -----Test Run 4----
+[2018.04.05-14.43.26:844][799]AutomationTestingLog: -----Test Run 4----
+[2018.04.05-14.43.26:851][799]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;UserStory1_2')
+[2018.04.05-14.43.26:853][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.05-14.43.26:854][799]PIE: New page: PIE session: Tutorial (Apr 5, 2018, 6:43:26 AM)
+[2018.04.05-14.43.26:854][799]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.05-14.43.26:908][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054117s)
+[2018.04.05-14.43.26:908][799]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.05-14.43.26:909][799]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2018.04.05-14.43.26:909][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.055732s)
+[2018.04.05-14.43.26:929][799]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.05-14.43.26:941][799]LogInit: FAudioDevice initialized.
+[2018.04.05-14.43.27:001][799]LogLoad: Game class is 'Tutorial_C'
+[2018.04.05-14.43.27:026][799]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.05-10.43.27
+[2018.04.05-14.43.27:028][799]LogWorld: Bringing up level for play took: 0.025711
+[2018.04.05-14.43.27:028][799]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.05-14.43.27:626][799]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.591
+[2018.04.05-14.43.27:751][800]LogFunctionalTest: Running tests indicated by Repro String: UserStory1_2
+[2018.04.05-14.43.27:934][805]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.27:934][805]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.27:956][806]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.27:981][807]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:002][808]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:027][809]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:050][810]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:071][811]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:095][812]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:116][813]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:142][814]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:164][815]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:187][816]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:210][817]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:233][818]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:256][819]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:277][820]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:300][821]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:324][822]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:345][823]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:367][824]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:390][825]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:412][826]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:434][827]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:458][828]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:480][829]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:501][830]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:525][831]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:546][832]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:570][833]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:596][834]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:620][835]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:642][836]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:663][837]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:687][838]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:710][839]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:731][840]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:754][841]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:776][842]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:799][843]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:823][844]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:846][845]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:867][846]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:891][847]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:913][848]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:937][849]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:961][850]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.28:983][851]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:007][852]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:029][853]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:052][854]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:079][855]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:099][856]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:123][857]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:145][858]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:168][859]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:192][860]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:213][861]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:235][862]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:260][863]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:280][864]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:305][865]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:327][866]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:349][867]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:373][868]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:395][869]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:416][870]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:441][871]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:465][872]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:490][873]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:513][874]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:534][875]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:559][876]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:580][877]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:603][878]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:628][879]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:649][880]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:674][881]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:694][882]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:719][883]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:742][884]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:763][885]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:788][886]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:811][887]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:835][888]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:859][889]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:882][890]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:906][891]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:935][892]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:959][893]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.29:982][894]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:004][895]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:028][896]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:050][897]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:073][898]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:095][899]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:118][900]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:143][901]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:165][902]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:189][903]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:210][904]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:233][905]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:257][906]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:278][907]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:302][908]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:326][909]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:347][910]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:370][911]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:393][912]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:415][913]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:438][914]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:458][915]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:473][916]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:482][917]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:493][918]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:515][919]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:528][920]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:547][921]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:567][922]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:582][923]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:604][924]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:628][925]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:649][926]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:674][927]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:694][928]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:718][929]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:742][930]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:763][931]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:787][932]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:810][933]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:832][934]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:856][935]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:879][936]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:900][937]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:925][938]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:947][939]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:971][940]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.30:992][941]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:016][942]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:040][943]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:062][944]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:085][945]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:108][946]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:129][947]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:153][948]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:176][949]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:197][950]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:221][951]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:245][952]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:267][953]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:290][954]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:312][955]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:335][956]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:360][957]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:385][958]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:409][959]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:430][960]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:455][961]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:478][962]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:501][963]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:523][964]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:547][965]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:571][966]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:593][967]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:618][968]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:642][969]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:666][970]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:689][971]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:710][972]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:733][973]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:758][974]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:781][975]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:803][976]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:824][977]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:848][978]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:871][979]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:893][980]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:915][981]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:939][982]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:970][983]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.31:992][984]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:013][985]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:037][986]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:061][987]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:083][988]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:107][989]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:131][990]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:154][991]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:177][992]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:199][993]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:223][994]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:246][995]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:268][996]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:289][997]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:312][998]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:337][999]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:360][  0]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:381][  1]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:405][  2]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:427][  3]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:450][  4]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:473][  5]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:496][  6]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:520][  7]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:542][  8]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:564][  9]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:589][ 10]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:612][ 11]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:637][ 12]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:660][ 13]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:682][ 14]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:706][ 15]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:727][ 16]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:751][ 17]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:776][ 18]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:797][ 19]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:820][ 20]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:844][ 21]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:866][ 22]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:889][ 23]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:910][ 24]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:936][ 25]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:959][ 26]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.32:987][ 27]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:010][ 28]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:035][ 29]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:059][ 30]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:079][ 31]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:103][ 32]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:127][ 33]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:148][ 34]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:173][ 35]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:193][ 36]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:221][ 37]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:245][ 38]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:267][ 39]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:290][ 40]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:314][ 41]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:338][ 42]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:359][ 43]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:383][ 44]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:406][ 45]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:428][ 46]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:451][ 47]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:474][ 48]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:497][ 49]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:521][ 50]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:543][ 51]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:569][ 52]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:591][ 53]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:612][ 54]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:638][ 55]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:661][ 56]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:684][ 57]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:708][ 58]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:730][ 59]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:754][ 60]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:775][ 61]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:797][ 62]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:822][ 63]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:843][ 64]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:867][ 65]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:890][ 66]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:910][ 67]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:935][ 68]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:956][ 69]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.33:979][ 70]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.34:009][ 71]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.34:031][ 72]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.34:056][ 73]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.34:079][ 74]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.34:102][ 75]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.34:126][ 76]LogFunctionalTest: Is this even working?
+[2018.04.05-14.43.34:307][ 78]Warning: SpawnActor failed because no class was specified
+[2018.04.05-14.43.34:307][ 78]...Automation Test Succeeded (UserStory1)
+[2018.04.05-14.43.34:307][ 78]AutomationTestingLog: Warning: SpawnActor failed because no class was specified
+[2018.04.05-14.43.34:307][ 78]AutomationTestingLog: ...Automation Test Succeeded (UserStory1)
+[2018.04.05-14.43.34:363][ 79]LogSlate: Took 0.015761 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.04.05-14.50.37:199][870]BlueprintLog: New page: Compile First_Test
+[2018.04.05-14.50.38:238][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Levels/First_Test" FILE="../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset" SILENT=true
+[2018.04.05-14.50.38:272][884]LogSavePackage: Save=29.66ms
+[2018.04.05-14.50.38:272][884]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/First_Test50E40A2545D2135E80D25C965723F1B5.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset'
+[2018.04.05-14.50.38:279][884]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset
+[2018.04.05-14.50.55:807][191]LogSavePackage: Save=944.88ms
+[2018.04.05-14.50.55:807][191]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/TutorialBD0B0AEB4AFE4E595EA50F96E6F32C71.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.04.05-14.50.55:811][191]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.04.05-14.51.01:836][591]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for C:/Users/mhers/Documents/WhiteLightning/Saved/Automation/Comparisons. Error: The system cannot find the path specified. (0x00000003)
+[2018.04.05-14.51.01:836][591]LogProfilerClient: Subscribe Session: 00000000000000000000000000000000
+[2018.04.05-14.51.01:837][591]LogProfilerClient: Subscribe Session: 00000000000000000000000000000000
+[2018.04.05-14.51.01:845][591]LogProfilerService: Unsubscribe Session: 0CE6C861447821E91575AF9F786AE545, Instance: 2666264F428126F8F1EB23A182896829
+[2018.04.05-14.51.07:341][684]LogProfilerClient: Subscribe Session: 0CE6C861447821E91575AF9F786AE545
+[2018.04.05-14.51.07:355][684]LogProfilerService: Subscribe Session: 0CE6C861447821E91575AF9F786AE545, Instance: 2666264F428126F8F1EB23A182896829
+[2018.04.05-14.51.14:912][813]AutomationTestingLog: New page: -----Test Run 7----
+[2018.04.05-14.51.14:913][813]AutomationTestingLog: -----Test Run 7----
+[2018.04.05-14.51.14:932][813]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.First_Test' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;First_Test_2')
+[2018.04.05-14.51.14:940][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.05-14.51.14:940][813]PIE: New page: PIE session: Tutorial (Apr 5, 2018, 6:51:14 AM)
+[2018.04.05-14.51.14:940][813]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.05-14.51.14:995][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055320s)
+[2018.04.05-14.51.14:996][813]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.05-14.51.14:997][813]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2018.04.05-14.51.14:997][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.056947s)
+[2018.04.05-14.51.15:028][813]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.05-14.51.15:043][813]LogInit: FAudioDevice initialized.
+[2018.04.05-14.51.15:095][813]LogLoad: Game class is 'Tutorial_C'
+[2018.04.05-14.51.15:111][813]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.05-10.51.15
+[2018.04.05-14.51.15:113][813]LogWorld: Bringing up level for play took: 0.015909
+[2018.04.05-14.51.15:114][813]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.05-14.51.15:124][813]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.088
+[2018.04.05-14.51.15:287][814]LogFunctionalTest: Running tests indicated by Repro String: First_Test_2
+[2018.04.05-14.51.15:407][819]LogFunctionalTest: Error: First_Test_2 Failed: "FAILURE!!!!"
+[2018.04.05-14.51.15:473][821]Warning: SpawnActor failed because no class was specified
+[2018.04.05-14.51.15:473][821]Error: First_Test_2 Failed: "FAILURE!!!!"
+[2018.04.05-14.51.15:473][821]...Automation Test Failed (First_Test)
+[2018.04.05-14.51.15:473][821]AutomationTestingLog: Warning: SpawnActor failed because no class was specified
+[2018.04.05-14.51.15:473][821]AutomationTestingLog: Error: First_Test_2 Failed: "FAILURE!!!!"
+[2018.04.05-14.51.15:473][821]AutomationTestingLog: Error: ...Automation Test Failed (First_Test)
+[2018.04.05-14.51.15:488][821]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.UserStory1' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;UserStory1_2')
+[2018.04.05-14.51.15:514][823]LogFunctionalTest: Running tests indicated by Repro String: UserStory1_2
+[2018.04.05-14.51.15:767][836]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.15:767][836]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.15:784][837]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.15:801][838]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.15:820][839]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.15:837][840]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.15:855][841]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.15:871][842]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.15:888][843]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.15:905][844]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.15:921][845]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.15:939][846]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.15:955][847]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.15:971][848]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.15:989][849]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:005][850]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:022][851]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:039][852]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:055][853]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:072][854]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:089][855]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:105][856]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:124][857]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:149][858]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:169][859]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:185][860]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:204][861]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:222][862]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:238][863]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:255][864]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:271][865]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:288][866]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:305][867]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:322][868]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:345][869]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:368][870]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:386][871]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:405][872]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:421][873]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:438][874]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:455][875]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:471][876]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:488][877]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:507][878]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:523][879]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:540][880]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:557][881]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:573][882]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:590][883]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:608][884]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:625][885]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:641][886]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:660][887]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:684][888]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:702][889]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:720][890]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:738][891]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:754][892]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:771][893]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:788][894]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:804][895]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:821][896]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:838][897]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:854][898]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:871][899]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:887][900]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:904][901]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:922][902]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:939][903]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:957][904]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:975][905]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.16:992][906]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:008][907]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:025][908]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:041][909]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:061][910]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:084][911]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:101][912]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:121][913]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:138][914]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:155][915]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:175][916]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:201][917]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:219][918]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:236][919]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:254][920]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:270][921]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:288][922]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:304][923]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:321][924]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:338][925]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:355][926]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:371][927]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:392][928]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:405][929]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:421][930]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:438][931]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:454][932]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:471][933]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:488][934]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:505][935]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:521][936]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:537][937]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:554][938]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:570][939]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:587][940]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:604][941]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:621][942]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:637][943]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:654][944]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:671][945]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:688][946]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:704][947]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:721][948]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:738][949]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:754][950]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:771][951]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:788][952]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:804][953]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:820][954]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:837][955]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:854][956]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:871][957]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:888][958]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:904][959]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:920][960]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:937][961]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:954][962]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:970][963]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.17:987][964]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:003][965]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:020][966]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:037][967]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:055][968]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:072][969]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:088][970]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:104][971]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:121][972]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:137][973]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:154][974]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:171][975]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:187][976]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:205][977]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:223][978]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:249][979]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:266][980]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:283][981]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:300][982]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:319][983]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:336][984]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:353][985]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:370][986]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:387][987]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:403][988]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:420][989]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:439][990]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:454][991]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:471][992]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:488][993]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:504][994]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:520][995]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:539][996]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:561][997]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:578][998]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:596][999]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:613][  0]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:630][  1]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:647][  2]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:664][  3]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:681][  4]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:701][  5]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:719][  6]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:736][  7]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:753][  8]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:769][  9]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:786][ 10]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:803][ 11]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:819][ 12]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:836][ 13]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:854][ 14]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:870][ 15]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:887][ 16]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:903][ 17]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:920][ 18]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:936][ 19]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:953][ 20]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:970][ 21]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.18:988][ 22]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:004][ 23]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:021][ 24]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:038][ 25]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:053][ 26]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:071][ 27]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:086][ 28]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:104][ 29]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:121][ 30]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:137][ 31]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:154][ 32]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:170][ 33]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:187][ 34]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:204][ 35]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:222][ 36]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:238][ 37]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:255][ 38]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:272][ 39]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:288][ 40]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:305][ 41]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:321][ 42]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:339][ 43]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:354][ 44]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:371][ 45]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:387][ 46]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:404][ 47]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:424][ 48]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:439][ 49]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:454][ 50]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:471][ 51]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:487][ 52]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:504][ 53]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:522][ 54]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:539][ 55]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:555][ 56]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:572][ 57]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:588][ 58]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:605][ 59]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:621][ 60]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:638][ 61]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:654][ 62]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:670][ 63]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:686][ 64]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:703][ 65]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:720][ 66]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:737][ 67]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:753][ 68]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:769][ 69]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:786][ 70]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:804][ 71]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:820][ 72]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:837][ 73]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:853][ 74]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:870][ 75]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:886][ 76]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:903][ 77]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:919][ 78]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:937][ 79]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:955][ 80]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:977][ 81]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.19:993][ 82]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:010][ 83]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:026][ 84]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:043][ 85]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:060][ 86]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:077][ 87]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:094][ 88]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:111][ 89]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:128][ 90]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:144][ 91]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:163][ 92]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:184][ 93]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:201][ 94]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:218][ 95]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:234][ 96]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:252][ 97]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:276][ 98]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:298][ 99]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:315][100]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:334][101]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:351][102]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:368][103]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:385][104]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:402][105]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:418][106]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:435][107]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:452][108]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:469][109]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:485][110]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:502][111]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:519][112]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:535][113]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:551][114]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:568][115]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:585][116]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:602][117]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:619][118]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:636][119]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:653][120]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:670][121]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:686][122]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:703][123]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:720][124]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:737][125]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:753][126]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:770][127]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:787][128]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:804][129]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:820][130]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:837][131]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:853][132]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:870][133]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:887][134]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:904][135]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:920][136]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:936][137]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:953][138]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:969][139]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.20:986][140]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:002][141]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:019][142]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:036][143]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:053][144]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:075][145]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:093][146]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:115][147]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:131][148]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:149][149]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:168][150]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:184][151]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:201][152]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:218][153]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:234][154]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:251][155]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:267][156]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:284][157]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:300][158]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:317][159]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:334][160]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:350][161]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:367][162]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:384][163]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:401][164]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:417][165]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:434][166]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:454][167]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:467][168]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:483][169]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:500][170]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:517][171]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:533][172]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:550][173]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:567][174]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:584][175]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:601][176]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:617][177]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:634][178]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:650][179]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:667][180]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:684][181]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:701][182]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:717][183]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:735][184]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:751][185]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:768][186]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:784][187]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:801][188]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:818][189]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:835][190]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:853][191]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:869][192]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:886][193]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:903][194]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:921][195]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:937][196]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:955][197]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:980][198]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.21:997][199]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:015][200]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:033][201]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:050][202]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:067][203]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:084][204]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:100][205]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:118][206]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:134][207]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:151][208]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:168][209]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:184][210]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:200][211]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:217][212]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:234][213]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:252][214]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:269][215]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:285][216]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:303][217]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:320][218]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:336][219]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:353][220]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:369][221]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:386][222]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:402][223]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:420][224]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:441][225]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:458][226]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:475][227]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:492][228]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:508][229]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:526][230]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:543][231]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:561][232]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:579][233]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:598][234]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:616][235]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:632][236]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:649][237]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:667][238]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:684][239]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:700][240]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:717][241]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:733][242]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:750][243]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:766][244]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:783][245]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:800][246]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:818][247]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:834][248]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:851][249]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:868][250]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:885][251]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:901][252]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:918][253]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:934][254]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:951][255]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:968][256]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.22:984][257]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:000][258]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:017][259]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:033][260]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:051][261]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:068][262]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:085][263]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:104][264]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:125][265]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:142][266]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:159][267]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:177][268]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:194][269]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:211][270]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:229][271]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:247][272]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:265][273]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:282][274]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:298][275]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:315][276]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:332][277]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:349][278]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:366][279]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:382][280]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:399][281]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:416][282]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:433][283]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:451][284]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:471][285]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:484][286]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:501][287]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:517][288]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:534][289]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:550][290]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:566][291]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:583][292]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:600][293]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:618][294]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:634][295]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:650][296]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:668][297]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:684][298]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:700][299]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:717][300]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:733][301]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:749][302]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:766][303]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:782][304]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:800][305]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:816][306]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:832][307]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:849][308]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:866][309]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:883][310]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:900][311]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:916][312]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:933][313]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:949][314]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:966][315]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:982][316]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.23:999][317]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:016][318]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:032][319]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:049][320]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:065][321]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:082][322]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:098][323]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:115][324]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:133][325]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:149][326]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:165][327]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:183][328]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:199][329]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:216][330]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:232][331]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:252][332]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:277][333]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:296][334]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:313][335]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:331][336]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:347][337]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:365][338]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:384][339]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:407][340]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:430][341]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:448][342]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:464][343]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:482][344]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:498][345]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:517][346]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:534][347]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:550][348]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:567][349]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:583][350]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:601][351]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:617][352]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:634][353]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:650][354]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:667][355]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:683][356]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:700][357]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:717][358]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:734][359]LogFunctionalTest: Is this even working?
+[2018.04.05-14.51.24:909][361]...Automation Test Succeeded (UserStory1)
+[2018.04.05-14.51.24:909][361]AutomationTestingLog: ...Automation Test Succeeded (UserStory1)
+[2018.04.05-14.52.33:990][454]LogEditorViewport: Clicking on Actor (LMB): UserStory1_C (UserStory1)
+[2018.04.05-14.52.35:249][471]Cmd: DELETE
+[2018.04.05-14.52.35:249][471]Cmd: ACTOR DELETE
+[2018.04.05-14.52.35:299][471]LogEditorActor: Deleted Actor: UserStory1_C
+[2018.04.05-14.52.35:354][471]LogEditorActor: Deleted 1 Actors (0.101 secs)
+[2018.04.05-14.59.01:993][400]BlueprintLog: New page: Compile MainCharacter
+[2018.04.05-14.59.03:061][434]LogSavePackage: Save=156.31ms
+[2018.04.05-14.59.03:061][434]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/MainCharacter472E771B4932938A356FDCBF11C54AE0.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset'
+[2018.04.05-14.59.03:068][434]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset
+[2018.04.05-14.59.06:912][527]LogSavePackage: Save=904.89ms
+[2018.04.05-14.59.06:912][527]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/TutorialD28F3C8D4FADB1DC42982D99406B1676.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.04.05-14.59.06:918][527]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.04.05-15.01.04:631][785]BlueprintLog: New page: Compile MainCharacter
+[2018.04.05-15.01.05:590][813]LogSavePackage: Save=155.69ms
+[2018.04.05-15.01.05:590][813]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/MainCharacter150E0A5747BEBAA1D259B986754147CF.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset'
+[2018.04.05-15.01.05:594][813]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Characters/MainCharacter.uasset
+[2018.04.05-15.01.39:752][771]BlueprintLog: New page: Compile First_Test
+[2018.04.05-15.01.39:757][771]LogBlueprint: Error: [Compiler First_Test] This blueprint (self) is not a MainCharacter_C, therefore ' Target ' must have a connection.
+[2018.04.05-15.01.39:758][771]LogBlueprint: Error: [Compiler First_Test] The type of  Object  is undetermined.  Connect something to  Cast To MainCharacter  to imply a specific type.
+[2018.04.05-15.01.39:758][771]LogBlueprint: Error: [Compiler First_Test] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2018.04.05-15.01.40:049][771]LogBlueprint: Warning: [Compiler First_Test] [1737.54] Compile of First_Test failed. 3 Fatal Issue(s) 0 Warning(s) [in 297 ms] (/Game/WhiteLightning/Levels/First_Test.First_Test)
+[2018.04.05-15.01.40:429][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Levels/First_Test" FILE="../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset" SILENT=true
+[2018.04.05-15.01.40:467][792]LogSavePackage: Save=20.51ms
+[2018.04.05-15.01.40:468][792]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/First_TestB21427A94A76EE80300DE685133DA3F2.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset'
+[2018.04.05-15.01.40:472][792]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset
+[2018.04.05-15.02.48:306][739]LogSavePackage: Save=900.39ms
+[2018.04.05-15.02.48:306][739]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/Tutorial9B8D0820472ACEDCBE989FB326DC988D.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.04.05-15.02.48:311][739]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.04.05-15.03.46:277][733]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.05-15.04.14:434][412]BlueprintLog: New page: Compile First_Test
+[2018.04.05-15.04.14:439][412]LogBlueprint: Error: [Compiler First_Test] The type of  Object  is undetermined.  Connect something to  Cast To MainCharacter  to imply a specific type.
+[2018.04.05-15.04.14:439][412]LogBlueprint: Error: [Compiler First_Test] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2018.04.05-15.04.14:732][412]LogBlueprint: Warning: [Compiler First_Test] [1892.23] Compile of First_Test failed. 2 Fatal Issue(s) 0 Warning(s) [in 297 ms] (/Game/WhiteLightning/Levels/First_Test.First_Test)
+[2018.04.05-15.05.11:727][773]BlueprintLog: New page: Compile First_Test
+[2018.04.05-15.05.11:732][773]LogBlueprint: Error: [Compiler First_Test] The type of  Object  is undetermined.  Connect something to  Cast To MainCharacter  to imply a specific type.
+[2018.04.05-15.05.11:732][773]LogBlueprint: Error: [Compiler First_Test] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2018.04.05-15.05.12:023][773]LogBlueprint: Warning: [Compiler First_Test] [1949.52] Compile of First_Test failed. 2 Fatal Issue(s) 0 Warning(s) [in 296 ms] (/Game/WhiteLightning/Levels/First_Test.First_Test)
+[2018.04.05-15.05.48:135][927]BlueprintLog: New page: Compile First_Test
+[2018.04.05-15.06.02:944][797]BlueprintLog: New page: Compile First_Test
+[2018.04.05-15.06.03:651][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Levels/First_Test" FILE="../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset" SILENT=true
+[2018.04.05-15.06.03:693][820]LogSavePackage: Save=23.47ms
+[2018.04.05-15.06.03:693][820]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/First_TestB5EA737D47C3588B5A48D7B27F8FA044.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset'
+[2018.04.05-15.06.03:696][820]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset
+[2018.04.05-15.06.04:997][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Levels/First_Test" FILE="../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset" SILENT=true
+[2018.04.05-15.06.05:030][897]LogSavePackage: Save=21.66ms
+[2018.04.05-15.06.05:030][897]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/First_Test3A4CBA8A43D1D6A49C64FABAA92DF02C.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset'
+[2018.04.05-15.06.05:033][897]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset
+[2018.04.05-15.06.11:996][203]LogSavePackage: Save=1108.64ms
+[2018.04.05-15.06.11:996][203]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/Tutorial8E69916342D35A7C6C29128541D996D3.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.04.05-15.06.12:004][203]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.04.05-15.06.25:543][416]AutomationTestingLog: New page: -----Test Run 9----
+[2018.04.05-15.06.25:543][416]AutomationTestingLog: -----Test Run 9----
+[2018.04.05-15.06.25:555][416]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.First_Test' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;First_Test_2')
+[2018.04.05-15.06.25:569][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.05-15.06.25:569][416]PIE: New page: PIE session: Tutorial (Apr 5, 2018, 7:06:25 AM)
+[2018.04.05-15.06.25:569][416]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.05-15.06.25:620][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050371s)
+[2018.04.05-15.06.25:621][416]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.05-15.06.25:621][416]LogPlayLevel: PIE: World Init took: (0.001503s)
+[2018.04.05-15.06.25:622][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.053323s)
+[2018.04.05-15.06.25:660][416]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.05-15.06.25:673][416]LogInit: FAudioDevice initialized.
+[2018.04.05-15.06.25:719][416]LogLoad: Game class is 'Tutorial_C'
+[2018.04.05-15.06.25:731][416]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.04.05-11.06.25
+[2018.04.05-15.06.25:732][416]LogWorld: Bringing up level for play took: 0.011998
+[2018.04.05-15.06.25:733][416]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.05-15.06.25:741][416]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.705
+[2018.04.05-15.06.25:900][417]LogFunctionalTest: Running tests indicated by Repro String: First_Test_2
+[2018.04.05-15.06.31:728][655]Warning: SpawnActor failed because no class was specified
+[2018.04.05-15.06.31:728][655]...Automation Test Succeeded (First_Test)
+[2018.04.05-15.06.31:728][655]AutomationTestingLog: Warning: SpawnActor failed because no class was specified
+[2018.04.05-15.06.31:728][655]AutomationTestingLog: ...Automation Test Succeeded (First_Test)
+[2018.04.05-15.07.05:215][756]BlueprintLog: New page: Compile First_Test
+[2018.04.05-15.07.06:027][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Levels/First_Test" FILE="../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset" SILENT=true
+[2018.04.05-15.07.06:072][764]LogSavePackage: Save=20.86ms
+[2018.04.05-15.07.06:072][764]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/First_TestC02579A74A62F5B2C20EF3B8B6C94436.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset'
+[2018.04.05-15.07.06:076][764]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset
+[2018.04.05-15.07.25:020][ 24]LogSavePackage: Save=908.15ms
+[2018.04.05-15.07.25:020][ 24]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/TutorialCFB14E3E4A3029EA36C93EAD9B948547.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.04.05-15.07.25:025][ 24]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.04.05-15.07.25:088][ 24]LogFileHelpers: Saving map 'Tutorial' took 1.084
+[2018.04.05-15.07.25:118][ 24]AutomationTestingLog: New page: -----Test Run 11----
+[2018.04.05-15.07.25:118][ 24]AutomationTestingLog: -----Test Run 11----
+[2018.04.05-15.07.25:144][ 24]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.First_Test' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;First_Test_2')
+[2018.04.05-15.07.25:166][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.05-15.07.25:167][ 24]PIE: New page: PIE session: Tutorial (Apr 5, 2018, 7:07:25 AM)
+[2018.04.05-15.07.25:167][ 24]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.05-15.07.25:215][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047552s)
+[2018.04.05-15.07.25:216][ 24]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.05-15.07.25:216][ 24]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2018.04.05-15.07.25:216][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.049162s)
+[2018.04.05-15.07.25:251][ 24]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.05-15.07.25:265][ 24]LogInit: FAudioDevice initialized.
+[2018.04.05-15.07.25:313][ 24]LogLoad: Game class is 'Tutorial_C'
+[2018.04.05-15.07.25:328][ 24]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.04.05-11.07.25
+[2018.04.05-15.07.25:332][ 24]LogWorld: Bringing up level for play took: 0.017999
+[2018.04.05-15.07.25:334][ 24]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.05-15.07.25:348][ 24]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.312
+[2018.04.05-15.07.25:510][ 25]LogFunctionalTest: Running tests indicated by Repro String: First_Test_2
+[2018.04.05-15.07.30:079][236]Warning: SpawnActor failed because no class was specified
+[2018.04.05-15.07.30:079][236]...Automation Test Succeeded (First_Test)
+[2018.04.05-15.07.30:080][236]AutomationTestingLog: Warning: SpawnActor failed because no class was specified
+[2018.04.05-15.07.30:080][236]AutomationTestingLog: ...Automation Test Succeeded (First_Test)
+[2018.04.05-15.09.13:888][ 46]BlueprintLog: New page: Compile First_Test
+[2018.04.05-15.09.14:661][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Levels/First_Test" FILE="../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset" SILENT=true
+[2018.04.05-15.09.14:699][ 52]LogSavePackage: Save=19.45ms
+[2018.04.05-15.09.14:699][ 52]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/First_Test1D43B67F4A14BADC407F7AB976CAE903.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset'
+[2018.04.05-15.09.14:701][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset
+[2018.04.05-15.09.24:082][160]LogSavePackage: Save=849.43ms
+[2018.04.05-15.09.24:082][160]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/TutorialF7AE9DAF45601973EAF5778E9C1AB7DC.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.04.05-15.09.24:088][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.04.05-15.09.24:128][160]LogFileHelpers: Saving map 'Tutorial' took 0.984
+[2018.04.05-15.09.24:144][160]AutomationTestingLog: New page: -----Test Run 13----
+[2018.04.05-15.09.24:144][160]AutomationTestingLog: -----Test Run 13----
+[2018.04.05-15.09.24:172][160]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.First_Test' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;First_Test_2')
+[2018.04.05-15.09.24:187][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.05-15.09.24:187][160]PIE: New page: PIE session: Tutorial (Apr 5, 2018, 7:09:24 AM)
+[2018.04.05-15.09.24:187][160]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.05-15.09.24:227][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040069s)
+[2018.04.05-15.09.24:228][160]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.05-15.09.24:228][160]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2018.04.05-15.09.24:228][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.041555s)
+[2018.04.05-15.09.24:254][160]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.05-15.09.24:265][160]LogInit: FAudioDevice initialized.
+[2018.04.05-15.09.24:318][160]LogLoad: Game class is 'Tutorial_C'
+[2018.04.05-15.09.24:330][160]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.04.05-11.09.24
+[2018.04.05-15.09.24:331][160]LogWorld: Bringing up level for play took: 0.012110
+[2018.04.05-15.09.24:332][160]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.05-15.09.24:339][160]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.697
+[2018.04.05-15.09.24:503][161]LogFunctionalTest: Running tests indicated by Repro String: First_Test_2
+[2018.04.05-15.09.24:606][164]LogFunctionalTest: Error: First_Test_2 Failed: "********************"
+[2018.04.05-15.09.24:663][166]Warning: SpawnActor failed because no class was specified
+[2018.04.05-15.09.24:663][166]Error: First_Test_2 Failed: "********************"
+[2018.04.05-15.09.24:663][166]...Automation Test Failed (First_Test)
+[2018.04.05-15.09.24:663][166]AutomationTestingLog: Warning: SpawnActor failed because no class was specified
+[2018.04.05-15.09.24:663][166]AutomationTestingLog: Error: First_Test_2 Failed: "********************"
+[2018.04.05-15.09.24:663][166]AutomationTestingLog: Error: ...Automation Test Failed (First_Test)
+[2018.04.05-15.10.05:540][ 95]BlueprintLog: New page: Compile First_Test
+[2018.04.05-15.10.06:438][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Levels/First_Test" FILE="../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset" SILENT=true
+[2018.04.05-15.10.06:470][101]LogSavePackage: Save=20.22ms
+[2018.04.05-15.10.06:471][101]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/First_Test275DC6EF4EEEAE6F4881609C285A9B60.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset'
+[2018.04.05-15.10.06:475][101]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset
+[2018.04.05-15.10.08:391][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Levels/First_Test" FILE="../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset" SILENT=true
+[2018.04.05-15.10.08:423][130]LogSavePackage: Save=20.37ms
+[2018.04.05-15.10.08:423][130]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/First_Test6D03D3FB4157C8BB11A5E3AC777881E5.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset'
+[2018.04.05-15.10.08:425][130]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset
+[2018.04.05-15.10.13:922][173]LogSavePackage: Save=1001.15ms
+[2018.04.05-15.10.13:922][173]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/Tutorial65DC768841074662CEB7188002BA014D.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.04.05-15.10.13:927][173]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.04.05-15.10.13:974][173]LogFileHelpers: Saving map 'Tutorial' took 1.154
+[2018.04.05-15.10.14:004][173]AutomationTestingLog: New page: -----Test Run 15----
+[2018.04.05-15.10.14:005][173]AutomationTestingLog: -----Test Run 15----
+[2018.04.05-15.10.14:031][173]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.First_Test' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;First_Test_2')
+[2018.04.05-15.10.14:058][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.05-15.10.14:058][173]PIE: New page: PIE session: Tutorial (Apr 5, 2018, 7:10:14 AM)
+[2018.04.05-15.10.14:058][173]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.05-15.10.14:107][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049052s)
+[2018.04.05-15.10.14:108][173]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.05-15.10.14:108][173]LogPlayLevel: PIE: World Init took: (0.001359s)
+[2018.04.05-15.10.14:109][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.051171s)
+[2018.04.05-15.10.14:143][173]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.05-15.10.14:165][173]LogInit: FAudioDevice initialized.
+[2018.04.05-15.10.14:228][173]LogLoad: Game class is 'Tutorial_C'
+[2018.04.05-15.10.14:244][173]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 60) at 2018.04.05-11.10.14
+[2018.04.05-15.10.14:245][173]LogWorld: Bringing up level for play took: 0.014281
+[2018.04.05-15.10.14:246][173]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.05-15.10.14:260][173]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.776
+[2018.04.05-15.10.14:403][174]LogFunctionalTest: Running tests indicated by Repro String: First_Test_2
+[2018.04.05-15.10.14:546][177]LogFunctionalTest: Error: First_Test_2 Failed: "********************"
+[2018.04.05-15.10.14:641][179]Warning: SpawnActor failed because no class was specified
+[2018.04.05-15.10.14:641][179]Error: First_Test_2 Failed: "********************"
+[2018.04.05-15.10.14:641][179]...Automation Test Failed (First_Test)
+[2018.04.05-15.10.14:641][179]AutomationTestingLog: Warning: SpawnActor failed because no class was specified
+[2018.04.05-15.10.14:641][179]AutomationTestingLog: Error: First_Test_2 Failed: "********************"
+[2018.04.05-15.10.14:642][179]AutomationTestingLog: Error: ...Automation Test Failed (First_Test)
+[2018.04.05-15.10.54:792][418]BlueprintLog: New page: Compile First_Test
+[2018.04.05-15.10.55:752][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Levels/First_Test" FILE="../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset" SILENT=true
+[2018.04.05-15.10.55:783][428]LogSavePackage: Save=19.15ms
+[2018.04.05-15.10.55:783][428]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/First_Test3D71D4994785FB1EB5E87192960C88CA.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset'
+[2018.04.05-15.10.55:787][428]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset
+[2018.04.05-15.34.57:156][542]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.05-15.34.58:151][542]LogSavePackage: Save=915.96ms
+[2018.04.05-15.34.58:151][542]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/Tutorial_Auto13C170B9042993F89BF45F3ADEED15689.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Levels/Tutorial_Auto1.umap'
+[2018.04.05-15.34.58:153][542]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Levels/Tutorial_Auto1.umap
+[2018.04.05-15.34.58:157][542]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WhiteLightning/Levels/Tutorial' took 0.975
+[2018.04.05-15.34.58:157][542]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.975
+[2018.04.05-15.38.46:491][ 75]BlueprintLog: New page: Compile First_Test
+[2018.04.05-15.38.47:338][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Levels/First_Test" FILE="../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset" SILENT=true
+[2018.04.05-15.38.47:388][ 84]LogSavePackage: Save=23.70ms
+[2018.04.05-15.38.47:388][ 84]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/First_Test587D2F744F1D5417F90DB19D5ADDC076.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset'
+[2018.04.05-15.38.47:392][ 84]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset
+[2018.04.05-15.38.57:522][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Levels/First_Test" FILE="../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset" SILENT=true
+[2018.04.05-15.38.57:557][240]LogSavePackage: Save=21.63ms
+[2018.04.05-15.38.57:557][240]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/First_Test828A5DBE47F386A57283FDBEC1FC2F51.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset'
+[2018.04.05-15.38.57:560][240]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset
+[2018.04.05-15.39.10:751][373]LogSavePackage: Save=876.52ms
+[2018.04.05-15.39.10:752][373]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/Tutorial3974BEE5484DAAD958C919B3ACBF83C8.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.04.05-15.39.10:757][373]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.04.05-15.39.10:799][373]LogFileHelpers: Saving map 'Tutorial' took 1.013
+[2018.04.05-15.39.10:814][373]AutomationTestingLog: New page: -----Test Run 17----
+[2018.04.05-15.39.10:814][373]AutomationTestingLog: -----Test Run 17----
+[2018.04.05-15.39.10:833][373]Display: Running Automation: 'Project.Functional Tests./Game/WhiteLightning/Levels/Tutorial.First_Test' (Class Name: 'FClientFunctionalTestingMapsRuntime /Game/WhiteLightning/Levels/Tutorial.Tutorial;/Game/WhiteLightning/Levels/Tutorial;First_Test_2')
+[2018.04.05-15.39.10:847][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.05-15.39.10:847][373]PIE: New page: PIE session: Tutorial (Apr 5, 2018, 7:39:10 AM)
+[2018.04.05-15.39.10:847][373]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.05-15.39.10:887][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039791s)
+[2018.04.05-15.39.10:888][373]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.05-15.39.10:888][373]LogPlayLevel: PIE: World Init took: (0.001166s)
+[2018.04.05-15.39.10:888][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.041493s)
+[2018.04.05-15.39.10:913][373]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.05-15.39.10:926][373]LogInit: FAudioDevice initialized.
+[2018.04.05-15.39.10:978][373]LogLoad: Game class is 'Tutorial_C'
+[2018.04.05-15.39.10:990][373]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.05-11.39.10
+[2018.04.05-15.39.10:991][373]LogWorld: Bringing up level for play took: 0.012084
+[2018.04.05-15.39.10:992][373]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.05-15.39.11:000][373]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.023
+[2018.04.05-15.39.11:155][374]LogFunctionalTest: Running tests indicated by Repro String: First_Test_2
+[2018.04.05-15.39.11:260][379]LogFunctionalTest: Error: First_Test_2 Failed: "********************"
+[2018.04.05-15.39.11:298][381]Warning: SpawnActor failed because no class was specified
+[2018.04.05-15.39.11:298][381]Error: First_Test_2 Failed: "********************"
+[2018.04.05-15.39.11:298][381]...Automation Test Failed (First_Test)
+[2018.04.05-15.39.11:298][381]AutomationTestingLog: Warning: SpawnActor failed because no class was specified
+[2018.04.05-15.39.11:298][381]AutomationTestingLog: Error: First_Test_2 Failed: "********************"
+[2018.04.05-15.39.11:298][381]AutomationTestingLog: Error: ...Automation Test Failed (First_Test)
+[2018.04.05-15.43.43:656][743]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.05-15.49.48:106][712]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WhiteLightning/Levels/Tutorial' took 0.026
+[2018.04.05-15.49.48:108][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/WhiteLightning/Levels/First_Test] ([1] browsable assets)...
+[2018.04.05-15.49.48:108][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/WhiteLightning/Levels/First_Test]
+[2018.04.05-15.49.48:160][712]LogSavePackage: Save=23.68ms
+[2018.04.05-15.49.48:160][712]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/First_Test_Auto21915F2BF49E52C79742463ADB54FFBE4.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Levels/First_Test_Auto2.uasset'
+[2018.04.05-15.49.48:163][712]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Levels/First_Test_Auto2.uasset
+[2018.04.05-15.49.48:163][712]LogFileHelpers: Auto-saving content packages took 0.055
+[2018.04.05-15.59.49:425][149]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WhiteLightning/Levels/Tutorial' took 0.024
+[2018.04.05-15.59.49:427][149]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/WhiteLightning/Levels/First_Test] ([1] browsable assets)...
+[2018.04.05-15.59.49:427][149]OBJ SavePackage: Finished generating thumbnails for package [/Game/WhiteLightning/Levels/First_Test]
+[2018.04.05-15.59.49:473][149]LogSavePackage: Save=21.03ms
+[2018.04.05-15.59.49:473][149]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/First_Test_Auto3693FE4B140C6B98FE3B8A7A866D9A91C.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Levels/First_Test_Auto3.uasset'
+[2018.04.05-15.59.49:476][149]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Levels/First_Test_Auto3.uasset
+[2018.04.05-15.59.49:476][149]LogFileHelpers: Auto-saving content packages took 0.050
+[2018.04.05-16.09.49:898][ 33]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WhiteLightning/Levels/Tutorial' took 0.024
+[2018.04.05-16.09.49:900][ 33]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/WhiteLightning/Levels/First_Test] ([1] browsable assets)...
+[2018.04.05-16.09.49:900][ 33]OBJ SavePackage: Finished generating thumbnails for package [/Game/WhiteLightning/Levels/First_Test]
+[2018.04.05-16.09.49:947][ 33]LogSavePackage: Save=21.71ms
+[2018.04.05-16.09.49:948][ 33]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/First_Test_Auto441B91BA9466BDF15CF38EDB3E79CFB95.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Levels/First_Test_Auto4.uasset'
+[2018.04.05-16.09.49:951][ 33]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Saved/Autosaves/Game/WhiteLightning/Levels/First_Test_Auto4.uasset
+[2018.04.05-16.09.49:951][ 33]LogFileHelpers: Auto-saving content packages took 0.052
+[2018.04.05-18.27.48:386][955]LogHttp: Warning: 000002425F615A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.05-18.27.48:387][955]LogHttp: Warning: 000002425F615A80: libcurl info message cache 0 (Connection 36 seems to be dead!)
+[2018.04.05-18.27.48:387][955]LogHttp: Warning: 000002425F615A80: libcurl info message cache 1 (Closing connection 36)
+[2018.04.05-18.27.48:387][955]LogHttp: Warning: 000002425F615A80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.04.05-18.27.48:387][955]LogHttp: Warning: 000002425F615A80: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.05-18.27.48:388][955]LogHttp: Warning: 000002425F615A80: libcurl info message cache 4 (Closing connection 37)
+[2018.04.05-19.03.23:757][238]BlueprintLog: New page: Compile First_Test
+[2018.04.05-19.03.23:805][238]LogBlueprint: Error: [Compiler First_Test] The type of  Object  is undetermined.  Connect something to  Cast To MainCharacter  to imply a specific type.
+[2018.04.05-19.03.23:806][238]LogBlueprint: Error: [Compiler First_Test] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2018.04.05-19.03.24:393][238]LogBlueprint: Warning: [Compiler First_Test] [6241.94] Compile of First_Test failed. 2 Fatal Issue(s) 0 Warning(s) [in 636 ms] (/Game/WhiteLightning/Levels/First_Test.First_Test)
+[2018.04.05-19.03.24:693][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Levels/First_Test" FILE="../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset" SILENT=true
+[2018.04.05-19.03.24:750][248]LogSavePackage: Save=27.70ms
+[2018.04.05-19.03.24:750][248]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/First_TestA53F3873437810C27325E3893E52292D.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset'
+[2018.04.05-19.03.24:753][248]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset
+[2018.04.05-19.03.27:681][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WhiteLightning/Levels/First_Test" FILE="../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset" SILENT=true
+[2018.04.05-19.03.27:714][294]LogSavePackage: Save=21.85ms
+[2018.04.05-19.03.27:714][294]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/First_Test044A8F324106D19D03499282B9DD1AAF.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset'
+[2018.04.05-19.03.27:717][294]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/First_Test.uasset
+[2018.04.05-19.03.31:483][318]LogSavePackage: Save=881.26ms
+[2018.04.05-19.03.31:483][318]LogSavePackage: Moving '../../../../../../Users/mhers/Documents/WhiteLightning/Saved/TutorialE5D3E2D94CB6B740341F8096DFC9AB99.tmp' to '../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.04.05-19.03.31:488][318]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mhers/Documents/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.04.05-19.03.31:543][318]LogFileHelpers: Saving map 'Tutorial' took 1.043
+[2018.04.05-19.03.31:952][318]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.05-19.03.32:065][318]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.05-19.03.32:179][318]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.05-19.03.32:179][318]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.05-19.03.32:508][319]Cmd: QUIT_EDITOR
+[2018.04.05-19.03.33:484][319]LogExit: Preparing to exit.
+[2018.04.05-19.03.33:874][319]LogDirectoryWatcher: A directory notification for 'C:/Users/mhers/Documents/WhiteLightning/Content/' was aborted.
+[2018.04.05-19.03.33:994][319]LogExit: Editor shut down
+[2018.04.05-19.03.34:033][319]LogExit: Transaction tracking system shut down
+[2018.04.05-19.03.34:282][319]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.05-19.03.34:282][319]LogDirectoryWatcher: A directory notification for '../../../../../../Users/mhers/Documents/WhiteLightning/Content/' was aborted.
+[2018.04.05-19.03.34:282][319]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.05-19.03.34:282][319]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.04.05-19.03.34:282][319]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.04.05-19.03.34:282][319]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.05-19.03.34:282][319]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.05-19.03.34:442][319]LogExit: Object subsystem successfully closed.
+[2018.04.05-19.03.34:477][319]LogD3D11RHI: Shutdown
+[2018.04.05-19.03.34:477][319]LogD3D11RHI: CleanupD3DDevice
+[2018.04.05-19.03.34:489][319]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.05-19.03.34:511][319]LogModuleManager: Shutting down and abandoning module Cascade (562)
+[2018.04.05-19.03.34:512][319]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (560)
+[2018.04.05-19.03.34:515][319]LogModuleManager: Shutting down and abandoning module Profiler (558)
+[2018.04.05-19.03.34:515][319]LogProfilerClient: Subscribe Session: 00000000000000000000000000000000
+[2018.04.05-19.03.34:515][319]LogProfilerClient: Subscribe Session: 00000000000000000000000000000000
+[2018.04.05-19.03.34:516][319]LogModuleManager: Shutting down and abandoning module ScreenShotComparison (556)
+[2018.04.05-19.03.34:516][319]LogModuleManager: Shutting down and abandoning module ScreenShotComparisonTools (554)
+[2018.04.05-19.03.34:516][319]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.04.05-19.03.34:516][319]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
+[2018.04.05-19.03.34:516][319]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2018.04.05-19.03.34:516][319]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.04.05-19.03.34:516][319]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.04.05-19.03.34:516][319]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.04.05-19.03.34:523][319]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.04.05-19.03.34:523][319]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.04.05-19.03.34:523][319]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.04.05-19.03.34:523][319]LogDirectoryWatcher: A directory notification for 'C:/Users/mhers/Documents/WhiteLightning/Content/Collections/' was aborted.
+[2018.04.05-19.03.34:523][319]LogDirectoryWatcher: A directory notification for 'C:/Users/mhers/Documents/WhiteLightning/Content/Developers/mhers/Collections/' was aborted.
+[2018.04.05-19.03.34:524][319]LogDirectoryWatcher: A directory notification for 'C:/Users/mhers/Documents/WhiteLightning/Saved/Collections/' was aborted.
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.04.05-19.03.34:524][319]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.04.05-19.03.34:525][319]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.04.05-19.03.34:525][319]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.04.05-19.03.34:525][319]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.04.05-19.03.34:525][319]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.04.05-19.03.34:525][319]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.04.05-19.03.34:525][319]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.04.05-19.03.34:525][319]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.04.05-19.03.34:525][319]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.04.05-19.03.34:525][319]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.04.05-19.03.34:526][319]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.04.05-19.03.34:526][319]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.04.05-19.03.34:526][319]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.04.05-19.03.34:526][319]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.04.05-19.03.34:526][319]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.04.05-19.03.34:526][319]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.04.05-19.03.34:526][319]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.04.05-19.03.34:526][319]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.04.05-19.03.34:526][319]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.04.05-19.03.34:526][319]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.04.05-19.03.34:526][319]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.04.05-19.03.35:437][319]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.04.05-19.03.35:437][319]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.04.05-19.03.35:437][319]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.04.05-19.03.35:437][319]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.04.05-19.03.35:437][319]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.04.05-19.03.35:437][319]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.04.05-19.03.35:437][319]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.04.05-19.03.35:437][319]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.04.05-19.03.35:437][319]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.04.05-19.03.35:437][319]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.04.05-19.03.35:437][319]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.04.05-19.03.35:437][319]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.04.05-19.03.35:437][319]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.04.05-19.03.35:437][319]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.04.05-19.03.35:437][319]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.04.05-19.03.35:438][319]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.04.05-19.03.35:438][319]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.04.05-19.03.35:438][319]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.04.05-19.03.35:438][319]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.04.05-19.03.35:438][319]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.04.05-19.03.35:438][319]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.04.05-19.03.35:438][319]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.04.05-19.03.35:438][319]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.04.05-19.03.35:438][319]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.04.05-19.03.35:504][319]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.04.05-19.03.35:504][319]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.04.05-19.03.35:504][319]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.04.05-19.03.35:504][319]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.04.05-19.03.35:504][319]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.04.05-19.03.35:504][319]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.04.05-19.03.35:505][319]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.04.05-19.03.35:505][319]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.04.05-19.03.35:505][319]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.04.05-19.03.35:505][319]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.04.05-19.03.35:514][319]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.04.05-19.03.35:517][319]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.04.05-19.03.35:517][319]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.04.05-19.03.35:517][319]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.04.05-19.03.35:517][319]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.04.05-19.03.35:517][319]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.04.05-19.03.35:517][319]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.04.05-19.03.35:519][319]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.04.05-19.03.35:519][319]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.04.05-19.03.35:519][319]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.04.05-19.03.35:519][319]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.04.05-19.03.35:519][319]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.04.05-19.03.35:519][319]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.04.05-19.03.35:519][319]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.04.05-19.03.35:519][319]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.04.05-19.03.35:519][319]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.04.05-19.03.35:519][319]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.04.05-19.03.35:519][319]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.04.05-19.03.35:519][319]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.04.05-19.03.35:519][319]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.04.05-19.03.35:649][319]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.04.05-19.03.35:650][319]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.04.05-19.03.35:651][319]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.04.05-19.03.35:651][319]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.04.05-19.03.35:651][319]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.04.05-19.03.35:651][319]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.04.05-19.03.35:651][319]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.04.05-19.03.35:651][319]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.04.05-19.03.35:651][319]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.04.05-19.03.35:651][319]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.04.05-19.03.35:651][319]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.04.05-19.03.35:651][319]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.04.05-19.03.35:651][319]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.04.05-19.03.35:652][319]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.04.05-19.03.35:652][319]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.04.05-19.03.35:654][319]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.04.05-19.03.35:654][319]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.04.05-19.03.35:654][319]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.04.05-19.03.35:655][319]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.04.05-19.03.35:655][319]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.04.05-19.03.35:655][319]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.04.05-19.03.35:655][319]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.04.05-19.03.35:655][319]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.04.05-19.03.35:655][319]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.04.05-19.03.35:655][319]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.04.05-19.03.35:655][319]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.04.05-19.03.35:756][319]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.04.05-19.03.35:857][319]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.04.05-19.03.35:857][319]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.04.05-19.03.35:857][319]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.04.05-19.03.35:857][319]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.04.05-19.03.35:857][319]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.04.05-19.03.35:857][319]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.04.05-19.03.35:859][319]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.04.05-19.03.35:859][319]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.04.05-19.03.35:859][319]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.04.05-19.03.35:859][319]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.04.05-19.03.35:862][319]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.04.05-19.03.35:862][319]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.04.05-19.03.35:862][319]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.04.05-19.03.35:862][319]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.04.05-19.03.35:862][319]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.04.05-19.03.35:862][319]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.04.05-19.03.35:869][319]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.04.05-19.03.35:869][319]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.04.05-19.03.35:869][319]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.04.05-19.03.35:869][319]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.04.05-19.03.35:869][319]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.04.05-19.03.35:869][319]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.04.05-19.03.35:869][319]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.04.05-19.03.35:869][319]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.04.05-19.03.35:869][319]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.04.05-19.03.35:869][319]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.04.05-19.03.35:869][319]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.04.05-19.03.35:869][319]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.04.05-19.03.35:869][319]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.04.05-19.03.35:869][319]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.04.05-19.03.35:869][319]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.04.05-19.03.35:869][319]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.04.05-19.03.35:873][319]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.04.05-19.03.35:873][319]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.04.05-19.03.35:873][319]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.04.05-19.03.35:873][319]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.04.05-19.03.35:873][319]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.04.05-19.03.35:873][319]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.04.05-19.03.35:873][319]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.04.05-19.03.35:873][319]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.04.05-19.03.35:881][319]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.04.05-19.03.35:881][319]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.04.05-19.03.35:881][319]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.04.05-19.03.35:881][319]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.04.05-19.03.35:881][319]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.04.05-19.03.35:881][319]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.04.05-19.03.35:881][319]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.04.05-19.03.35:881][319]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.04.05-19.03.35:881][319]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.04.05-19.03.35:906][319]LogDerivedDataCache: Shutdown
+[2018.04.05-19.03.35:906][319]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.04.05-19.03.35:906][319]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.04.05-19.03.35:906][319]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.04.05-19.03.35:906][319]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.04.05-19.03.35:906][319]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.04.05-19.03.35:906][319]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.04.05-19.03.35:906][319]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.04.05-19.03.35:906][319]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.04.05-19.03.35:906][319]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.04.05-19.03.35:907][319]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.05-19.03.35:908][319]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.05-19.03.35:909][319]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.05-19.03.35:909][319]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2018.04.05-19.03.35:909][319]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B97929174-4A92-D0D9-D1DA-D984EB8DBA42%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=d928483745761e24fe5a4787842ce345%7C7c97d2c6c8fc45dba44a74a07105cd1a%7Cb4842ea0-c677-4135-acf4-7a78d5557c1a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.05-19.03.35:909][319]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B97929174-4A92-D0D9-D1DA-D984EB8DBA42%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=d928483745761e24fe5a4787842ce345%7C7c97d2c6c8fc45dba44a74a07105cd1a%7Cb4842ea0-c677-4135-acf4-7a78d5557c1a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.05-19.03.35:933][319]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.05-19.03.35:936][319]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.05-19.03.35:936][319]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.05-19.03.35:936][319]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.05-19.03.35:936][319]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.05-19.03.35:936][319]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.05-19.03.35:936][319]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.05-19.03.35:936][319]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.05-19.03.35:947][319]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.05-19.03.35:947][319]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.05-19.03.35:947][319]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.05-19.03.35:947][319]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.05-19.03.35:947][319]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.05-19.03.35:947][319]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.05-19.03.35:947][319]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.05-19.03.35:947][319]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.05-19.03.35:947][319]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.05-19.03.35:947][319]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.05-19.03.35:948][319]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.05-19.03.35:953][319]LogExit: Exiting.
+[2018.04.05-19.03.35:980][319]Log file closed, 04/05/18 15:03:35
