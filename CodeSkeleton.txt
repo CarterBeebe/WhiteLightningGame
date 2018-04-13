@@ -36,7 +36,7 @@ void spawnCollision() // This function spawns an enemy when the main character r
 }
 	
 ************* Main Menu Class
-muteMusic()
+void muteMusic()
 {
 	backGroundMusic.mute();
 }
