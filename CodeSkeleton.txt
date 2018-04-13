@@ -19,13 +19,14 @@ void checkEndLevel() // This function happens on main character collision with t
 
 void endLevel() // This function signals the user that the level has been completed.
 {
-	//Make "Level Complete" HUD appear
+	SetHUD(level_Complete);
 	//Destroy all valid actors
 }
 
 void gameOver() // This function signals the user that the game is over (due to main character death)
 {
-	//Make "Game Over" HUD appear
+	setSprite(death) ;
+	SetHUD(game_Over);
 	//Destroy all valid actors
 }
 
