@@ -35,3 +35,8 @@ void spawnCollision() // This function spawns an enemy when the main character r
 	BP_enemy newEnemy = new BP_enemy(// Parameters will probably be location in map);
 }
 	
+************* Main Menu Class
+muteMusic()
+{
+	backGroundMusic.mute();
+}
