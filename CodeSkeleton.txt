@@ -1,42 +1,30 @@
-******* Gameplay class
-
-Class Healthbar(mainCharacter_health)
+*********** Class MainCharacter
+void checkEndLevel() // This function happens on main character collision with top of "End of Level" platform.
 {
-	int barTotal = mainCharacter_health;
-	
-	for(i=0; i <=10; i++)
+	// Make sure all valid enemies are destroyed
+	bool enemiesDestroyed = True;
+	foreach (BP_enemy enemy in Enemies)
 	{
-		if(barTotal = i)
+		if (enemy.isValid()
 		{
-			//Change sprite to corresponding health sprite.
+			enemiesDestroyed = false;
+			break;
 		}
 	}
-
-	void hit(character, projectile) {
-		// Character takes damage and flahses white
-		character.health = character.health - projectile.damage;
-		character.flashWhite();
-	}
-	
-	bool checkDeath(character) {
-		if (character.health =< 0) {
-			// Character is now dead, so take appropriate actions
-		}
-	}
-}
-
-******* Menu function
-
-// Accessed from menu
-void mute()
-{
-  toggleMute();
-}
-
-******* Flash white
-
-flashWhite(charater)
-	if(collision())
+	if (enemiesDestroyed)
 	{
-		caracterSprite = whiteSprite;
+		endLevel();
 	}
+}
+
+void endLevel() // This function signals the user that the level has been completed.
+{
+	//Make "Level Complete" HUD appear
+	//Destroy all valid actors
+}
+
+void gameOver() // This function signals the user that the game is over (due to main character death)
+{
+	//Make "Game Over" HUD appear
+	//Destroy all valid actors
+}
