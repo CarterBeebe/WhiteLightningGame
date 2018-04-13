@@ -28,3 +28,9 @@ void gameOver() // This function signals the user that the game is over (due to 
 	//Make "Game Over" HUD appear
 	//Destroy all valid actors
 }
+
+void spawnCollision() // This function spawns an enemy when the main character reaches a certain point in the map.
+{
+	BP_enemy newEnemy = new BP_enemy(// Parameters will probably be location in map);
+}
+	
