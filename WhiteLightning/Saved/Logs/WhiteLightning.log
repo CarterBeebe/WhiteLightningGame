@@ -1645,3 +1645,285 @@ LogInit: Object subsystem initialized
 [2018.04.19-02.28.33:295][915]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy_flipped_Sprite_2.uasset
 [2018.04.19-02.28.33:295][915]SourceControl:  create mode 100644 WhiteLightning/Content/WhiteLightning/Sprites/MainEnemy_flipped_Sprite_3.uasset
 [2018.04.19-02.28.33:310][915]SourceControl: Commited [UserStory-4-1 6e7a1e9] added enemy movement.
+[2018.04.19-02.31.38:389][362]LogEditorViewport: Clicking Background
+[2018.04.19-02.31.52:511][263]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (New_Piskel_Sprite_94)
+[2018.04.19-02.36.11:657][971]BlueprintLog: New page: Compile theEnemy
+[2018.04.19-02.36.14:685][209]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.19-02.36.14:748][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-02.36.14:748][209]PIE: New page: PIE session: Tutorial (Apr 18, 2018, 12:36:14 PM)
+[2018.04.19-02.36.14:748][209]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.19-02.36.14:806][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057725s)
+[2018.04.19-02.36.14:807][209]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.19-02.36.14:807][209]LogPlayLevel: PIE: World Init took: (0.001207s)
+[2018.04.19-02.36.14:808][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.059762s)
+[2018.04.19-02.36.14:858][209]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-02.36.14:872][209]LogInit: FAudioDevice initialized.
+[2018.04.19-02.36.14:976][209]LogLoad: Game class is 'Tutorial_C'
+[2018.04.19-02.36.14:995][209]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.18-19.36.14
+[2018.04.19-02.36.14:998][209]LogWorld: Bringing up level for play took: 0.021187
+[2018.04.19-02.36.14:999][209]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.19-02.36.15:012][209]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.285
+[2018.04.19-02.36.24:358][  9]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.19-02.36.24:394][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-02.36.24:394][  9]PIE: New page: PIE session: Tutorial (Apr 18, 2018, 12:36:24 PM)
+[2018.04.19-02.36.24:394][  9]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.19-02.36.24:449][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054149s)
+[2018.04.19-02.36.24:449][  9]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.19-02.36.24:450][  9]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2018.04.19-02.36.24:450][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.055909s)
+[2018.04.19-02.36.24:501][  9]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-02.36.24:515][  9]LogInit: FAudioDevice initialized.
+[2018.04.19-02.36.24:596][  9]LogLoad: Game class is 'Tutorial_C'
+[2018.04.19-02.36.24:613][  9]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.18-19.36.24
+[2018.04.19-02.36.24:615][  9]LogWorld: Bringing up level for play took: 0.018759
+[2018.04.19-02.36.24:616][  9]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.19-02.36.24:629][  9]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.098
+[2018.04.19-02.37.44:887][851]BlueprintLog: New page: Compile theEnemy
+[2018.04.19-02.37.46:858][983]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.19-02.37.46:923][983]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-02.37.46:923][983]PIE: New page: PIE session: Tutorial (Apr 18, 2018, 12:37:46 PM)
+[2018.04.19-02.37.46:923][983]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.19-02.37.46:983][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060312s)
+[2018.04.19-02.37.46:984][983]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.19-02.37.46:985][983]LogPlayLevel: PIE: World Init took: (0.001184s)
+[2018.04.19-02.37.46:985][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.062288s)
+[2018.04.19-02.37.47:032][983]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-02.37.47:047][983]LogInit: FAudioDevice initialized.
+[2018.04.19-02.37.47:125][983]LogLoad: Game class is 'Tutorial_C'
+[2018.04.19-02.37.47:141][983]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.18-19.37.47
+[2018.04.19-02.37.47:143][983]LogWorld: Bringing up level for play took: 0.017654
+[2018.04.19-02.37.47:144][983]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.19-02.37.47:152][983]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.424
+[2018.04.19-02.39.18:854][858]BlueprintLog: New page: Compile theEnemy
+[2018.04.19-02.39.24:158][318]LogEditorViewport: Clicking on Actor (LMB): theEnemy_C (theEnemy)
+[2018.04.19-02.39.32:296][801]LogSavePackage: Save=1255.88ms
+[2018.04.19-02.39.32:296][801]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial6C9C52D240AC0F37ADE6FCA66F529996.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.04.19-02.39.32:300][801]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.04.19-02.39.32:941][838]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.19-02.39.32:980][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-02.39.32:981][838]PIE: New page: PIE session: Tutorial (Apr 18, 2018, 12:39:32 PM)
+[2018.04.19-02.39.32:981][838]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.19-02.39.33:035][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054059s)
+[2018.04.19-02.39.33:036][838]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.19-02.39.33:036][838]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2018.04.19-02.39.33:036][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.055803s)
+[2018.04.19-02.39.33:091][838]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-02.39.33:105][838]LogInit: FAudioDevice initialized.
+[2018.04.19-02.39.33:180][838]LogLoad: Game class is 'Tutorial_C'
+[2018.04.19-02.39.33:197][838]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.18-19.39.33
+[2018.04.19-02.39.33:227][838]LogWorld: Bringing up level for play took: 0.046328
+[2018.04.19-02.39.33:228][838]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.19-02.39.33:236][838]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.508
+[2018.04.19-02.39.46:791][ 36]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (New_Piskel_Sprite_156)
+[2018.04.19-02.39.47:762][113]LogEditorViewport: Clicking on Actor (LMB): theEnemy_C (theEnemy)
+[2018.04.19-02.39.53:270][400]LogSavePackage: Save=1239.58ms
+[2018.04.19-02.39.53:270][400]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial8872837248EF2552FEC9CEBA81D04549.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.04.19-02.39.53:274][400]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.04.19-02.39.55:505][552]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.19-02.39.55:541][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-02.39.55:541][552]PIE: New page: PIE session: Tutorial (Apr 18, 2018, 12:39:55 PM)
+[2018.04.19-02.39.55:542][552]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.19-02.39.55:596][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054356s)
+[2018.04.19-02.39.55:597][552]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.19-02.39.55:597][552]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2018.04.19-02.39.55:598][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.056337s)
+[2018.04.19-02.39.55:642][552]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-02.39.55:656][552]LogInit: FAudioDevice initialized.
+[2018.04.19-02.39.55:726][552]LogLoad: Game class is 'Tutorial_C'
+[2018.04.19-02.39.55:742][552]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.18-19.39.55
+[2018.04.19-02.39.55:744][552]LogWorld: Bringing up level for play took: 0.017711
+[2018.04.19-02.39.55:745][552]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.19-02.39.55:753][552]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 1.026
+[2018.04.19-02.40.46:548][660]BlueprintLog: New page: Compile theEnemy
+[2018.04.19-02.40.55:119][563]BlueprintLog: New page: Compile theEnemy
+[2018.04.19-02.40.58:866][889]LogEditorViewport: Clicking on Actor (LMB): theEnemy_C (theEnemy)
+[2018.04.19-02.41.08:757][717]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.19-02.41.08:799][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-02.41.08:799][717]PIE: New page: PIE session: Tutorial (Apr 18, 2018, 12:41:08 PM)
+[2018.04.19-02.41.08:799][717]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.19-02.41.08:856][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056082s)
+[2018.04.19-02.41.08:857][717]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.19-02.41.08:857][717]LogPlayLevel: PIE: World Init took: (0.001217s)
+[2018.04.19-02.41.08:857][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.057885s)
+[2018.04.19-02.41.08:905][717]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-02.41.08:919][717]LogInit: FAudioDevice initialized.
+[2018.04.19-02.41.08:994][717]LogLoad: Game class is 'Tutorial_C'
+[2018.04.19-02.41.09:010][717]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.18-19.41.09
+[2018.04.19-02.41.09:012][717]LogWorld: Bringing up level for play took: 0.017862
+[2018.04.19-02.41.09:013][717]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.19-02.41.09:021][717]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.294
+[2018.04.19-02.41.43:029][273]BlueprintLog: New page: Compile theEnemy
+[2018.04.19-02.41.45:130][430]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.19-02.41.45:191][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-02.41.45:192][430]PIE: New page: PIE session: Tutorial (Apr 18, 2018, 12:41:45 PM)
+[2018.04.19-02.41.45:192][430]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.19-02.41.45:249][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057401s)
+[2018.04.19-02.41.45:250][430]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.19-02.41.45:251][430]LogPlayLevel: PIE: World Init took: (0.001284s)
+[2018.04.19-02.41.45:251][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.059369s)
+[2018.04.19-02.41.45:302][430]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-02.41.45:316][430]LogInit: FAudioDevice initialized.
+[2018.04.19-02.41.45:388][430]LogLoad: Game class is 'Tutorial_C'
+[2018.04.19-02.41.45:406][430]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.18-19.41.45
+[2018.04.19-02.41.45:408][430]LogWorld: Bringing up level for play took: 0.019035
+[2018.04.19-02.41.45:408][430]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.19-02.41.45:417][430]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.689
+[2018.04.19-02.42.45:007][791]BlueprintLog: New page: Compile theEnemy
+[2018.04.19-02.42.47:139][959]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.19-02.42.47:204][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-02.42.47:204][959]PIE: New page: PIE session: Tutorial (Apr 18, 2018, 12:42:47 PM)
+[2018.04.19-02.42.47:204][959]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.19-02.42.47:261][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056880s)
+[2018.04.19-02.42.47:262][959]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.19-02.42.47:263][959]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2018.04.19-02.42.47:263][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.058707s)
+[2018.04.19-02.42.47:313][959]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-02.42.47:327][959]LogInit: FAudioDevice initialized.
+[2018.04.19-02.42.47:401][959]LogLoad: Game class is 'Tutorial_C'
+[2018.04.19-02.42.47:417][959]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.18-19.42.47
+[2018.04.19-02.42.47:419][959]LogWorld: Bringing up level for play took: 0.017352
+[2018.04.19-02.42.47:420][959]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.19-02.42.47:428][959]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.701
+[2018.04.19-02.44.21:318][493]BlueprintLog: New page: Compile theEnemy
+[2018.04.19-02.44.23:360][647]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.19-02.44.23:421][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-02.44.23:421][647]PIE: New page: PIE session: Tutorial (Apr 18, 2018, 12:44:23 PM)
+[2018.04.19-02.44.23:421][647]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.19-02.44.23:478][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057021s)
+[2018.04.19-02.44.23:479][647]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.19-02.44.23:479][647]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2018.04.19-02.44.23:480][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.058928s)
+[2018.04.19-02.44.23:529][647]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-02.44.23:543][647]LogInit: FAudioDevice initialized.
+[2018.04.19-02.44.23:616][647]LogLoad: Game class is 'Tutorial_C'
+[2018.04.19-02.44.23:632][647]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.18-19.44.23
+[2018.04.19-02.44.23:634][647]LogWorld: Bringing up level for play took: 0.016981
+[2018.04.19-02.44.23:634][647]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.19-02.44.23:642][647]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.915
+[2018.04.19-02.44.47:934][ 86]BlueprintLog: New page: Compile theEnemy
+[2018.04.19-02.44.50:201][269]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.19-02.44.50:262][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-02.44.50:262][269]PIE: New page: PIE session: Tutorial (Apr 18, 2018, 12:44:50 PM)
+[2018.04.19-02.44.50:262][269]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.19-02.44.50:317][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055165s)
+[2018.04.19-02.44.50:318][269]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.19-02.44.50:318][269]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2018.04.19-02.44.50:319][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.056897s)
+[2018.04.19-02.44.50:371][269]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-02.44.50:385][269]LogInit: FAudioDevice initialized.
+[2018.04.19-02.44.50:450][269]LogLoad: Game class is 'Tutorial_C'
+[2018.04.19-02.44.50:466][269]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.18-19.44.50
+[2018.04.19-02.44.50:468][269]LogWorld: Bringing up level for play took: 0.017203
+[2018.04.19-02.44.50:469][269]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.19-02.44.50:477][269]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.251
+[2018.04.19-02.45.17:056][764]LogEditorViewport: Clicking on Actor (LMB): theEnemy_C (theEnemy)
+[2018.04.19-02.45.21:046][ 50]LogEditorViewport: Clicking Background
+[2018.04.19-02.45.24:708][419]LogEditorViewport: Clicking on Actor (LMB): theEnemy_C (theEnemy)
+[2018.04.19-02.46.31:413][631]BlueprintLog: New page: Compile theEnemy
+[2018.04.19-02.46.34:840][833]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.19-02.46.34:884][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-02.46.34:884][833]PIE: New page: PIE session: Tutorial (Apr 18, 2018, 12:46:34 PM)
+[2018.04.19-02.46.34:885][833]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.19-02.46.34:945][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060125s)
+[2018.04.19-02.46.34:946][833]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.19-02.46.34:946][833]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2018.04.19-02.46.34:947][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.062139s)
+[2018.04.19-02.46.34:998][833]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-02.46.35:012][833]LogInit: FAudioDevice initialized.
+[2018.04.19-02.46.35:091][833]LogLoad: Game class is 'Tutorial_C'
+[2018.04.19-02.46.35:108][833]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.18-19.46.35
+[2018.04.19-02.46.35:110][833]LogWorld: Bringing up level for play took: 0.018185
+[2018.04.19-02.46.35:111][833]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.19-02.46.35:120][833]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.393
+[2018.04.19-02.46.52:105][298]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.19-02.46.52:142][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-02.46.52:142][298]PIE: New page: PIE session: Tutorial (Apr 18, 2018, 12:46:52 PM)
+[2018.04.19-02.46.52:142][298]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.19-02.46.52:201][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058574s)
+[2018.04.19-02.46.52:202][298]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.19-02.46.52:202][298]LogPlayLevel: PIE: World Init took: (0.001314s)
+[2018.04.19-02.46.52:203][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.060890s)
+[2018.04.19-02.46.52:259][298]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-02.46.52:274][298]LogInit: FAudioDevice initialized.
+[2018.04.19-02.46.52:343][298]LogLoad: Game class is 'Tutorial_C'
+[2018.04.19-02.46.52:359][298]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.18-19.46.52
+[2018.04.19-02.46.52:362][298]LogWorld: Bringing up level for play took: 0.017644
+[2018.04.19-02.46.52:362][298]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.19-02.46.52:371][298]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.357
+[2018.04.19-02.47.00:712][992]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.19-02.47.00:749][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-02.47.00:749][992]PIE: New page: PIE session: Tutorial (Apr 18, 2018, 12:47:00 PM)
+[2018.04.19-02.47.00:749][992]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.19-02.47.00:805][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056033s)
+[2018.04.19-02.47.00:806][992]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.19-02.47.00:807][992]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2018.04.19-02.47.00:807][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.057806s)
+[2018.04.19-02.47.00:863][992]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-02.47.00:877][992]LogInit: FAudioDevice initialized.
+[2018.04.19-02.47.00:950][992]LogLoad: Game class is 'Tutorial_C'
+[2018.04.19-02.47.00:971][992]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.18-19.47.00
+[2018.04.19-02.47.00:976][992]LogWorld: Bringing up level for play took: 0.024569
+[2018.04.19-02.47.00:977][992]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.19-02.47.00:996][992]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.269
+[2018.04.19-02.47.28:004][635]BlueprintLog: New page: Compile theEnemy
+[2018.04.19-02.47.30:353][810]LogEditorViewport: Clicking on Actor (LMB): theEnemy_C (theEnemy)
+[2018.04.19-02.47.34:771][126]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.19-02.47.34:810][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-02.47.34:810][126]PIE: New page: PIE session: Tutorial (Apr 18, 2018, 12:47:34 PM)
+[2018.04.19-02.47.34:810][126]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.19-02.47.34:867][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056538s)
+[2018.04.19-02.47.34:868][126]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.19-02.47.34:868][126]LogPlayLevel: PIE: World Init took: (0.001198s)
+[2018.04.19-02.47.34:869][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.058523s)
+[2018.04.19-02.47.34:915][126]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-02.47.34:928][126]LogInit: FAudioDevice initialized.
+[2018.04.19-02.47.34:997][126]LogLoad: Game class is 'Tutorial_C'
+[2018.04.19-02.47.35:014][126]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.18-19.47.35
+[2018.04.19-02.47.35:017][126]LogWorld: Bringing up level for play took: 0.018685
+[2018.04.19-02.47.35:017][126]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.19-02.47.35:026][126]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.299
+[2018.04.19-02.47.39:482][361]LogSavePackage: Save=1246.47ms
+[2018.04.19-02.47.39:482][361]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial2642BA8D469B34AED01A34BD2F825433.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.04.19-02.47.39:487][361]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.04.19-02.47.39:996][394]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.19-02.47.40:031][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-02.47.40:031][394]PIE: New page: PIE session: Tutorial (Apr 18, 2018, 12:47:40 PM)
+[2018.04.19-02.47.40:031][394]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.19-02.47.40:087][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055994s)
+[2018.04.19-02.47.40:088][394]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.19-02.47.40:088][394]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2018.04.19-02.47.40:089][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.057569s)
+[2018.04.19-02.47.40:145][394]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-02.47.40:159][394]LogInit: FAudioDevice initialized.
+[2018.04.19-02.47.40:229][394]LogLoad: Game class is 'Tutorial_C'
+[2018.04.19-02.47.40:245][394]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.18-19.47.40
+[2018.04.19-02.47.40:247][394]LogWorld: Bringing up level for play took: 0.017532
+[2018.04.19-02.47.40:248][394]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.19-02.47.40:256][394]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial -0.472
+[2018.04.19-02.48.28:848][346]BlueprintLog: New page: Compile theEnemy
+[2018.04.19-02.48.32:224][491]LogSavePackage: Save=1246.10ms
+[2018.04.19-02.48.32:224][491]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/Tutorial2B38FB58472D402A1E95C69A628A2CCD.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.04.19-02.48.32:229][491]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.04.19-02.48.32:774][527]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.04.19-02.48.32:832][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-02.48.32:832][527]PIE: New page: PIE session: Tutorial (Apr 18, 2018, 12:48:32 PM)
+[2018.04.19-02.48.32:833][527]LogPlayLevel: Creating play world package: /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial
+[2018.04.19-02.48.32:888][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055903s)
+[2018.04.19-02.48.32:888][527]LogAIModule: Creating AISystem for world Tutorial
+[2018.04.19-02.48.32:890][527]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2018.04.19-02.48.32:890][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WhiteLightning/Levels/Tutorial.Tutorial to /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial (0.057727s)
+[2018.04.19-02.48.32:941][527]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.19-02.48.32:955][527]LogInit: FAudioDevice initialized.
+[2018.04.19-02.48.33:056][527]LogLoad: Game class is 'Tutorial_C'
+[2018.04.19-02.48.33:097][527]LogWorld: Bringing World /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.04.18-19.48.33
+[2018.04.19-02.48.33:100][527]LogWorld: Bringing up level for play took: 0.042330
+[2018.04.19-02.48.33:101][527]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.04.19-02.48.33:113][527]PIE: Play in editor start time for /Game/WhiteLightning/Levels/UEDPIE_0_Tutorial 0.386
+[2018.04.19-02.48.51:379][987]LogSavePackage: Save=1248.56ms
+[2018.04.19-02.48.51:379][987]LogSavePackage: Moving 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Saved/TutorialC5C806B34D2BDA626C07EFB498F8C536.tmp' to 'C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap'
+[2018.04.19-02.48.51:381][987]LogSavePackage: Display: Finished SavePackage C:/Users/carter/Documents/GitHub/WhiteLightningGame/WhiteLightning/Content/WhiteLightning/Levels/Tutorial.umap
+[2018.04.19-02.48.55:168][340]SourceControl: fatal: E:/Unreal/UE_4.18/Engine/Content/: 'E:/Unreal/UE_4.18/Engine/Content/' is outside repository
+[2018.04.19-02.49.03:245][340]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.04.19-02.49.03:292][340]SourceControl: [UserStory-4-1 42ca7c0] changed some things
+[2018.04.19-02.49.03:292][340]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2018.04.19-02.49.03:305][340]SourceControl: Commited [UserStory-4-1 42ca7c0] changed some things.
