@@ -16,4 +16,4 @@ Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll	2018-02-06T16:47:09.77
 Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll	2018-02-06T16:47:21.742Z
 Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll	2018-02-06T16:47:21.753Z
 Engine/Binaries/ThirdParty/OpenVR/OpenVRv1_0_10/Win64/openvr_api.dll	2018-02-06T16:47:10.028Z
-WhiteLightning.exe	2018-03-23T17:32:01.679Z
+WhiteLightning.exe	2018-04-23T16:44:49.761Z
